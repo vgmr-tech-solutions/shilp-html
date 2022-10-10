@@ -5,150 +5,203 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shilp : Samruddh Sanstha</title>
-    <link href="/resources/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/resources/css/style.css" rel="stylesheet" />
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header-js-css.inc'-->
+    <!-- header css and script ends -->
 </head>
 <body>
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header.inc'-->
+    <!-- header css and script ends -->
     <div class="wrapper">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center mt-5">
-                    <a href="#" class="btn-primary">Explore Now</a>
-                </div>
-                <div class="col-md-6 text-center mt-5">
-                    <a href="#" class="btn-outline">Explore outline</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card">
-                        <figure class="bigImg">
-                            <img src="/resources/images/card-img.jpg" alt="" title="" />
-                        </figure>
-                        <figcaption>
-                            <label class="lbl-txt secondaryColor">Program</label>
-                            <h2>How to write an effective mission statement</h2>
-                            <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text...</p>
-                            <ul class="cards-dtls">
-                                <li>Article</li>
-                                <li>15 mins</li>
-                            </ul>
-                        </figcaption>
+        <section class="banner">
+            <div class="container">
+                <div class="row banner-info">
+                    <div class="col-md-7">
+                        <h1>Building Resilient Organizations! </h1>
+                        <p>Empowered indigenous people realize critical<br/> <b>social, cultural</b> and <b>economic</b> needs of their <br/>choice and thrive during the <b>Covid pandemic</b> and <br/><b>beyond</b>.</p>  
+                        <div class="mt-4">
+                            <a href="#" class="btn-primary">Explore Now</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="card typ2">
-                                <figure>
-                                    <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                </figure>
-                                <figcaption>
-                                    <label class="lbl-txt mainColor">Program</label>
-                                    <h2>How to write an effective mission statement</h2>
-                                    <ul class="cards-dtls">
-                                        <li>Article</li>
-                                        <li>15 mins</li>
-                                    </ul>
-                                </figcaption>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="card typ2">
-                                <figure>
-                                    <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </figure>
-                                <figcaption>
-                                    <label class="lbl-txt blueColor">Program</label>
-                                    <h2>How to write an effective mission statement</h2>
-                                    <ul class="cards-dtls">
-                                        <li>Article</li>
-                                        <li>15 mins</li>
-                                    </ul>
-                                </figcaption>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="card typ2">
-                                <figure>
-                                    <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                </figure>
-                                <figcaption>
-                                    <label class="lbl-txt greenColor">Program</label>
-                                    <h2>How to write an effective mission statement</h2>
-                                    <ul class="cards-dtls">
-                                        <li>Article</li>
-                                        <li>15 mins</li>
-                                    </ul>
-                                </figcaption>
-                            </div>
-                        </div>
+                    <div class="col-md-4">
+                        <img src="/resources/images/hero-banner.png" alt="Hero Banner">
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="card">
-                        <figure>
-                            <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </figure>
-                        <figcaption>
-                            <label class="lbl-txt mainColor">Program</label>
-                            <h2>How to write an effective mission statement</h2>
-                            <ul class="cards-dtls">
-                                <li>Article</li>
-                                <li>15 mins</li>
-                            </ul>
-                        </figcaption>
+        </section>
+
+        <section class="resource">
+            <!-- <div class="resource-img">
+                <img src="/resources/images/resource.jpg" alt="Resource Hub">
+            </div> -->
+            <div class="container">
+                <div class="resource-hub">
+                    <ul>
+                        <li class="shilp-program">
+                            <figure>
+                                <div class="icon">
+                                    <img src="/resources/images/icon/shilp-program.png" alt="Shilp Program">
+                                </div>
+                                <figcaption>
+                                    <h4>SHILP Program</h4>
+                                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
+                                    <div class="text-center">
+                                        <a href="#" class="btn-outline">Explore SHILP Program</a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-resources">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center mt-5">
+                        <a href="#" class="btn-outline">Explore outline</a>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <figure>
-                            <img src="/resources/images/card-img.jpg" alt="" title="" />
-                        </figure>
-                        <figcaption>
-                            <label class="lbl-txt mainColor">Program</label>
-                            <h2>How to write an effective mission statement</h2>
-                            <ul class="cards-dtls">
-                                <li>Article</li>
-                                <li>15 mins</li>
-                            </ul>
-                        </figcaption>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <figure class="bigImg">
+                                <img src="/resources/images/card-img.jpg" alt="" title="" />
+                            </figure>
+                            <figcaption>
+                                <label class="lbl-txt secondaryColor">Program</label>
+                                <h2>How to write an effective mission statement</h2>
+                                <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text...</p>
+                                <ul class="cards-dtls">
+                                    <li>Article</li>
+                                    <li>15 mins</li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card typ2">
+                                    <figure>
+                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>How to write an effective mission statement</h2>
+                                        <ul class="cards-dtls">
+                                            <li>Article</li>
+                                            <li>15 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card typ2">
+                                    <figure>
+                                        <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt blueColor">Program</label>
+                                        <h2>How to write an effective mission statement</h2>
+                                        <ul class="cards-dtls">
+                                            <li>Article</li>
+                                            <li>15 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card typ2">
+                                    <figure>
+                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt greenColor">Program</label>
+                                        <h2>How to write an effective mission statement</h2>
+                                        <ul class="cards-dtls">
+                                            <li>Article</li>
+                                            <li>15 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <figure>
-                            <img src="/resources/images/card-img.jpg" alt="" title="" />
-                        </figure>
-                        <figcaption>
-                            <label class="lbl-txt mainColor">Program</label>
-                            <h2>How to write an effective mission statement</h2>
-                            <ul class="cards-dtls">
-                                <li>Article</li>
-                                <li>15 mins</li>
-                            </ul>
-                        </figcaption>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <figure>
+                                <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </figure>
+                            <figcaption>
+                                <label class="lbl-txt mainColor">Program</label>
+                                <h2>How to write an effective mission statement</h2>
+                                <ul class="cards-dtls">
+                                    <li>Article</li>
+                                    <li>15 mins</li>
+                                </ul>
+                            </figcaption>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <figure>
-                            <img src="/resources/images/card-img.jpg" alt="" title="" />
-                        </figure>
-                        <figcaption>
-                            <label class="lbl-txt mainColor">Program</label>
-                            <h2>How to write an effective mission statement</h2>
-                            <ul class="cards-dtls">
-                                <li>Article</li>
-                                <li>15 mins</li>
-                            </ul>
-                        </figcaption>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/card-img.jpg" alt="" title="" />
+                            </figure>
+                            <figcaption>
+                                <label class="lbl-txt mainColor">Program</label>
+                                <h2>How to write an effective mission statement</h2>
+                                <ul class="cards-dtls">
+                                    <li>Article</li>
+                                    <li>15 mins</li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/card-img.jpg" alt="" title="" />
+                            </figure>
+                            <figcaption>
+                                <label class="lbl-txt mainColor">Program</label>
+                                <h2>How to write an effective mission statement</h2>
+                                <ul class="cards-dtls">
+                                    <li>Article</li>
+                                    <li>15 mins</li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/card-img.jpg" alt="" title="" />
+                            </figure>
+                            <figcaption>
+                                <label class="lbl-txt mainColor">Program</label>
+                                <h2>How to write an effective mission statement</h2>
+                                <ul class="cards-dtls">
+                                    <li>Article</li>
+                                    <li>15 mins</li>
+                                </ul>
+                            </figcaption>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+       
     </div>
+    <!-- footer starts -->
+    <!--#include virtual='/includes/footer.inc'-->
+    <!-- footer ends -->
+    <!-- footer js css and script starts -->
+    <!--#include virtual='/includes/footer-js-css.inc'-->
+    <!-- footer js css and script ends -->
 </body>
 </html>

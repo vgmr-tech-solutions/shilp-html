@@ -1,0 +1,175 @@
+@import 'variable';
+@mixin btnstyle {
+    font-size: 0.875rem;
+    font-weight: 700;
+    display: inline-block;
+    line-height: 40px;
+    padding:0 15px;
+    letter-spacing: 0.5px;
+    font-family: $basefont;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 1;
+    border:0;
+}
+@mixin btnPrimary {
+    background: $secondarycolor;
+    color:$whitecolor;
+    border:1px solid $secondarycolor;
+}
+
+@mixin btnoutline {
+    border:1px solid $whitecolor;
+    color:$whitecolor;
+}
+
+@mixin flexitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin centerItem{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+@mixin custom-scroll-bar {
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: #0B2138; 
+      border-radius: 10px;
+      height: 10px;
+      width: 5px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px #232A35; 
+      border-radius: 10px;
+    }
+  }
+
+  @mixin navbar-li {
+    position: relative;
+    display: inline-block;
+}
+
+@mixin btn-position {
+    overflow: hidden;
+    position: relative;
+}
+
+@mixin custom-btn {
+    @include btn-position;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+    &:before, &:after{
+      top: 0;
+      width: 0;
+      height: 100%;
+      mix-blend-mode: overlay;
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+      content: "";
+      position: absolute;
+      display: block;
+      box-sizing: border-box;
+    }
+    &:before{
+      left: 0;
+      width: 0;
+      background: $secondarycolor;
+    }
+    &:after{
+      left: 100%;
+      width: 0;
+      background: $secondarycolor;
+    }
+    &:hover{
+        color:$whitecolor;
+        background-color: $secondarycolor;
+        &:before{
+            width: 100%;
+        }
+        &:after{
+            width: 100%;
+            left: 0;
+          }
+    }
+    span{
+        position: relative;z-index: 9;
+    }
+}
+
+@mixin owl-prev-next {
+    border:1px solid $whitecolor !important;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    &::before {
+        font-size: 45px;
+        color: $whitecolor;
+    }
+}
+
+@mixin cover {
+    object-fit: cover;
+    height: 100%;
+}
+
+@mixin image-s {
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: $whitecolor;
+    content:'';
+    width: 40px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@mixin copyright($padding,$display,$justify-content:start) {
+    padding: $padding;
+    display: $display;
+    justify-content: $justify-content;
+}
+
+@mixin owl-dot {
+    width: 16px;
+    height: 16px;
+    margin: 0px 2px;
+    border-radius: 100%;
+    display: inline;
+    &.active, &:hover{
+        background:transparent;
+    }
+}
+
+@mixin figcaption-h3 {
+    content:'';
+    position: absolute;
+    width: 52px;
+    height: 6px;
+    top:7px;
+    background-image: url(../images/heading-img.png);
+    background-size: 100%;
+}  
+
+@mixin font($font-size,$font-weight:normal,$color:'',$line-height:'') {
+    font: {
+        size: $font-size;
+        weight: $font-weight;
+    }
+    color: $color;
+    line-height: $line-height;
+}
+
+@mixin button-owl($border,$width,$height) {
+    border: $border;
+    width: $width;
+    height: $height;
+}

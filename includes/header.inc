@@ -36,17 +36,17 @@
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">About SHILP</a>
+                                <a class="nav-link" aria-current="page" href="#">About SHILP</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Resource Hub</a>
                                 <ul class="sub-menu-block">
                                     <li>
                                         <ul>
-                                            <li><a href="">SHILP Program</a></li>
-                                            <li><a href="">CBO Diaries</a></li>
-                                            <li><a href="">Leadership Development </a></li>
-                                            <li><a href="">Institutional Building</a></li>
+                                            <li class="submenu-ship"><a href="#"><img src="/resources/images/icon/submenu-shilp-program.png" alt="SHILP Program" title="SHILP Program"><span>SHILP Program</span></a></li>
+                                            <li class="submenu-diaries"><a href="#"><img src="/resources/images/icon/submenu-cbo-diaries.png" alt="CBO Diaries" title="CBO Diaries"><span>CBO Diaries</span></a></li>
+                                            <li class="submenu-leadership"><a href="#"><img src="/resources/images/icon/submenu-ipo-leadership.png" alt="Leadership Development" title="Leadership Development"><span>Leadership Development</span></a></li>
+                                            <li class="submenu-building"><a href="#"><img src="/resources/images/icon/submenu-building.png" alt="Institutional Building" title="Institutional Building"><span>Institutional Building</span></a></li>
                                         </ul>
                                     </li>
                                 </ul>

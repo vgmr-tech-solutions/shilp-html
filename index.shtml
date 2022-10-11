@@ -32,9 +32,6 @@
         </section>
 
         <section class="resource">
-            <!-- <div class="resource-img">
-                <img src="/resources/images/resource.jpg" alt="Resource Hub">
-            </div> -->
             <div class="container">
                 <div class="resource-hub">
                     <ul>
@@ -52,6 +49,51 @@
                                 </figcaption>
                             </figure>
                         </li>
+                        
+                        <li class="cbo-diaries">
+                            <figure>
+                                <div class="icon">
+                                    <img src="/resources/images/icon/cbo-diaries.png" alt="CBO Diaries">
+                                </div>
+                                <figcaption>
+                                    <h4>CBO Diaries</h4>
+                                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
+                                    <div class="text-center">
+                                        <a href="#" class="btn-outline">Explore CBO Diaries</a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+
+                        <li class="leadership-development">
+                            <figure>
+                                <div class="icon">
+                                    <img src="/resources/images/icon/ipo-leadership.png" alt="Leadership Development">
+                                </div>
+                                <figcaption>
+                                    <h4>Leadership Development</h4>
+                                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
+                                    <div class="text-center">
+                                        <a href="#" class="btn-outline">Explore Leadership Development </a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+
+                        <li class="inst-building">
+                            <figure>
+                                <div class="icon">
+                                    <img src="/resources/images/icon/building.png" alt="Institutional Building">
+                                </div>
+                                <figcaption>
+                                    <h4>Institutional Building</h4>
+                                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
+                                    <div class="text-center">
+                                        <a href="#" class="btn-outline">Explore Institutional Building</a>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -59,10 +101,9 @@
 
         <section class="featured-resources">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center mt-5">
-                        <a href="#" class="btn-outline">Explore outline</a>
-                    </div>
+                <div class="heading">
+                    <h2>Featured Resources</h2>
+                    <p>Access a range of <b>videos, toolkits, articles, podcasts</b> and much more - all aimed at building resilient <b>leaders</b> and <b>organizations.</b></p>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
@@ -75,8 +116,8 @@
                                 <h2>How to write an effective mission statement</h2>
                                 <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text...</p>
                                 <ul class="cards-dtls">
-                                    <li>Article</li>
-                                    <li>15 mins</li>
+                                    <li><img src="/resources/images/icon/article.png" class="article" alt="Article" title="Article"> Article</li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
                                 </ul>
                             </figcaption>
                         </div>
@@ -86,44 +127,46 @@
                             <div class="col-md-12">
                                 <div class="card typ2">
                                     <figure>
-                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                                     </figure>
                                     <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>How to write an effective mission statement</h2>
+                                        <label class="lbl-txt mainColor">Leadership Development </label>
+                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                         <ul class="cards-dtls">
-                                            <li>Article</li>
-                                            <li>15 mins</li>
+                                            <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
                                         </ul>
                                     </figcaption>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="card typ2">
-                                    <figure>
-                                        <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <figure>                                       
+                                        <img src="/resources/images/feature-one.png" alt="CBO Diaries" title="CBO Diaries" />
                                     </figure>
                                     <figcaption>
-                                        <label class="lbl-txt blueColor">Program</label>
-                                        <h2>How to write an effective mission statement</h2>
-                                        <ul class="cards-dtls">
+                                        <label class="lbl-txt blueColor">CBO Diaries</label>
+                                        <h2>Annai Therasa Makkal Sevai Maiyam (ATMSM)</h2>
+                                        <!-- <ul class="cards-dtls">
                                             <li>Article</li>
                                             <li>15 mins</li>
-                                        </ul>
+                                        </ul> -->
                                     </figcaption>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="card typ2">
                                     <figure>
-                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        <img src="/resources/images/feature-two.png" alt="Institutional Building" title="Institutional Building" />
                                     </figure>
                                     <figcaption>
-                                        <label class="lbl-txt greenColor">Program</label>
-                                        <h2>How to write an effective mission statement</h2>
+                                        <label class="lbl-txt greenColor">Institutional Building</label>
+                                        <h2>Talking to family when you can no longer care for an elderly parent</h2>
                                         <ul class="cards-dtls">
-                                            <li>Article</li>
-                                            <li>15 mins</li>
+                                            <li><img src="/resources/images/icon/article.png" class="article" alt="Article" title="Article"> Article</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
                                         </ul>
                                     </figcaption>
                                 </div>
@@ -131,6 +174,30 @@
                         </div>
                     </div>
                 </div>
+               
+                <div class="text-center mt-2">
+                    <a href="#" class="btn-primary">Explore All Resources</a>
+                </div>
+            </div>
+        </section>
+
+       <section class="about-program">
+        <figure>
+            <img src="/resources/images/program-video.png" alt="program video" title="program video">
+            <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+        </figure>
+        <figcaption>
+            
+                <h4>Program SHILP</h4>
+                <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
+                <div class="text-center">
+                    <a href="#" class="btn-outline">Know More About SHILP PRogram</a>
+                </div>
+            
+        </figcaption>
+       </section>
+        <!-- <section>
+            <div class="container">
                 <div class="row">
                     <div class="col-md-3">
                         <div class="card">
@@ -194,8 +261,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-       
+            
+        </section> -->
     </div>
     <!-- footer starts -->
     <!--#include virtual='/includes/footer.inc'-->

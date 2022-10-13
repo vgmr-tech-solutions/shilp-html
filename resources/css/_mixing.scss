@@ -1,4 +1,35 @@
 @import 'variable';
+
+.theme-light{
+    --bodycolor:#fff;
+    --maincolor: #970F65;
+    --secondarycolor:#D41362;
+    --bluecolor: #2071C4;
+    --greencolor: #029E6F;
+    --lightpink:#FFF3FB;
+    --linkcolor: #000;
+    --headingcolor:#660562;
+    --basefont: 'Lato', sans-serif;
+    --whitecolor: #FFF;
+    --basefontsize: 1rem;
+    --DefaultTransition: all 0.5s ease-in-out;
+    --textcolor: #000;
+}
+.theme-dark{
+    --bodycolor:#000;
+    --maincolor: #970F65;
+    --secondarycolor:#D41362;
+    --bluecolor: #2071C4;
+    --greencolor: #029E6F;
+    --lightpink:#FFF3FB;
+    --linkcolor: #fff;
+    --headingcolor:#660562;
+    --basefont: 'Lato', sans-serif;
+    --whitecolor: #000;
+    --basefontsize: 1rem;
+    --DefaultTransition: all 0.5s ease-in-out;
+    --textcolor: #fff;
+}
 @mixin btnstyle {
     font-size: 0.875rem;
     font-weight: 700;

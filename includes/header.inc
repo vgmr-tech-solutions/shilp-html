@@ -20,51 +20,55 @@
                 </ul>
             </div>
         </div>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
-                    <ul>
-                        <li>
-                            <a href="#" class="navbar-brand">
-                                <img src="/resources/images/shilp-logo.png" alt="logo">
-                            </a>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#" class="navbar-brand">
+                            <img src="/resources/images/shilp-logo.png" alt="logo">
+                        </a>
+                    </li>
+                </ul>
+                <div class="menu" id="menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">About SHILP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resource Hub</a>
+                            <ul class="sub-menu-block">
+                                <li>
+                                    <ul>
+                                        <li class="submenu-ship"><a href="#"><img src="/resources/images/icon/submenu-shilp-program.png" alt="SHILP Program" title="SHILP Program"><span>SHILP Program</span></a></li>
+                                        <li class="submenu-diaries"><a href="#"><img src="/resources/images/icon/submenu-cbo-diaries.png" alt="CBO Diaries" title="CBO Diaries"><span>CBO Diaries</span></a></li>
+                                        <li class="submenu-leadership"><a href="#"><img src="/resources/images/icon/submenu-ipo-leadership.png" alt="Leadership Development" title="Leadership Development"><span>Leadership Development</span></a></li>
+                                        <li class="submenu-building"><a href="#"><img src="/resources/images/icon/submenu-building.png" alt="Institutional Building" title="Institutional Building"><span>Institutional Building</span></a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                Contact
+                            </a> 
                         </li>
                     </ul>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">About SHILP</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Resource Hub</a>
-                                <ul class="sub-menu-block">
-                                    <li>
-                                        <ul>
-                                            <li class="submenu-ship"><a href="#"><img src="/resources/images/icon/submenu-shilp-program.png" alt="SHILP Program" title="SHILP Program"><span>SHILP Program</span></a></li>
-                                            <li class="submenu-diaries"><a href="#"><img src="/resources/images/icon/submenu-cbo-diaries.png" alt="CBO Diaries" title="CBO Diaries"><span>CBO Diaries</span></a></li>
-                                            <li class="submenu-leadership"><a href="#"><img src="/resources/images/icon/submenu-ipo-leadership.png" alt="Leadership Development" title="Leadership Development"><span>Leadership Development</span></a></li>
-                                            <li class="submenu-building"><a href="#"><img src="/resources/images/icon/submenu-building.png" alt="Institutional Building" title="Institutional Building"><span>Institutional Building</span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    Contact
-                                </a> 
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="searchbar">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <span class="fa fa-search search-icon-input"></span>
-                    </div>
                 </div>
-            </nav>
+                <div class="searchbar">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <span class="fa fa-search search-icon-input"></span>
+                </div>
+            </div>
+        </nav>
            
-        </div>   
     </div>
 </header>

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shilp : Samruddh Sanstha</title>
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header-js-css.inc'-->
+    <!-- header css and script ends -->
+</head>
+<body class="home list-resources">
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header.inc'-->
+    <!-- header css and script ends -->
+    <div class="wrapper">
+        <section class="breadcrumb-nav">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="#">Resource Hub</a></li>
+                    <li>List of Resources</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="list">
+            <div class="container">
+                <div class="heading">
+                    <h2>List of Resources</h2>
+                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text... lorem ipsum dummy text</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="searchresult">
+            <div class="container">  
+                <ul class="custom-col">
+                    <li class="left-column">
+                        <div class="applied-filter">
+                            <h4>Filter</h4>
+                            <div class="text-center">
+                                <a href="#" class="reset btn-outline">Clear All</a>
+                            </div>
+                        </div>
+                        
+                        <div class="filter-details">
+                            <span class="close">&times;</span>
+                            <div class="catergories">
+                                <div class="fliter-text">
+                                    <h4>Topics</h4>
+                                </div>
+                                <div class="mycheck">
+                                    <div class="main">
+                                        <div class="checkbox topic">
+                                            <input class="styled-checkbox" id="checkbox-1" type="checkbox" value="SHILP Program" checked>
+                                            <label for="checkbox-1">SHILP Program</label>
+                                        </div>
+                                        <div class="mycheck submenu">
+                                            <div class="checkbox">
+                                                <input class="styled-checkbox" id="checkbox-13" type="checkbox" value="Program Resources" checked>
+                                                <label for="checkbox-13"> Program Resources</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <input class="styled-checkbox" id="checkbox-14" type="checkbox" value="Cohort Selection" checked>
+                                                <label for="checkbox-14">Cohort Selection</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <input class="styled-checkbox" id="checkbox-15" type="checkbox" value="Design Framework" checked>
+                                                <label for="checkbox-15">Design Framework</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="checkbox topic">
+                                        <input class="styled-checkbox" id="checkbox-2" type="checkbox" value="Leadership Development">
+                                        <label for="checkbox-2">Leadership Development</label>
+                                    </div>
+                                    <div class="checkbox topic">
+                                        <input class="styled-checkbox" id="checkbox-3" type="checkbox" value="Institutional Building">
+                                        <label for="checkbox-3">Institutional Building</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catergories compadding">
+                                <div class="fliter-text">
+                                    <h4>Content Type</h4>
+                                </div>
+                                <div class="mycheck">
+                                    <div class="checkbox">
+                                        <input class="styled-checkbox" id="checkbox-6" type="checkbox" value="Article">
+                                        <label for="checkbox-6"> Article</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input class="styled-checkbox" id="checkbox-7" type="checkbox" value="Blog">
+                                        <label for="checkbox-7">Blog</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input class="styled-checkbox" id="checkbox-8" type="checkbox" value="Video">
+                                        <label for="checkbox-8">Video</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input class="styled-checkbox" id="checkbox-9" type="checkbox" value="Podcast">
+                                        <label for="checkbox-9">Podcast</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input class="styled-checkbox" id="checkbox-9" type="checkbox" value="Toolkit">
+                                        <label for="checkbox-9">Toolkit</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input class="styled-checkbox" id="checkbox-9" type="checkbox" value="Whitepaper">
+                                        <label for="checkbox-9">Whitepaper</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="catergories compadding">
+                                <div class="fliter-text">
+                                    <h4>Duration</h4>
+                                </div>
+                                <div class="mycheck">
+                                    <div class="checkbox">
+                                        <input class="styled-checkbox" id="checkbox-10" type="checkbox" value="0 - 5 Mins">
+                                        <label for="checkbox-10">0 - 5 Mins</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input class="styled-checkbox" id="checkbox-11" type="checkbox" value="5 - 15 Mins">
+                                        <label for="checkbox-11">5 - 15 Mins</label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <input class="styled-checkbox" id="checkbox-12" type="checkbox" value="Above 15 Mins">
+                                        <label for="checkbox-12">Above 15 Mins</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="apply-filter">
+                            <div class="apply">
+                            <a class="btn btn-primary btn-apply" alt="Link to Apply" title="Link to Apply">Apply</a>
+                            </div>
+                            <div class="cancle">
+                            <a class="btn btn-primary btn-cancle" alt="Link to Cancle" title="Link to Cancle">Cancle</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="middle-column">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                        <ul class="cards-dtls">
+                                            <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>How to write an effective mission statement</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/finance.png" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>Financial planning for organization</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>How to write an effective mission statement</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/finance.png" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>Financial planning for organization</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                        <ul class="cards-dtls">
+                                            <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>How to write an effective mission statement</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/finance.png" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>Financial planning for organization</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>How to write an effective mission statement</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/finance.png" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>Financial planning for organization</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>How to write an effective mission statement</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/finance.png" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt mainColor">Program</label>
+                                        <h2>Financial planning for organization</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="btn-load-more">
+                            <a class="btn-primary" id="loadMore">Load More...</a>
+                          </div>
+                    </li>
+                </ul>   
+               
+            </div>
+        </section>
+    </div>
+
+    <!-- footer starts -->
+    <!--#include virtual='/includes/footer.inc'-->
+    <!-- footer ends -->
+    <!-- footer js css and script starts -->
+    <!--#include virtual='/includes/footer-js-css.inc'-->
+    <!-- footer js css and script ends -->
+
+    <script>
+    $(document).ready(function(){
+        $('.applied-filter').click(function () {
+            $(this).parents('.left-column').addClass('open');
+        });
+        $('.filter-details .close').click(function () {
+            $(this).parents('.left-column').removeClass('open');
+        })
+        $('.btn-apply').click(function () {
+            $(this).parents('.left-column').removeClass('open');
+        });
+        $('.btn-cancle').click(function () {
+            $(this).parents('.left-column').removeClass('open');
+        });
+
+           $(".card").slice(0, 15).show();
+            $("#loadMore").on("click", function(e){
+                e.preventDefault();
+                $(".card:hidden").slice(0, 6).slideDown();
+                if($(".card:hidden").length == 0) {
+                $("#loadMore").text("No Content").addClass("noContent");
+                }
+            });   
+    })
+
+    </script>
+
+</body>
+</html>

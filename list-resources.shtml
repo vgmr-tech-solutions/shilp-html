@@ -434,9 +434,9 @@
             }
         });  
         
-        // $('.reset').on('click', function(){
-        //     $('.styled-checkbox').attr('checked', false);
-        // })
+        $('.reset').on('click', function(){
+            $('.styled-checkbox').attr('checked', false);
+        })
         
 
     })

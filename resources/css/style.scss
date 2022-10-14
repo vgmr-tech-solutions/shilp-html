@@ -451,11 +451,14 @@ a {
           &::after{
             background: none;
           }
-          &.navbar {
-            &.navbar-brand {
-              img {
-                width: 75%;
-                height: auto;
+          .navbar {
+            ul{
+              li{
+                .navbar-brand {
+                  img {
+                    height: 84px;;
+                  }
+                }
               }
             }
           }
@@ -519,7 +522,19 @@ a {
             text-align: center;
             width: 330px;
             padding: 1rem;
-
+            figure{
+              figcaption{
+                .text-center{
+                  .btn-outline{
+                    &:hover{
+                      background: var(--whitecolor);
+                      border: 1px solid var(--whitecolor);
+                      color: var(--maincolor);
+                    }
+                  }
+                }
+              }
+            }
             &.shilp-program{
               background-color: var(--secondarycolor);
               figure{
@@ -558,12 +573,13 @@ a {
               position: relative;
               .icon{
                 position: absolute;
-                top: -32%;
-                left: 27%;
+                top: -27%;
+                left: 50%;
                 border-radius: 50%;
                 padding: 20px;
                 width: 120px;
                 height: 120px;
+                transform: translateX(-50%);
                 img{width: 80px;height: 80px; 
                   // filter: invert(89%) sepia(89%) saturate(1%) hue-rotate(188deg) brightness(4) contrast(97%);
                 };
@@ -616,8 +632,9 @@ a {
               height: 35px;
             }
             position: absolute;
-            top: 39%;
-            left: 46%;
+            top: 41%;
+            left: 51%;
+            transform: translateX(-50%);
           }
         }
         figcaption{
@@ -642,8 +659,9 @@ a {
         }
         span{
           position: absolute;
-          left: 44%;
+          left: 50%;
           top: 38%;
+          transform: translateX(-50%);
         }
       }
       figcaption{
@@ -855,13 +873,13 @@ a {
                         }
 
                         // Box hover
-                        &:hover+label:before {
-                            background: var(--secondarycolor);
-                        }
+                        // &:hover+label:before {
+                        //     background: var(--secondarycolor);
+                        // }
 
                         // Box checked
                         &:checked+label:before {
-                            background:  var(--secondarycolor);
+                            background:#0066ff;
                         }
 
                         // Disabled state label.
@@ -895,6 +913,32 @@ a {
                       .styled-checkbox{
                         &+label{
                           font-weight: 700;
+                        }
+                        // Box checked
+                        &:checked+label:before {
+                          background: var(--secondarycolor);
+                        }
+                      }
+                    }
+                    &.development{
+                      .styled-checkbox{
+                        &+label{
+                          font-weight: 700;
+                        }
+                        // Box checked
+                        &:checked+label:before {
+                          background: var(--maincolor);
+                        }
+                      }
+                    }
+                    &.building{
+                      .styled-checkbox{
+                        &+label{
+                          font-weight: 700;
+                        }
+                        // Box checked
+                        &:checked+label:before {
+                          background: var(--greencolor);
                         }
                       }
                     }
@@ -960,6 +1004,11 @@ a {
                             overflow: hidden;
                             &.submenu{
                               padding-left: 2rem;
+                              .styled-checkbox{
+                                &+label{
+                                  font-weight: 400;
+                                }
+                              }
                             }
                             &.for-height {
                                 height: auto !important;

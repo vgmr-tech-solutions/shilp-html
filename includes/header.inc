@@ -25,7 +25,7 @@
             <div class="container">
                 <ul>
                     <li>
-                        <a href="#" class="navbar-brand">
+                        <a href="/index.shtml" class="navbar-brand">
                             <img src="/resources/images/shilp-logo.png" alt="logo">
                         </a>
                     </li>

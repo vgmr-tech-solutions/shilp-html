@@ -107,7 +107,7 @@
     .home header.dark .header-top .top .custom-top li .font-increament{margin: 10px 0;}
     .home header.dark .header-top .top .custom-top .dropdown .switch{margin: 12px;}
     .home header.dark{height: 0;}
-    .home header::after{right: -341px;}
+    .home header::after{right: -362px;background-size: 62%;}
     .home header.dark .header-top .navbar .searchbar .search-icon-input{z-index: 1;}
 
     /* List Resource Page */
@@ -209,7 +209,7 @@
     .home header.dark .header-top .navbar .searchbar input::placeholder {font-size: 1rem;}
     .home header.dark .header-top .navbar ul li .navbar-brand img{height: 70px;}
     .home .wrapper{padding: 0;}
-    .home header::after{background-size: 70%;top: 0;right: -117px;z-index: -9;}
+    .home header::after{    background-size: 83%;top: 0;right: -116px;z-index: -9;}
     .home header.dark{height: 135px;}
     .home header.dark .header-top .navbar .searchbar .search-icon-input{z-index: 1;}
 

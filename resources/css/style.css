@@ -558,9 +558,8 @@ a {
 .home header.dark.fixed-header::after {
   background: none;
 }
-.home header.dark.fixed-header.navbar.navbar-brand img {
-  width: 75%;
-  height: auto;
+.home header.dark.fixed-header .navbar ul li .navbar-brand img {
+  height: 84px;
 }
 .home .wrapper {
   padding-top: 0;
@@ -619,6 +618,11 @@ a {
   width: 330px;
   padding: 1rem;
 }
+.home .wrapper .resource .resource-hub ul li figure figcaption .text-center .btn-outline:hover {
+  background: var(--whitecolor);
+  border: 1px solid var(--whitecolor);
+  color: var(--maincolor);
+}
 .home .wrapper .resource .resource-hub ul li.shilp-program {
   background-color: var(--secondarycolor);
 }
@@ -654,12 +658,13 @@ a {
 }
 .home .wrapper .resource .resource-hub ul li figure .icon {
   position: absolute;
-  top: -32%;
-  left: 27%;
+  top: -27%;
+  left: 50%;
   border-radius: 50%;
   padding: 20px;
   width: 120px;
   height: 120px;
+  transform: translateX(-50%);
 }
 .home .wrapper .resource .resource-hub ul li figure .icon img {
   width: 80px;
@@ -701,8 +706,9 @@ a {
 }
 .home .wrapper .featured-resources .card figure span {
   position: absolute;
-  top: 39%;
-  left: 46%;
+  top: 41%;
+  left: 51%;
+  transform: translateX(-50%);
 }
 .home .wrapper .featured-resources .card figure span img {
   width: 35px;
@@ -726,8 +732,9 @@ a {
 }
 .home .wrapper .about-program figure span {
   position: absolute;
-  left: 44%;
+  left: 50%;
   top: 38%;
+  transform: translateX(-50%);
 }
 .home .wrapper .about-program figcaption {
   text-align: center;
@@ -946,11 +953,8 @@ a {
   border: 1px solid #707070;
   border-radius: 4px;
 }
-.home.list-resources .wrapper .searchresult .custom-col .left-column .checkbox .styled-checkbox:hover + label:before {
-  background: var(--secondarycolor);
-}
 .home.list-resources .wrapper .searchresult .custom-col .left-column .checkbox .styled-checkbox:checked + label:before {
-  background: var(--secondarycolor);
+  background: #0066ff;
 }
 .home.list-resources .wrapper .searchresult .custom-col .left-column .checkbox .styled-checkbox:disabled + label {
   color: #666666;
@@ -974,6 +978,21 @@ a {
 }
 .home.list-resources .wrapper .searchresult .custom-col .left-column .checkbox.topic .styled-checkbox + label {
   font-weight: 700;
+}
+.home.list-resources .wrapper .searchresult .custom-col .left-column .checkbox.topic .styled-checkbox:checked + label:before {
+  background: var(--secondarycolor);
+}
+.home.list-resources .wrapper .searchresult .custom-col .left-column .checkbox.development .styled-checkbox + label {
+  font-weight: 700;
+}
+.home.list-resources .wrapper .searchresult .custom-col .left-column .checkbox.development .styled-checkbox:checked + label:before {
+  background: var(--maincolor);
+}
+.home.list-resources .wrapper .searchresult .custom-col .left-column .checkbox.building .styled-checkbox + label {
+  font-weight: 700;
+}
+.home.list-resources .wrapper .searchresult .custom-col .left-column .checkbox.building .styled-checkbox:checked + label:before {
+  background: var(--greencolor);
 }
 .home.list-resources .wrapper .searchresult .custom-col .left-column .load-more {
   color: #970F65;
@@ -1036,6 +1055,9 @@ a {
 }
 .home.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories .mycheck.submenu {
   padding-left: 2rem;
+}
+.home.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories .mycheck.submenu .styled-checkbox + label {
+  font-weight: 400;
 }
 .home.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories .mycheck.for-height {
   height: auto !important;

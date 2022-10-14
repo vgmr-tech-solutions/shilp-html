@@ -704,9 +704,9 @@ a {
 }
 .home .wrapper .featured-resources .card figure span {
   position: absolute;
-  top: 41%;
-  left: 51%;
-  transform: translateX(-50%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .home .wrapper .featured-resources .card figure span img {
   width: 35px;

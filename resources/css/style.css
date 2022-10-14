@@ -635,17 +635,11 @@ a {
 .home .wrapper .resource .resource-hub ul li.cbo-diaries figure .icon {
   background-color: var(--bluecolor);
 }
-.home .wrapper .resource .resource-hub ul li.cbo-diaries figure .icon img {
-  width: 3.875rem;
-}
 .home .wrapper .resource .resource-hub ul li.leadership-development {
   background-color: var(--maincolor);
 }
 .home .wrapper .resource .resource-hub ul li.leadership-development figure .icon {
   background-color: var(--maincolor);
-}
-.home .wrapper .resource .resource-hub ul li.leadership-development figure .icon img {
-  width: 4.625rem;
 }
 .home .wrapper .resource .resource-hub ul li.inst-building {
   background-color: var(--greencolor);
@@ -661,14 +655,18 @@ a {
   top: -27%;
   left: 50%;
   border-radius: 50%;
-  padding: 20px;
+  padding: 0;
   width: 120px;
   height: 120px;
   transform: translateX(-50%);
 }
 .home .wrapper .resource .resource-hub ul li figure .icon img {
-  width: 80px;
+  width: auto;
   height: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .home .wrapper .resource .resource-hub ul li figure figcaption h4 {
   font-size: 1.625rem;
@@ -733,8 +731,8 @@ a {
 .home .wrapper .about-program figure span {
   position: absolute;
   left: 50%;
-  top: 38%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 .home .wrapper .about-program figcaption {
   text-align: center;

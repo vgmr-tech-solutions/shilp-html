@@ -353,6 +353,7 @@ a {
   border-radius: 5px;
   color: var(--secondarycolor);
   justify-content: space-between;
+  background-color: var(--whitecolor);
 }
 .home header.dark .header-top .top .custom-top li .font-increament li {
   padding: 2px 13px;

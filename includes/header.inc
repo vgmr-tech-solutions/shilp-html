@@ -7,7 +7,7 @@
                     <li>
                         <ul class="font-increament" id="sizecontroldiv">
                             <li class="decreaseFont"><a class="f-sm" href="#fontsize-1">A-</a></li>
-                            <li class="resetFont"><a class="f-md" href="#fontsize0">A</a></li>
+                            <li class="resetFont active"><a class="f-md" href="#fontsize0">A</a></li>
                             <li class="increaseFont"><a class="f-lg" href="#fontsize1">A+</a></li>
                         </ul>
                     </li>

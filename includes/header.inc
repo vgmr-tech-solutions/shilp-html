@@ -65,7 +65,9 @@
                 </div>
                 <div class="searchbar">
                     <input type="text" class="form-control" placeholder="Search">
-                    <span class="fa fa-search search-icon-input"></span>
+                    <a href="#">
+                        <span class="fa fa-search search-icon-input"></span>
+                    </a>
                 </div>
             </div>
         </nav>

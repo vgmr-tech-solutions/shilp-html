@@ -10,7 +10,7 @@ $('#menu').click(function () {
 
 // topnav
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 10) {
+    if ($(this).scrollTop() > 148) {
         $('header').addClass('fixed-header');
     } else {
         $('header').removeClass('fixed-header');

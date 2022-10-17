@@ -422,26 +422,29 @@ a {
               input{
                 width: 350px;
                 height: 50px;
+                padding-right: 65px;
                 &::placeholder{
                   color: #000;
                   font-size: 1.25rem;
                 }
               }
-              .search-icon-input{
-                width: 3.125rem;
-                height: 3.125rem;
-                background: var(--secondarycolor);
-                top: 0;
-                right: 0;
-                border-radius: 0px 5px 5px 0;
-                position: absolute;
-                z-index: 2;
-                display: block;
-                line-height: 3rem;
-                text-align: center;
-                pointer-events: none;
-                color:var(--whitecolor);
-                font-size: 30px;
+              a{
+                .search-icon-input{
+                  width: 3.125rem;
+                  height: 3.125rem;
+                  background: var(--secondarycolor);
+                  top: 0;
+                  right: 0;
+                  border-radius: 0px 5px 5px 0;
+                  position: absolute;
+                  z-index: 2;
+                  display: block;
+                  line-height: 3rem;
+                  text-align: center;
+                  cursor: pointer;
+                  color:var(--whitecolor);
+                  font-size: 30px;
+                }
               }
             }
           }
@@ -463,7 +466,8 @@ a {
               li{
                 .navbar-brand {
                   img {
-                    height: 84px;;
+                    height: 84px;
+                    transition: 0.5s all ease-in-out;
                   }
                 }
               }
@@ -1091,6 +1095,25 @@ a {
                 }
             }
         }
+      }
+    }
+  }
+}
+
+// Resource Details Page
+.home{
+  &.resource-details{
+    .program{
+      width: 1000px;
+      .program-info{
+        ul{
+          list-style-type: none;
+        }
+      }
+    .share{
+      .social-link{
+        list-style-type: none;
+      }
       }
     }
   }

@@ -43,7 +43,7 @@
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#">About SHILP</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item nav-dropdown">
                             <a class="nav-link" href="/list-resources.shtml">Resource Hub</a>
                             <ul class="sub-menu-block">
                                 <li>

@@ -178,6 +178,53 @@
     .mobile-purpose{display: none !important;} 
 
     nav .menu{top:28px;}
+    .collapse:not(.show){padding-top: 22%;}
+    .navbar  ul.navbar-nav .nav-item.nav-dropdown::after{
+      content: "\f105";
+      font-family: FontAwesome;
+      position: absolute;
+      color: #000;
+      padding: 0;
+      display: block;
+      width: 20%;
+      right: 0;
+      margin-top: -40px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    ul.navbar-nav>li>.sub-menu-block {
+      background: rgb(226,240,255);
+      background: linear-gradient(0deg, rgba(226,240,255,1) 0%, rgba(255,255,255,1) 50%);
+      position: absolute;
+      width: 932px;
+      color: #FFF;
+      box-sizing: border-box;
+      z-index: 9;
+      opacity: 0;
+      list-style-type: none;
+      -webkit-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s;
+      -webkit-transform: rotateX(90deg);
+      -moz-transform: rotateX(90deg);
+      -ms-transform: rotateX(90deg);
+      transform: rotateX(90deg);
+      -webkit-transform-origin: top center;
+      -ms-transform-origin: top center;
+      transform-origin: top center;
+      padding: 0px;
+  }
+  ul.navbar-nav>li:hover>.sub-menu-block {
+      visibility: visible;
+      opacity: 1;
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      -ms-transform: rotateX(0deg);
+      transform: rotateX(0deg);
+  }
 
     /* Home Page */   
     .home .wrapper .banner .banner-info p{font-size: 1rem;}
@@ -215,6 +262,7 @@
 
     /* List Resources Page */
     .home.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .close{top: 11%;}
+    
 }
 @media screen and (max-width: 599px) {
     .desktop-purpose{display: none !important;}

@@ -83,6 +83,22 @@
         display: block;
         padding-top: 17%;
     }
+    .navbar  ul.navbar-nav .nav-item.nav-dropdown::after{
+      content: "\f105";
+      font-family: FontAwesome;
+      position: absolute;
+      color: #fff;
+      padding: 0;
+      display: block;
+      width: 20%;
+      right: 285px;
+      margin-top: -81px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
     .home header.dark .header-top .navbar .navbar-nav .nav-item .sub-menu-block{width: 100%;}
     .home header.dark .header-top .navbar .navbar-nav .nav-item .nav-link{color: var(--whitecolor);}
           /* Home Page */
@@ -108,7 +124,7 @@
     .home header.dark .header-top .top .custom-top .dropdown .switch{margin: 12px;}
     .home header.dark{height: 0;}
     .home header::after{right: -362px;background-size: 62%;}
-    .home header.dark .header-top .navbar .searchbar .search-icon-input{z-index: 1;}
+    .home header.dark .header-top .navbar .searchbar a .search-icon-input{z-index: 1;}
 
     /* List Resource Page */
     .home.list-resources .wrapper .list .heading{width: 100%;}
@@ -127,8 +143,24 @@
     .home.list-resources .wrapper .searchresult .custom-col .middle-column .home-list{justify-content: space-around;}
     .home.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories .mycheck.open{width: 100%;}
     .home.list-resources .wrapper .searchresult .custom-col .left-column{height: 50px;}
-    .home.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .close {display: block;cursor: pointer;position: absolute;top: 8%;right: 0;padding: 12px 16px;transform: translate(0%, -50%);font-size: 30px;
-  }
+    .home.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .close {display: block;cursor: pointer;position: absolute;top: 8%;right: 0;padding: 12px 16px;transform: translate(0%, -50%);font-size: 30px;}
+
+    /* Resources details Page */
+    .home.resource-details .resource-program{padding: 1rem;}
+    .home.resource-details .breadcrumb-nav .breadcrumb{padding: 0.125rem 0;}
+    .home.resource-details .breadcrumb-nav .breadcrumb li{font-size: 12px;}
+    .home.resource-details .resource-program .mission .heading h2{font-size: 1.5rem;}
+    .home.resource-details .resource-program .program{flex-wrap: wrap;}
+    .home.resource-details .related-resources ul li .card figcaption h2{height: 90px;}
+    .home.resource-details .resource-program .mission .mission-info{padding-bottom: 0;}
+    .home.resource-details .resource-program .mission .source ul li{overflow-wrap: break-word;}
+    .home.resource-details .related-resources ul li .card figcaption h2{height: 45px;}
+
+    /* CBO Diaries Details Page*/
+    .home.resource-details.custom-details .resource-program .mission .mission-info .foundation-video img{width: 100%;}
+    .home.resource-details.custom-details .resource-program .mission .mission-info .fondation-img ul{justify-content: center;}
+    .home.resource-details.custom-details .resource-program .mission .mission-info .help ul{justify-content: center;}
+    .home.resource-details.custom-details .resource-program .mission .mission-info .help ul li{margin-top: 0.5rem}
 }
 
 @media screen and (max-width: 991px) {
@@ -140,6 +172,7 @@
 }
 @media only screen and (min-width: 768px)
 {
+
     ul.navbar-nav>li>.sub-menu-block {
         background: rgb(226,240,255);
         background: linear-gradient(0deg, rgba(226,240,255,1) 0%, rgba(255,255,255,1) 50%);
@@ -183,14 +216,14 @@
       content: "\f105";
       font-family: FontAwesome;
       position: absolute;
-      color: #000;
+      color: #fff;
       padding: 0;
       display: block;
       width: 20%;
-      right: 0;
-      margin-top: -40px;
+      right: 103px;
+      margin-top: -86px;
       text-align: center;
-      font-size: 16px;
+      font-size: 2rem;
       font-weight: 700;
       padding-top: 10px;
       padding-bottom: 10px;
@@ -248,20 +281,26 @@
     .home .dark .header-top .navbar .searchbar{margin-top: 5px;left: -7px;}
     .home footer .footer-list > li:nth-child(1){width: 52%;}
     .home footer .social-link{margin-bottom: 0;}
-    .home header.dark .header-top .navbar .searchbar input{width: auto;height: 40px;}
+    .home header.dark .header-top .navbar .searchbar input{width: 190px;height: 40px;margin-left: 1rem;}
     .home header.dark .header-top .top .custom-top .dropdown .switch{margin: 12px 0 12px 12px;}
     .home header.dark .header-top .top .custom-top li .font-increament{margin: 10px 0;}
     .home header.dark .header-top .top .custom-top li .font-increament li{padding: 2px 8px;}
-    .home header.dark .header-top .navbar .searchbar .search-icon-input{width: 2.5rem;height: 2.5rem;line-height: 2.5rem;font-size: 1rem;}
+    .home header.dark .header-top .navbar .searchbar a .search-icon-input{width: 2.5rem;height: 2.5rem;line-height: 2.5rem;font-size: 1rem;}
     .home header.dark .header-top .navbar .searchbar input::placeholder {font-size: 1rem;}
     .home header.dark .header-top .navbar ul li .navbar-brand img{height: 70px;}
     .home .wrapper{padding: 0;}
     .home header::after{    background-size: 83%;top: 0;right: -116px;z-index: -9;}
     .home header.dark{height: 135px;}
-    .home header.dark .header-top .navbar .searchbar .search-icon-input{z-index: 1;}
+    .home header.dark .header-top .navbar .searchbar a .search-icon-input{z-index: 1;}
 
-    /* List Resources Page */
+  
     .home.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .close{top: 11%;}
+
+    /*CBO Diaries Details Page */
+    .home.resource-details.custom-details .resource-program .mission .mission-info .fondation-img ul li img{width: 340px;}
+    .home.resource-details.custom-details .resource-program .mission .mission-info .help ul li img{width: 345px;}
+    .home.resource-details.custom-details .resource-program .mission .mission-info .help ul{justify-content: space-between;}
+    .home.resource-details .related-resources .heading h2{font-size: 1.5rem;}
     
 }
 @media screen and (max-width: 599px) {

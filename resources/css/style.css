@@ -343,6 +343,9 @@ a {
   content: "\f105";
 }
 
+.home header {
+  transition: 0.5s all ease-in-out;
+}
 .home header::after {
   content: "";
   background: url(/resources/images/top-image.png) 0 0 no-repeat;
@@ -361,6 +364,7 @@ a {
 .home header.dark .header-top .top {
   height: 40px;
   background-color: rgba(0, 0, 0, 0.05);
+  transition: 0.5s all ease-in-out;
 }
 .home header.dark .header-top .top .custom-top {
   display: flex;
@@ -465,6 +469,7 @@ a {
 }
 .home header.dark .header-top .navbar ul li .navbar-brand img {
   height: 110px;
+  transition: 0.5s all ease-in-out;
 }
 .home header.dark .header-top .navbar .navbar-nav .nav-item .nav-link {
   color: var(--linkcolor);
@@ -577,7 +582,6 @@ a {
   z-index: 99;
   box-shadow: 0px -3px 9px 0px #000;
   height: auto;
-  transition: 0.5s all ease-in-out;
   width: 100%;
 }
 .home header.dark.fixed-header::after {
@@ -585,7 +589,6 @@ a {
 }
 .home header.dark.fixed-header .navbar ul li .navbar-brand img {
   height: 84px;
-  transition: 0.5s all ease-in-out;
 }
 
 .home footer {
@@ -1153,12 +1156,265 @@ a {
   pointer-events: none;
 }
 
-.home.resource-details .program {
-  width: 1000px;
+.home.resource-details .resource-program {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
 }
-.home.resource-details .program .program-info ul {
-  list-style-type: none;
+.home.resource-details .resource-program .program {
+  display: flex;
+  justify-content: space-between;
 }
-.home.resource-details .program .share .social-link {
+.home.resource-details .resource-program .program .program-info ul {
   list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+.home.resource-details .resource-program .program .program-info ul li .lbl-txt.mainColor {
+  background: var(--secondarycolor);
+  width: 75px;
+  height: 26px;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0 8px;
+}
+.home.resource-details .resource-program .program .program-info ul li h6 {
+  font-size: 1rem;
+  font-weight: 700;
+  padding-left: 0.625rem;
+}
+.home.resource-details .resource-program .program .share .social-link {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 0;
+}
+.home.resource-details .resource-program .program .share .social-link li {
+  margin-right: 0.5rem;
+}
+.home.resource-details .resource-program .program .share .social-link li:last-child {
+  margin-right: 0;
+}
+.home.resource-details .resource-program .program .share .social-link li span {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.home.resource-details .resource-program .program .share .social-link li a {
+  border: 1px solid var(--secondarycolor);
+  background-color: var(--whitecolor);
+  text-align: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.home.resource-details .resource-program .program .share .social-link li a i {
+  color: var(--secondarycolor);
+  font-size: 1.125rem;
+  align-self: center;
+  margin: 0 auto;
+}
+.home.resource-details .resource-program .info .cards-dtls {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.home.resource-details .resource-program .info .cards-dtls li {
+  list-style-type: none;
+  font-size: 0.875rem;
+  padding-right: 1rem;
+}
+.home.resource-details .resource-program .info .cards-dtls li img {
+  height: 1.25rem;
+}
+.home.resource-details .resource-program .mission .heading {
+  margin-top: 1.438rem;
+  margin-bottom: 2.688rem;
+}
+.home.resource-details .resource-program .mission .heading h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #660562;
+}
+.home.resource-details .resource-program .mission .mission-info {
+  padding-bottom: 84px;
+}
+.home.resource-details .resource-program .mission .mission-info .img img {
+  width: 100%;
+}
+.home.resource-details .resource-program .mission .mission-info .mission-text {
+  margin-top: 2.875rem;
+}
+.home.resource-details .resource-program .mission .mission-info .mission-text p {
+  font-size: 1.125rem;
+}
+.home.resource-details .resource-program .mission .source h6 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.home.resource-details .resource-program .mission .source ul {
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+.home.resource-details .resource-program .mission .source ul li {
+  font-size: 1.125rem;
+  color: var(--secondarycolor);
+  margin-bottom: 1rem;
+}
+.home.resource-details .resource-program .mission .source ul li::marker {
+  font-size: 1.5rem;
+}
+.home.resource-details .related-resources {
+  background-color: #F7F7F7;
+  padding-top: 19px;
+  padding-bottom: 70px;
+}
+.home.resource-details .related-resources .heading {
+  margin: 1.438rem 0;
+}
+.home.resource-details .related-resources .heading h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #660562;
+}
+.home.resource-details .related-resources ul {
+  list-style: none;
+  padding-left: 0;
+}
+.home.resource-details .related-resources ul li .card {
+  margin-bottom: 1.875rem;
+}
+.home.resource-details .related-resources ul li .card figure span {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home.resource-details .related-resources ul li .card figure span img {
+  width: 35px;
+  height: 35px;
+}
+.home.resource-details .related-resources ul li .card figcaption {
+  height: auto;
+}
+.home.resource-details .related-resources ul li .card figcaption .lbl-txt {
+  background-color: var(--secondarycolor);
+}
+.home.resource-details .related-resources ul li .card figcaption h2 {
+  height: 45px;
+}
+.home.resource-details .related-resources ul li .card figcaption .cards-dtls li {
+  display: flex;
+  align-items: center;
+}
+.home.resource-details .related-resources ul li .card figcaption .cards-dtls li .icon {
+  height: 1.25rem;
+  width: auto;
+  margin-right: 5px;
+}
+.home.resource-details .related-resources ul li .card figcaption .cards-dtls li i {
+  margin-right: 5px;
+}
+.home.resource-details .related-resources .owl-nav {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+  width: 100%;
+}
+.home.resource-details .related-resources .owl-nav button {
+  background-color: var(--secondarycolor);
+  border-radius: 100%;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #fff;
+}
+.home.resource-details .related-resources .owl-nav button span {
+  display: none;
+}
+.home.resource-details .related-resources .owl-nav .owl-prev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FFF;
+  position: absolute;
+  left: -17px;
+  top: -32px;
+}
+.home.resource-details .related-resources .owl-nav .owl-prev::before {
+  content: "\f060";
+  color: #fff;
+}
+.home.resource-details .related-resources .owl-nav .owl-next {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FFF;
+  position: absolute;
+  right: -17px;
+  top: -32px;
+}
+.home.resource-details .related-resources .owl-nav .owl-next::before {
+  content: "\f061";
+  color: white;
+}
+
+.home.resource-details.custom-details .resource-program .program .program-info ul li .lbl-txt.mainColor {
+  width: auto;
+}
+.home.resource-details.custom-details .resource-program .mission .heading {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+.home.resource-details.custom-details .resource-program .mission .mission-info {
+  padding-bottom: 40px;
+}
+.home.resource-details.custom-details .resource-program .mission .mission-info .mission-text {
+  margin-top: 20px;
+}
+.home.resource-details.custom-details .resource-program .mission .mission-info .fondation-img ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+}
+.home.resource-details.custom-details .resource-program .mission .mission-info .fondation-img ul li {
+  margin-bottom: 1.375rem;
+}
+.home.resource-details.custom-details .resource-program .mission .mission-info .foundation-text p {
+  font-size: 1.125rem;
+}
+.home.resource-details.custom-details .resource-program .mission .mission-info .foundation-video {
+  position: relative;
+}
+.home.resource-details.custom-details .resource-program .mission .mission-info .foundation-video span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.home.resource-details.custom-details .resource-program .mission .mission-info .foundation-text-video {
+  margin-top: 30px;
+}
+.home.resource-details.custom-details .resource-program .mission .mission-info .foundation-text-video p {
+  font-size: 1.125rem;
+}
+.home.resource-details.custom-details .resource-program .mission .mission-info .help ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.home.resource-details.custom-details .related-resources {
+  padding-bottom: 51px;
+}
+.home.resource-details.custom-details .related-resources ul li .card {
+  margin-bottom: 0;
 }/*# sourceMappingURL=style.css.map */

@@ -26,7 +26,7 @@
                 <ul>
                     <li>
                         <a href="/index.shtml" class="navbar-brand">
-                            <img src="/resources/images/shilp-logo.png" alt="logo">
+                            <img src="/resources/images/shilp-logo.png" alt="Samruddh Sanstha" title="Samruddh Sanstha">
                         </a>
                     </li>
                 </ul>

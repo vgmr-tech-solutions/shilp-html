@@ -2,7 +2,7 @@
   <div class="container">
     <ul class="footer-list">
         <li>           
-            <a href="/index.shtml"><img src="/resources/images/shilp-logo-white.png" alt="shilp" title="shilp"> </a>
+            <a href="/index.shtml"><img src="/resources/images/shilp-logo-white.png" alt="Samruddh Sanstha" title="Samruddh Sanstha"> </a>
             <h6>Shilp</h6>
             <p>Building Resilient Organizations! </p>
         </li>

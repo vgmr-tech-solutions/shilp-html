@@ -9,7 +9,7 @@
     <!--#include virtual='/includes/header-js-css.inc'-->
     <!-- header css and script ends -->
 </head>
-<body class="home">
+<body class="inner-page">
     <!-- header css and script starts -->
     <!--#include virtual='/includes/header.inc'-->
     <!-- header css and script ends -->

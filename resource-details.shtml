@@ -24,25 +24,145 @@
             </div>
         </section>
 
-        <section class="program">
-            <div class="container">
-               <div class="program-info">
+        <section class="resource-program">
+            <div class="program">
+                <div class="program-info">
                     <ul>
                         <li><label class="lbl-txt mainColor">Program</label></li>
                         <li><h6>Cohort Selection</h6></li>
                     </ul>
-               </div>
-               <div class="share">
+                </div>
+                
+                <div class="share">
                     <ul class="social-link">
-                        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                        <li><span>Share on</span></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
-                  </ul>
-               </div>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="info">
+                <ul class="cards-dtls">
+                    <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                </ul>
+            </div>  
+
+            <div class="mission">
+                <div class="heading">
+                    <h2>How to write an effective mission statement</h2>
+                </div>
+                <div class="mission-info">
+                    <div class="img">
+                        <img src="/resources/images/card-img.jpg" alt="mision" title="mision">
+                    </div>
+
+                    <div class="mission-text">
+                        <p><b>Lorem ipsum</b> dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text <i><b>lorem ipsum dummy text lorem ipsum 
+                            dummy</b></i> text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy
+                            text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text.
+                        </p>
+                        <p><b>Lorem ipsum</b> dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text
+                            lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text 
+                            lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text. Lorem ipsum dummy text lorem ipsum dummy text
+                            lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text
+                            lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text 
+                            lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text.
+                        </p>
+                        <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text 
+                            lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text 
+                            lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text.
+                        </p>
+                    </div>
+
+                    <div class="source">
+                        <h6>Source: </h6>
+                        <ul>
+                            <li>https://medlineplus.gov/ency/patientinstructions/000952.htm</li>
+                            <li>https://meridianpsychiatricpartners.com/medication-management-consider/#:~:text=Medication%20management%20is%20a%20level,by%20a%20qualified%20physician%2Fprescribe</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section class="related-resources">
+            <div class="container">
+                <div class="heading">
+                    <h2>Related Resources</h2>
+                </div>
 
+                <ul class="owl-carousel owl-theme resources-carousel">
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/finance.png" alt="" title="">
+                            </figure>
+                            <figcaption>
+                                <label class="lbl-txt mainColor">Program</label>
+                                <h2>Financial planning for organization</h2>
+                                <ul class="cards-dtls">
+                                    <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/feature-video.png" alt="video" title="video">
+                                <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            </figure>
+                            <figcaption>
+                                <label class="lbl-txt mainColor">Program</label>
+                                <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                <ul class="cards-dtls">
+                                    <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/finance.png" alt="" title="">
+                            </figure>
+                            <figcaption>
+                                <label class="lbl-txt mainColor">Program</label>
+                                <h2>Financial planning for organization</h2>
+                                <ul class="cards-dtls">
+                                    <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/feature-video.png" alt="video" title="video">
+                                <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                            </figure>
+                            <figcaption>
+                                <label class="lbl-txt mainColor">Program</label>
+                                <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                <ul class="cards-dtls">
+                                    <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                </ul>
+                            </figcaption>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
     </div>
 
     <!-- footer starts -->
@@ -51,7 +171,35 @@
     <!-- footer js css and script starts -->
     <!--#include virtual='/includes/footer-js-css.inc'-->
     <!-- footer js css and script ends -->
-
+<script>
+    $(document).ready(function(){
+        $('.owl-carousel.resources-carousel').owlCarousel({
+            loop: true,
+            margin: 25,
+            dots:false,
+            nav:true,
+            navSpeed:2000,
+            animateOut: "fadeOut",
+            animateIn: "fadeIn",
+            responsiveClass: true,
+            responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            600: {
+                items: 3,
+                nav: true
+            },
+            1000: {
+                items: 4,
+                nav: true
+            }
+            }
+        })
+      
+    });
+</script>
    
 </body>
 </html>

@@ -224,6 +224,7 @@ a {
  // Header CSSS
  .home{
   header{
+    transition: 0.5s all ease-in-out;
     &::after{
       content: "";
       background: url(/resources/images/top-image.png) 0 0 no-repeat;
@@ -240,7 +241,7 @@ a {
           z-index: 9;
           width: 100%;
           .top{
-            height: 40px;background-color: rgba(0, 0, 0, 0.05);
+            height: 40px;background-color: rgba(0, 0, 0, 0.05);transition: 0.5s all ease-in-out;
             .custom-top{
               display: flex;
               list-style: none;
@@ -356,7 +357,7 @@ a {
               padding: 0;
               li{
                 .navbar-brand{
-                  img{height: 110px;}
+                  img{height: 110px;transition: 0.5s all ease-in-out;}
                 }
               }
             }
@@ -456,7 +457,6 @@ a {
           z-index: 99;
           box-shadow: 0px -3px 9px 0px #000;
           height: auto;
-          transition: 0.5s all ease-in-out;
           width: 100%;
           &::after{
             background: none;
@@ -467,7 +467,6 @@ a {
                 .navbar-brand {
                   img {
                     height: 84px;
-                    transition: 0.5s all ease-in-out;
                   }
                 }
               }
@@ -1103,17 +1102,313 @@ a {
 // Resource Details Page
 .home{
   &.resource-details{
-    .program{
-      width: 1000px;
-      .program-info{
-        ul{
+    .resource-program{
+      max-width: 1000px;
+      margin: 0 auto;
+      width: 100%;
+      .program{
+        display: flex;
+        justify-content: space-between;
+        .program-info{
+          ul{
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+            li{
+              .lbl-txt {
+                &.mainColor{
+                  background: var(--secondarycolor);
+                  width: 75px;
+                  height: 26px;
+                  font-size: 1rem;
+                  font-weight: 700;
+                  padding: 0 8px;
+                }
+              }
+              h6{
+                font-size: 1rem;
+                font-weight: 700;
+                padding-left: 0.625rem;
+              }
+            }
+          }
+        }
+        .share{
+          .social-link{
+          display: flex;
           list-style-type: none;
+          align-items: center;
+          padding: 0;
+            li{
+              margin-right: 0.5rem;
+              &:last-child{
+                margin-right: 0;
+              }
+              span{
+                font-size: 0.875rem;
+                font-weight: 700;
+              }
+              a{
+                border: 1px solid var(--secondarycolor);
+                background-color: var(--whitecolor);
+                text-align: center;
+                width: 33px;
+                height: 33px;
+                border-radius: 100%;
+                display: flex;
+                align-items: flex-start;
+                i{
+                  color: var(--secondarycolor);
+                  font-size: 1.125rem;
+                  align-self: center;
+                  margin: 0 auto;
+                }
+              }
+            }
+          }
         }
       }
-    .share{
-      .social-link{
-        list-style-type: none;
+      .info{
+        .cards-dtls{
+          display: flex;
+          flex-direction: row;
+          margin: 0;
+          padding: 0;
+          li{
+            list-style-type: none;
+            font-size: 0.875rem;
+            padding-right: 1rem;
+            img{
+              height: 1.25rem;
+            }
+          }
+        }
       }
+      .mission{
+        .heading{
+          margin-top: 1.438rem;
+          margin-bottom: 2.688rem;
+          h2{
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #660562;
+          }
+        }
+        .mission-info{
+          padding-bottom: 84px;
+          .img{
+            img{width: 100%;}
+          }
+          .mission-text{
+            margin-top: 2.875rem;
+            p{
+              font-size: 1.125rem;
+            }
+          }
+        }
+        .source{
+          h6{
+            font-size: 1.5rem;
+            font-weight: 700;
+          }
+          ul{
+            padding-left: 1.5rem;
+            list-style-type: disc;
+            li{
+              font-size: 1.125rem;
+              color: var(--secondarycolor);
+              margin-bottom: 1rem;
+              &::marker{
+                font-size: 1.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+   .related-resources{
+    background-color: #F7F7F7;
+    padding-top: 19px;
+    padding-bottom: 70px;
+    .heading{
+      margin: 1.438rem 0;
+      h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #660562;
+      }
+    }
+    ul{
+      list-style: none;
+      padding-left: 0;
+      li{
+        .card{
+          margin-bottom: 1.875rem;
+          figure{
+            span{
+              position: absolute;
+              top: 27%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              img{
+                width: 35px;
+                height: 35px;
+              }
+            }
+          }
+          figcaption{
+            height: auto;
+            .lbl-txt {background-color: var(--secondarycolor);}
+            h2{height: 45px;}
+            .cards-dtls{
+              li{
+                display: flex;
+                align-items: center;
+                .icon{
+                  height: 1.25rem;
+                  width: auto;
+                  margin-right: 5px;
+                }
+                i{
+                  margin-right: 5px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .owl-nav{
+      display: block;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 9;
+      width: 100%;
+      button{
+        background-color: var(--secondarycolor);
+        border-radius: 100%;
+        width: 36px;
+        height: 36px;
+        border: 1px solid #fff;
+        span{
+          display: none;
+        }
+      }
+      .owl-prev{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #FFF;
+        position: absolute;
+        left: -17px;
+        top: -32px;
+        &::before{
+          content: '\f060';
+          color: #fff;
+        }
+      }
+      .owl-next{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #FFF;
+        position: absolute;
+        right: -17px;
+        top: -32px;
+        &::before{
+          content: '\f061';
+          color: white;
+        }
+      }    
+    } 
+   }
+  }
+}
+
+//CBO diaries deatils page
+.home{
+  &.resource-details{
+    &.custom-details{
+      .resource-program{
+        .program{
+          .program-info{
+           ul{
+            li{
+              .lbl-txt {
+                &.mainColor{
+                  width: auto;
+                }
+              }
+            }
+           }
+          }
+        }
+        .mission{
+          .heading{
+            margin-top: 0;
+            margin-bottom: 1.25rem;
+          }
+          .mission-info{
+            padding-bottom: 40px;
+            .mission-text{
+              margin-top: 20px;
+            }
+            .fondation-img{
+              ul{
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin: 0;
+                li{
+                  margin-bottom: 1.375rem;
+                }
+              }
+            }
+            .foundation-text{
+              p{
+                font-size: 1.125rem;
+              }
+            }
+            .foundation-video{
+              position: relative;
+              span{
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
+            .foundation-text-video{
+              margin-top: 30px;
+              p{
+                font-size: 1.125rem;
+              }
+            }
+            .help{
+              ul{
+                list-style-type: none;
+                padding: 0;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+              }
+            }
+          }
+        }
+      }
+      .related-resources{
+        padding-bottom: 51px;
+        ul{
+          li{
+            .card{
+              margin-bottom: 0;
+            }
+          }
+        }
       }
     }
   }

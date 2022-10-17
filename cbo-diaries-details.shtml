@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shilp : Samruddh Sanstha</title>
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header-js-css.inc'-->
+    <!-- header css and script ends -->
+</head>
+<body class="home resource-details custom-details">
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header.inc'-->
+    <!-- header css and script ends -->
+    <div class="wrapper">
+        <section class="breadcrumb-nav">
+            <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="#">Resource Hub</a></li>
+                    <li><a href="#">CBO Diaries</a></li>
+                    <li>Details CBO Diaries</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="resource-program">
+            <div class="program">
+                <div class="program-info">
+                    <ul>
+                        <li><label class="lbl-txt mainColor">CBO Diaries</label></li>
+                    </ul>
+                </div>
+                
+                <div class="share">
+                    <ul class="social-link">
+                        <li><span>Share on</span></li>
+                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div> 
+
+            <div class="mission">
+                <div class="heading">
+                    <h2>Adi Federation</h2>
+                </div>
+                <div class="mission-info">
+                    <div class="img">
+                        <img src="/resources/images/adi-foundation.png" alt="Adi Foundation" title="Adi Foundation">
+                    </div>
+
+                    <div class="mission-text">
+                       <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy 
+                        text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy
+                         text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy
+                          text lorem ipsum dummy text. Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy 
+                          text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy</p>
+                    </div>
+
+                    <div class="fondation-img">
+                       <ul>
+                        <li>
+                            <img src="/resources/images/foundation-one.png" alt="foundation" title="fondation">
+                        </li>
+                        <li>
+                            <img src="/resources/images/foundation-two.png" alt="foundation" title="fondation">
+                        </li>
+                        <li>
+                            <img src="/resources/images/foundation-three.png" alt="foundation" title="fondation">
+                        </li>
+                        <li>
+                            <img src="/resources/images/foundation-four.png" alt="foundation" title="fondation">
+                        </li>
+                       </ul>
+                    </div>
+
+                    <div class="foundation-text">
+                        <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy 
+                         text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy
+                          text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy
+                           text lorem ipsum dummy text. Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy 
+                           text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy</p>
+                     </div>
+
+                     <div class="foundation-video">
+                        <img src="/resources/images/foundation-video.png" alt="video" title="video">
+                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                     </div>
+
+                     <div class="foundation-text-video">
+                        <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy 
+                         text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy
+                          text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy
+                           text lorem ipsum dummy text. Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy 
+                           text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy</p>
+                     </div>
+
+                     <div class="help">
+                        <ul>
+                            <li>
+                                <img src="/resources/images/help-one.png" alt="help" title="help">
+                            </li>
+                            <li>
+                                <img src="/resources/images/help-two.png" alt="help" title="help">
+                            </li>
+                        </ul>
+                     </div>
+
+                     <div class="mission-text">
+                        <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text. Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem </p>
+                        <p>ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text. Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text.</p>
+                        <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="related-resources">
+            <div class="container">
+                <div class="heading">
+                    <h2>Related CBO Diaries</h2>
+                </div>
+
+                <ul class="owl-carousel owl-theme resources-carousel">
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/diaries-one.png" alt="" title="">
+                            </figure>
+                            <figcaption>
+                                <h2>Awake Agriculture and Rural Development Society (AARDS)</h2>
+                            </figcaption>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/diaries-two.png" alt="video" title="video">                           
+                            </figure>
+                            <figcaption>
+                                <h2>Bethamacharla FPC</h2>
+                            </figcaption>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/diaries-three.png" alt="" title="">
+                            </figure>
+                            <figcaption>
+                                <h2>BWDA - Panruti Branch</h2>
+                            </figcaption>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <figure>
+                                <img src="/resources/images/diaries-four.png" alt="" title="">                             
+                            </figure>
+                            <figcaption>
+                                <h2>BWDA - Villupuram Branch</h2>
+                            </figcaption>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <!-- footer starts -->
+    <!--#include virtual='/includes/footer.inc'-->
+    <!-- footer ends -->
+    <!-- footer js css and script starts -->
+    <!--#include virtual='/includes/footer-js-css.inc'-->
+    <!-- footer js css and script ends -->
+<script>
+    $(document).ready(function(){
+        $('.owl-carousel.resources-carousel').owlCarousel({
+            loop: true,
+            margin: 25,
+            dots:false,
+            nav:true,
+            navSpeed:2000,
+            animateOut: "fadeOut",
+            animateIn: "fadeIn",
+            responsiveClass: true,
+            responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            600: {
+                items: 3,
+                nav: true
+            },
+            1000: {
+                items: 4,
+                nav: true
+            }
+            }
+        })
+      
+    });
+</script>
+   
+</body>
+</html>

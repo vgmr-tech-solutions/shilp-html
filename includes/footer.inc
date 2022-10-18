@@ -9,7 +9,7 @@
         <li>
           <ul class="footer-link">
             <li><a href="#">SHILP Program</a></li>
-            <li><a href="#">CBO Diaries</a></li>
+            <li><a href="/cbo-diaries.shtml">CBO Diaries</a></li>
             <li><a href="#">Leadership Development</a></li>
             <li><a href="#">Institutional Building</a></li>
           </ul>

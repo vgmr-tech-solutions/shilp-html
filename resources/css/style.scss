@@ -164,7 +164,8 @@ a {
     }
 }
 
-.card {border:0;border-radius:0;
+.card {
+    border:0;border-radius:0;background-color:var(--whitecolor);
     figure {margin:0;
         & img {width: 100%;height:100%}
         & iframe {width: 100%;height:100%}
@@ -799,7 +800,13 @@ footer {
         }
       }
     
-
+      .list{
+        .heading{
+          width: 849px;
+          h2{font-size: 2.5rem;font-weight: 700;color: $headingcolor;}
+          p{font-size: 1.125rem;font-weight: 400;}
+        }
+      }
   }
 }
 
@@ -822,15 +829,6 @@ footer {
           }
         }
       }
-
-      .list{
-        .heading{
-          width: 849px;
-          h2{font-size: 2.5rem;font-weight: 700;color: $headingcolor;}
-          p{font-size: 1.125rem;font-weight: 400;}
-        }
-      }
-
       .searchresult {
         padding: 20px 0;
 
@@ -910,6 +908,7 @@ footer {
                         // Box checked
                         &:checked+label:before {
                             background:#0066ff;
+                            border: 1px solid #0066ff;
                         }
 
                         // Disabled state label.
@@ -947,6 +946,7 @@ footer {
                         // Box checked
                         &:checked+label:before {
                           background: var(--secondarycolor);
+                          border: 1px solid var(--secondarycolor);
                         }
                       }
                     }
@@ -958,6 +958,7 @@ footer {
                         // Box checked
                         &:checked+label:before {
                           background: var(--maincolor);
+                          border: 1px solid var(--maincolor)
                         }
                       }
                     }
@@ -969,6 +970,7 @@ footer {
                         // Box checked
                         &:checked+label:before {
                           background: var(--greencolor);
+                          border: 1px solid var(--greencolor);
                         }
                       }
                     }
@@ -1062,38 +1064,50 @@ footer {
             .middle-column {
                 width: 100%;
                 padding-left: 30px;
-                .card{
-                  margin-bottom: 1.875rem;
-                  figure{
-                    span{
-                      position: absolute;
-                      top: 27%;
-                      left: 50%;
-                      transform: translate(-50%, -50%);
-                      img{
-                        width: 35px;
-                        height: 35px;
+                ul{
+                  list-style-type: none;
+                  padding: 0;
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-between;
+                  .item{
+                    display: none;
+                    .card{
+                      margin-bottom: 1.875rem;
+                      max-width: 310px;
+                      width: 100%;
+                      figure{
+                        span{
+                          position: absolute;
+                          top: 27%;
+                          left: 50%;
+                          transform: translate(-50%, -50%);
+                          img{
+                            width: 35px;
+                            height: 35px;
+                          }
+                        }
                       }
-                    }
-                  }
-                  figcaption{
-                    height: auto;
-                    .lbl-txt {background-color: var(--secondarycolor);}
-                    h2{height: 45px;}
-                    .cards-dtls{
-                      .icon{
-                        height: 1.25rem;
+                      figcaption{
+                        height: auto;
+                        .lbl-txt {background-color: var(--secondarycolor);}
+                        h2{height: 45px;}
+                        .cards-dtls{
+                          .icon{
+                            height: 1.25rem;
+                          }
+                        }
                       }
                     }
                   }
                 }
                 .btn-load-more {
-                    text-align: center;
+                  text-align: center;
 
-                    a {
-                        transition: .3s;
-                    }
-                }
+                  a {
+                      transition: .3s;
+                  }
+              }
 
                 .noContent {
                     color: var(--linkcolor)  !important;
@@ -1414,4 +1428,72 @@ footer {
           }
         }
       }
+}
+
+.diaries-info{
+  .list{
+    .heading{
+      p{margin: 0;}
+    }
+  }
+  .filters{
+    .filters-data{
+      padding-top: 40px;
+      ul{
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        margin: 0;
+        span{padding-right: 5px;}
+        li{
+          border-radius: 3px;
+          font-weight: 700;
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          margin-right: 5px;
+          margin-bottom: 5px;
+          border: 1px solid var(--secondarycolor);
+          text-align: center;
+          line-height: 27px;
+          text-transform: uppercase;
+          cursor: pointer;
+          a{
+            color: var(--secondarycolor);
+          }
+          &.active{
+            background-color: var(--secondarycolor);
+            color: var(--whitecolor);
+            a{ color: var(--whitecolor);}
+          }
+          &.all{width: 46px;}
+        }
+      }
+    }
+  }
+  .filters-card{
+    padding-top: 1.875rem;
+    ul{
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      .item{
+        margin-right: 25px;
+        display: none;
+        .card{
+          padding-bottom: 30px;
+          width: 100%;
+          max-width: 310px; 
+          figcaption{
+            height: 82px;
+            padding: 0.3rem 1rem 0.3rem 1rem;
+          }
+        }
+      }
+    }
+   
+    .btn-load-more{text-align: center;}
+  }
 }

@@ -29,40 +29,6 @@ $(window).ready(function ($) {
   });
 })
 
-$('.cart-product').click(function(e) {
-    //alert('ok');
-    e.preventDefault();
-    $('.cart-list').addClass('show');
-    $('.bg-overlay').addClass('show');
-    $('body').toggleClass('overflow-hidden');
-});
-
-/* Increment Decrement Quantity */
-$(document).ready(function() {
-    const minus = $('.quantity__minus');
-    const plus = $('.quantity__plus');
-    const input = $('.quantity__input');
-    minus.click(function(e) {
-      e.preventDefault();
-      var value = input.val();
-      if (value > 1) {
-        value--;
-      }
-      input.val(value);
-    });
-    
-    plus.click(function(e) {
-      e.preventDefault();
-      var value = input.val();
-      value++;
-      input.val(value);
-    })
-  });
-
-$(".js-heart").click(function() {
-  $(this).toggleClass("fas");
-});
-
 
 //Font Increment
 $('.font-increament li a').click(function(){

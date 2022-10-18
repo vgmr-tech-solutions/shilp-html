@@ -234,6 +234,7 @@ a {
 .card {
   border: 0;
   border-radius: 0;
+  background-color: var(--whitecolor);
 }
 .card figure {
   margin: 0;
@@ -895,6 +896,18 @@ footer .copyright li {
   width: 599px;
   margin: 1.4rem auto;
 }
+.inner-page .wrapper .list .heading {
+  width: 849px;
+}
+.inner-page .wrapper .list .heading h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #660562;
+}
+.inner-page .wrapper .list .heading p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
 
 .list-resources .wrapper .breadcrumb-nav .breadcrumb {
   padding: 2.125rem 0;
@@ -917,18 +930,6 @@ footer .copyright li {
   padding: 8px;
   color: var(--linkcolor);
   content: "\f105";
-}
-.list-resources .wrapper .list .heading {
-  width: 849px;
-}
-.list-resources .wrapper .list .heading h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #660562;
-}
-.list-resources .wrapper .list .heading p {
-  font-size: 1.125rem;
-  font-weight: 400;
 }
 .list-resources .wrapper .searchresult {
   padding: 20px 0;
@@ -995,6 +996,7 @@ footer .copyright li {
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox .styled-checkbox:checked + label:before {
   background: #0066ff;
+  border: 1px solid #0066ff;
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox .styled-checkbox:disabled + label {
   color: #666666;
@@ -1021,18 +1023,21 @@ footer .copyright li {
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox.topic .styled-checkbox:checked + label:before {
   background: var(--secondarycolor);
+  border: 1px solid var(--secondarycolor);
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox.development .styled-checkbox + label {
   font-weight: 700;
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox.development .styled-checkbox:checked + label:before {
   background: var(--maincolor);
+  border: 1px solid var(--maincolor);
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox.building .styled-checkbox + label {
   font-weight: 700;
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox.building .styled-checkbox:checked + label:before {
   background: var(--greencolor);
+  border: 1px solid var(--greencolor);
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .load-more {
   color: #970F65;
@@ -1129,29 +1134,41 @@ footer .copyright li {
   width: 100%;
   padding-left: 30px;
 }
-.list-resources .wrapper .searchresult .custom-col .middle-column .card {
-  margin-bottom: 1.875rem;
+.list-resources .wrapper .searchresult .custom-col .middle-column ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
-.list-resources .wrapper .searchresult .custom-col .middle-column .card figure span {
+.list-resources .wrapper .searchresult .custom-col .middle-column ul .item {
+  display: none;
+}
+.list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card {
+  margin-bottom: 1.875rem;
+  max-width: 310px;
+  width: 100%;
+}
+.list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figure span {
   position: absolute;
   top: 27%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.list-resources .wrapper .searchresult .custom-col .middle-column .card figure span img {
+.list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figure span img {
   width: 35px;
   height: 35px;
 }
-.list-resources .wrapper .searchresult .custom-col .middle-column .card figcaption {
+.list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figcaption {
   height: auto;
 }
-.list-resources .wrapper .searchresult .custom-col .middle-column .card figcaption .lbl-txt {
+.list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figcaption .lbl-txt {
   background-color: var(--secondarycolor);
 }
-.list-resources .wrapper .searchresult .custom-col .middle-column .card figcaption h2 {
+.list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figcaption h2 {
   height: 45px;
 }
-.list-resources .wrapper .searchresult .custom-col .middle-column .card figcaption .cards-dtls .icon {
+.list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figcaption .cards-dtls .icon {
   height: 1.25rem;
 }
 .list-resources .wrapper .searchresult .custom-col .middle-column .btn-load-more {
@@ -1427,4 +1444,73 @@ footer .copyright li {
 }
 .custom-details .related-resources ul li .card {
   margin-bottom: 0;
+}
+
+.diaries-info .list .heading p {
+  margin: 0;
+}
+.diaries-info .filters .filters-data {
+  padding-top: 40px;
+}
+.diaries-info .filters .filters-data ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+.diaries-info .filters .filters-data ul span {
+  padding-right: 5px;
+}
+.diaries-info .filters .filters-data ul li {
+  border-radius: 3px;
+  font-weight: 700;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border: 1px solid var(--secondarycolor);
+  text-align: center;
+  line-height: 27px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.diaries-info .filters .filters-data ul li a {
+  color: var(--secondarycolor);
+}
+.diaries-info .filters .filters-data ul li.active {
+  background-color: var(--secondarycolor);
+  color: var(--whitecolor);
+}
+.diaries-info .filters .filters-data ul li.active a {
+  color: var(--whitecolor);
+}
+.diaries-info .filters .filters-data ul li.all {
+  width: 46px;
+}
+.diaries-info .filters-card {
+  padding-top: 1.875rem;
+}
+.diaries-info .filters-card ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.diaries-info .filters-card ul .item {
+  margin-right: 25px;
+  display: none;
+}
+.diaries-info .filters-card ul .item .card {
+  padding-bottom: 30px;
+  width: 100%;
+  max-width: 310px;
+}
+.diaries-info .filters-card ul .item .card figcaption {
+  height: 82px;
+  padding: 0.3rem 1rem 0.3rem 1rem;
+}
+.diaries-info .filters-card .btn-load-more {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

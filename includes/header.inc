@@ -49,7 +49,7 @@
                                 <li>
                                     <ul>
                                         <li class="submenu-ship"><a href="#"><img src="/resources/images/icon/submenu-shilp-program.png" alt="SHILP Program" title="SHILP Program"><span>SHILP Program</span></a></li>
-                                        <li class="submenu-diaries"><a href="#"><img src="/resources/images/icon/submenu-cbo-diaries.png" alt="CBO Diaries" title="CBO Diaries"><span>CBO Diaries</span></a></li>
+                                        <li class="submenu-diaries"><a href="/cbo-diaries.shtml"><img src="/resources/images/icon/submenu-cbo-diaries.png" alt="CBO Diaries" title="CBO Diaries"><span>CBO Diaries</span></a></li>
                                         <li class="submenu-leadership"><a href="#"><img src="/resources/images/icon/submenu-ipo-leadership.png" alt="Leadership Development" title="Leadership Development"><span>Leadership Development</span></a></li>
                                         <li class="submenu-building"><a href="#"><img src="/resources/images/icon/submenu-building.png" alt="Institutional Building" title="Institutional Building"><span>Institutional Building</span></a></li>
                                     </ul>

@@ -59,7 +59,7 @@
                                     <h4>CBO Diaries</h4>
                                     <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn-outline">Explore CBO Diaries</a>
+                                        <a href="/cbo-diaries.shtml" class="btn-outline">Explore CBO Diaries</a>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -107,69 +107,77 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="card">
-                            <figure class="bigImg">
-                                <img src="/resources/images/card-img.jpg" alt="" title="" />
-                            </figure>
-                            <figcaption class="ipad-text">
-                                <label class="lbl-txt secondaryColor">Program</label>
-                                <h2>How to write an effective mission statement</h2>
-                                <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text...</p>
-                                <ul class="cards-dtls">
-                                    <li><img src="/resources/images/icon/article.png" class="article" alt="Article" title="Article"> Article</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                </ul>
-                            </figcaption>
-                        </div>
+                        <a href="resource-details.shtml">
+                            <div class="card">
+                                <figure class="bigImg">
+                                    <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                </figure>
+                                <figcaption class="ipad-text">
+                                    <label class="lbl-txt secondaryColor">Program</label>
+                                    <h2>How to write an effective mission statement</h2>
+                                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text...</p>
+                                    <ul class="cards-dtls">
+                                        <li><img src="/resources/images/icon/article.png" class="article" alt="Article" title="Article"> Article</li>
+                                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                    </ul>
+                                </figcaption>
+                            </div>
+                        </a>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="card typ2">
-                                    <figure>
-                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
-                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
-                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Leadership Development </label>
-                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
-                                        <ul class="cards-dtls">
-                                            <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
+                                <a href="#">
+                                    <div class="card typ2">
+                                        <figure>
+                                            <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                            <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                            <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Leadership Development </label>
+                                            <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                            <ul class="cards-dtls">
+                                                <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-md-12">
-                                <div class="card typ2">
-                                    <figure>                                       
-                                        <img src="/resources/images/feature-one.png" alt="CBO Diaries" title="CBO Diaries" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt blueColor">CBO Diaries</label>
-                                        <h2>Annai Therasa Makkal Sevai Maiyam (ATMSM)</h2>
-                                        <!-- <ul class="cards-dtls">
-                                            <li>Article</li>
-                                            <li>15 mins</li>
-                                        </ul> -->
-                                    </figcaption>
-                                </div>
+                                <a href="cbo-diaries.shtml">
+                                    <div class="card typ2">
+                                        <figure>                                       
+                                            <img src="/resources/images/feature-one.png" alt="CBO Diaries" title="CBO Diaries" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt blueColor">CBO Diaries</label>
+                                            <h2>Annai Therasa Makkal Sevai Maiyam (ATMSM)</h2>
+                                            <!-- <ul class="cards-dtls">
+                                                <li>Article</li>
+                                                <li>15 mins</li>
+                                            </ul> -->
+                                        </figcaption>
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-md-12">
-                                <div class="card typ2">
-                                    <figure>
-                                        <img src="/resources/images/feature-two.png" alt="Institutional Building" title="Institutional Building" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt greenColor">Institutional Building</label>
-                                        <h2>Talking to family when you can no longer care for an elderly parent</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/article.png" class="article" alt="Article" title="Article"> Article</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
+                                <a href="#">
+                                    <div class="card typ2">
+                                        <figure>
+                                            <img src="/resources/images/feature-two.png" alt="Institutional Building" title="Institutional Building" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
+                                            <h2>Talking to family when you can no longer care for an elderly parent</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/article.png" class="article" alt="Article" title="Article"> Article</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>

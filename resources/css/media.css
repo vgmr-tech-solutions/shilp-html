@@ -125,6 +125,7 @@
     header.dark{height: 0;}
     header::after{right: -362px;background-size: 62%;}
     header.dark .header-top .navbar .searchbar a .search-icon-input{z-index: 1;}
+    .inner-page .wrapper .list .heading{width: 100%;}
 
     /* List Resource Page */
     .list-resources .wrapper .list .heading{width: 100%;}
@@ -161,6 +162,11 @@
     .custom-details .resource-program .mission .mission-info .fondation-img ul{justify-content: center;}
     .custom-details .resource-program .mission .mission-info .help ul{justify-content: center;}
     .custom-details .resource-program .mission .mission-info .help ul li{margin-top: 0.5rem}
+
+    /* CBO Diaries */
+    .diaries-info .filters-card ul{justify-content: space-evenly;}
+    .diaries-info .filters .filters-data ul li{padding-left: 4px;}
+
 }
 
 @media screen and (max-width: 991px) {
@@ -304,6 +310,10 @@
     .custom-details .resource-program .mission .mission-info .help ul li img{width: 345px;}
     .custom-details .resource-program .mission .mission-info .help ul{justify-content: space-between;}
     .inner-page .related-resources .heading h2{font-size: 1.5rem;}
+
+    /* CBO Diaries */
+    .diaries-info .filters .filters-data ul{flex-wrap: wrap;}
+    .diaries-info .filters .filters-data ul li{margin-bottom: 0.5rem;}
     
 }
 @media screen and (max-width: 599px) {

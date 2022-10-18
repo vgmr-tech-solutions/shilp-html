@@ -143,190 +143,314 @@
                         </div>
                     </li>
                     <li class="middle-column">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
-                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
-                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
-                                        <ul class="cards-dtls">
-                                            <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>How to write an effective mission statement</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/finance.png" alt="" title="" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>Financial planning for organization</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
-                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
-                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>How to write an effective mission statement</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/finance.png" alt="" title="" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>Financial planning for organization</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                        </div>
+                        <ul>
+                            <li class="item">
+                                <a href="resource-details.shtml">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                            <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                            <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                            <ul class="cards-dtls">
+                                                <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>  
+                            </li>
+                            <li class="item" class="item">
+                                <a href="resource-details.shtml">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="resource-details.shtml">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/finance.png" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Financial planning for organization</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                            <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                            <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/finance.png" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Financial planning for organization</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                       
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                            <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                            <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                            <ul class="cards-dtls">
+                                                <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/finance.png" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Financial planning for organization</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                        
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                            <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                            <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/finance.png" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Financial planning for organization</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
                       
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
-                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
-                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
-                                        <ul class="cards-dtls">
-                                            <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>How to write an effective mission statement</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/finance.png" alt="" title="" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>Financial planning for organization</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                        </div>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                            <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                            <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/finance.png" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Financial planning for organization</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
 
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
-                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
-                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>How to write an effective mission statement</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                            <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                            <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
                                 <div class="card">
                                     <figure>
                                         <img src="/resources/images/finance.png" alt="" title="" />
@@ -340,58 +464,62 @@
                                         </ul>
                                     </figcaption>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/feature-video.png" alt="video" title="video" />
-                                        <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
-                                        <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>Shareholder vs Stakeholder: What's the difference?</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>How to write an effective mission statement</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card">
-                                    <figure>
-                                        <img src="/resources/images/finance.png" alt="" title="" />
-                                    </figure>
-                                    <figcaption>
-                                        <label class="lbl-txt mainColor">Program</label>
-                                        <h2>Financial planning for organization</h2>
-                                        <ul class="cards-dtls">
-                                            <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
-                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
-                                        </ul>
-                                    </figcaption>
-                                </div>
-                            </div>
-                        </div>
+                            </li>
+                      
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/feature-video.png" alt="video" title="video" />
+                                            <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                            <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/finance.png" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt mainColor">Program</label>
+                                            <h2>Financial planning for organization</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
 
                         <div class="btn-load-more">
                             <a class="btn-primary" id="loadMore">Load More...</a>
@@ -425,11 +553,11 @@
             $(this).parents('.left-column').removeClass('open');
         });
 
-        $(".card").slice(0, 15).show();
+        $(".item").slice(0, 15).show();
         $("#loadMore").on("click", function(e){
             e.preventDefault();
-            $(".card:hidden").slice(0, 6).slideDown();
-            if($(".card:hidden").length == 0) {
+            $(".item:hidden").slice(0, 3).slideDown();
+            if($(".item:hidden").length == 0) {
             $("#loadMore").text("No Content").addClass("noContent");
             }
         });  

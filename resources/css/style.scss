@@ -374,7 +374,7 @@ header{
             padding: 0;
             li{
               .navbar-brand{
-                img{height: 110px;transition: 0.5s all ease-in-out;}
+                img{height: 95px;transition: 0.5s all ease-in-out;}
               }
             }
           }
@@ -384,7 +384,7 @@ header{
                 color: var(--linkcolor);
                 font-size: 1.25rem;
                 font-weight: bold;
-                padding: 37px 25px;
+                padding: 48px 25px;
                 &:hover{
                   background-color: var(--secondarycolor);
                   color: var(--whitecolor);

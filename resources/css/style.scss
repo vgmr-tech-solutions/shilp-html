@@ -130,10 +130,10 @@ a {
     &.btn-sm{
         width: 230px;padding:0 0.2rem;letter-spacing: 0.5px;z-index:1;
     }
-    &:hover {
-        background: var(--maincolor);
-        border:1px solid $maincolor;
-    }
+    // &:hover {
+    //     background: var(--maincolor);
+    //     border:1px solid $maincolor;
+    // }
 }
 
 .btn-outline {
@@ -1014,16 +1014,18 @@ footer {
                         margin: 0;
                     }
 
-                    a {
+                    .btn-outline {
                         color: $secondarycolor;
                         font-size: 0.75rem;
                         cursor: pointer;
                         border: 1px solid $secondarycolor;
                         font-weight: 700;
                         line-height: 30px;
+                        &::before{background-color: var(--maincolor);border: 1px solid var(--maincolor);}
                         &:hover {
                             background-color: $maincolor;
                             color: #fff;
+                            border: 1px solid var(--maincolor);
                         }
                     }
                 }

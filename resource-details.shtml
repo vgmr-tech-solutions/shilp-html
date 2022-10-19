@@ -18,7 +18,7 @@
             <div class="container">
                 <ul class="breadcrumb">
                     <li><a href="#">Resource Hub</a></li>
-                    <li><a href="#">List of Resources</a></li>
+                    <li><a href="list-resources.shtml">List of Resources</a></li>
                     <li>Details Resources Topics</li>
                 </ul>
             </div>
@@ -80,8 +80,8 @@
                     <div class="source">
                         <h6>Source: </h6>
                         <ul>
-                            <li>https://medlineplus.gov/ency/patientinstructions/000952.htm</li>
-                            <li>https://meridianpsychiatricpartners.com/medication-management-consider/#:~:text=Medication%20management%20is%20a%20level,by%20a%20qualified%20physician%2Fprescribe</li>
+                            <li><a href="https://medlineplus.gov/ency/patientinstructions/000952.htm" target="_blank">https://medlineplus.gov/ency/patientinstructions/000952.htm</a></li>
+                            <li><a href="https://meridianpsychiatricpartners.com/medication-management-consider/#:~:text=Medication%20management%20is%20a%20level,by%20a%20qualified%20physician%2Fprescribe" target="_blank">https://meridianpsychiatricpartners.com/medication-management-consider/#:~:text=Medication%20management%20is%20a%20level,by%20a%20qualified%20physician%2Fprescribe</a></li>
                         </ul>
                     </div>
                 </div>
@@ -96,69 +96,77 @@
 
                 <ul class="owl-carousel owl-theme resources-carousel">
                     <li>
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/finance.png" alt="" title="">
-                            </figure>
-                            <figcaption>
-                                <label class="lbl-txt mainColor">Program</label>
-                                <h2>Financial planning for organization</h2>
-                                <ul class="cards-dtls">
-                                    <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
-                                </ul>
-                            </figcaption>
-                        </div>
+                        <a href="#">
+                            <div class="card">
+                                <figure>
+                                    <img src="/resources/images/finance.png" alt="" title="">
+                                </figure>
+                                <figcaption>
+                                    <label class="lbl-txt mainColor">Program</label>
+                                    <h2>Financial planning for organization</h2>
+                                    <ul class="cards-dtls">
+                                        <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
+                                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                    </ul>
+                                </figcaption>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/feature-video.png" alt="video" title="video">
-                                <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
-                                <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                            </figure>
-                            <figcaption>
-                                <label class="lbl-txt mainColor">Program</label>
-                                <h2>Shareholder vs Stakeholder: What's the difference?</h2>
-                                <ul class="cards-dtls">
-                                    <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                </ul>
-                            </figcaption>
-                        </div>
+                        <a href="#">
+                            <div class="card">
+                                <figure>
+                                    <img src="/resources/images/feature-video.png" alt="video" title="video">
+                                    <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                    <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                </figure>
+                                <figcaption>
+                                    <label class="lbl-txt mainColor">Program</label>
+                                    <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                    <ul class="cards-dtls">
+                                        <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                    </ul>
+                                </figcaption>
+                            </div>
+                        </a>
                     </li>
                     
                     <li>
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/finance.png" alt="" title="">
-                            </figure>
-                            <figcaption>
-                                <label class="lbl-txt mainColor">Program</label>
-                                <h2>Financial planning for organization</h2>
-                                <ul class="cards-dtls">
-                                    <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
-                                </ul>
-                            </figcaption>
-                        </div>
+                        <a href="#">
+                            <div class="card">
+                                <figure>
+                                    <img src="/resources/images/finance.png" alt="" title="">
+                                </figure>
+                                <figcaption>
+                                    <label class="lbl-txt mainColor">Program</label>
+                                    <h2>Financial planning for organization</h2>
+                                    <ul class="cards-dtls">
+                                        <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
+                                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                    </ul>
+                                </figcaption>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/feature-video.png" alt="video" title="video">
-                                <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
-                                <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-                            </figure>
-                            <figcaption>
-                                <label class="lbl-txt mainColor">Program</label>
-                                <h2>Shareholder vs Stakeholder: What's the difference?</h2>
-                                <ul class="cards-dtls">
-                                    <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
-                                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                </ul>
-                            </figcaption>
-                        </div>
+                        <a href="#">
+                            <div class="card">
+                                <figure>
+                                    <img src="/resources/images/feature-video.png" alt="video" title="video">
+                                    <span><img src="/resources/images/icon/video-play.png" alt="video play" title="video play"> </span>
+                                    <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                </figure>
+                                <figcaption>
+                                    <label class="lbl-txt mainColor">Program</label>
+                                    <h2>Shareholder vs Stakeholder: What's the difference?</h2>
+                                    <ul class="cards-dtls">
+                                        <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                        <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
+                                    </ul>
+                                </figcaption>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>

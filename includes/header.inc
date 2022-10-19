@@ -26,7 +26,7 @@
                 <ul>
                     <li>
                         <a href="/index.shtml" class="navbar-brand">
-                            <img src="/resources/images/shilp-logo.png" alt="Samruddh Sanstha" title="Samruddh Sanstha">
+                            <img src="/resources/images/shilp-logo.png" alt="Shilp : Samruddh Sanstha" title="Shilp : Samruddh Sanstha">
                         </a>
                     </li>
                 </ul>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="searchbar">
                     <input type="text" class="form-control" placeholder="Search">
-                    <a href="#">
+                    <a href="/list-resources.shtml">
                         <span class="fa fa-search search-icon-input"></span>
                     </a>
                 </div>

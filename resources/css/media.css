@@ -3,6 +3,17 @@
 }
 
 @media screen and (max-width: 1366px) {
+  header::after {
+    content: "";
+    background: url(/resources/images/top-image.png) 0 0 no-repeat;
+    height: 480px;
+    position: absolute;
+    width: 604px;
+    background-size: 100%;
+    top: 0;
+    right: -50px;
+    z-index: -9;
+}
 
 }
 

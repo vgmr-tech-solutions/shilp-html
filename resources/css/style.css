@@ -140,6 +140,16 @@ a {
   margin-bottom: 2rem;
 }
 
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+}
+
 .btn-primary {
   font-size: 0.875rem;
   font-weight: 700;
@@ -156,6 +166,39 @@ a {
   background: #D41362;
   color: #FFF;
   border: 1px solid #D41362;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.btn-primary:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondarycolor);
+  border-radius: 5px;
+  z-index: -2;
+}
+.btn-primary:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: var(--maincolor);
+  transition: all 0.3s;
+  border-radius: 5px;
+  z-index: -1;
+}
+.btn-primary:hover {
+  color: #fff;
+}
+.btn-primary:hover:before {
+  width: 100%;
 }
 .btn-primary.btn-sm {
   width: 230px;
@@ -183,11 +226,37 @@ a {
   border: 0;
   border: 1px solid #FFF;
   color: #FFF;
+  transition: all 0.3s;
+  position: relative;
+}
+.btn-outline:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #fff;
+  z-index: -1;
 }
 .btn-outline:hover {
-  background: var(--maincolor);
-  border: 1px solid #970F65;
-  color: var(--whitecolor);
+  background: var(--whitecolor);
+  border: 1px solid var(--whitecolor);
+  color: var(--maincolor);
+}
+.btn-outline:hover:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+.btn-outline:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
 }
 
 .bgBlue {
@@ -238,10 +307,19 @@ a {
 }
 .card figure {
   margin: 0;
+  overflow: hidden;
+}
+.card figure img {
+  transition: all 0.5s;
+}
+.card figure:hover img {
+  transform: scale(1.1);
 }
 .card figure img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card figure iframe {
   width: 100%;
@@ -249,6 +327,13 @@ a {
 }
 .card figure.bigImg {
   height: 390px;
+  overflow: hidden;
+}
+.card figure.bigImg img {
+  transition: all 0.5s;
+}
+.card figure.bigImg:hover img {
+  transform: scale(1.1);
 }
 .card figcaption {
   padding: 1rem;
@@ -288,9 +373,20 @@ a {
   position: absolute;
   top: 0;
   left: 0;
+  overflow: hidden;
+}
+.card.typ2 figure img {
+  transition: all 0.5s;
+}
+.card.typ2 figure:hover img {
+  transform: scale(1.1);
 }
 .card.typ2 figure img {
   width: 100%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card.typ2 figcaption {
   height: 180px;
@@ -476,7 +572,7 @@ header.dark .header-top .navbar .navbar-nav .nav-item .nav-link {
   color: var(--linkcolor);
   font-size: 1.25rem;
   font-weight: bold;
-  padding: 38px 25px;
+  padding: 37px 25px;
 }
 header.dark .header-top .navbar .navbar-nav .nav-item .nav-link:hover {
   background-color: var(--secondarycolor);
@@ -640,6 +736,9 @@ footer li {
 footer li a {
   color: #fff;
 }
+footer li a:hover {
+  color: #000;
+}
 footer .footer-link {
   padding: 0;
   margin: 0;
@@ -741,6 +840,8 @@ footer .copyright li {
   width: 100%;
   background-size: cover;
   position: relative;
+  margin: 0;
+  background-attachment: fixed;
 }
 .inner-page .wrapper .resource .resource-img img {
   width: 100%;
@@ -762,11 +863,6 @@ footer .copyright li {
   text-align: center;
   width: 330px;
   padding: 1rem;
-}
-.inner-page .wrapper .resource .resource-hub ul li figure figcaption .text-center .btn-outline:hover {
-  background: var(--whitecolor);
-  border: 1px solid var(--whitecolor);
-  color: var(--maincolor);
 }
 .inner-page .wrapper .resource .resource-hub ul li.shilp-program {
   background-color: var(--secondarycolor);
@@ -872,6 +968,7 @@ footer .copyright li {
 }
 .inner-page .wrapper .about-program figure img {
   box-shadow: rgba(1, 0, 0, 0.5) 0px 2px 8px 0px;
+  border-radius: 10px;
 }
 .inner-page .wrapper .about-program figure span {
   position: absolute;
@@ -1287,8 +1384,14 @@ footer .copyright li {
 }
 .inner-page .resource-program .mission .source ul li {
   font-size: 1.125rem;
-  color: var(--secondarycolor);
   margin-bottom: 1rem;
+  color: var(--secondarycolor);
+}
+.inner-page .resource-program .mission .source ul li a {
+  color: var(--secondarycolor);
+}
+.inner-page .resource-program .mission .source ul li a:hover {
+  color: var(--maincolor);
 }
 .inner-page .resource-program .mission .source ul li::marker {
   font-size: 1.5rem;

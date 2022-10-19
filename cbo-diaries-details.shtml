@@ -18,7 +18,7 @@
             <div class="container">
                 <ul class="breadcrumb">
                     <li><a href="#">Resource Hub</a></li>
-                    <li><a href="#">CBO Diaries</a></li>
+                    <li><a href="cbo-diaries.shtml">CBO Diaries</a></li>
                     <li>Details CBO Diaries</li>
                 </ul>
             </div>
@@ -125,45 +125,53 @@
 
                 <ul class="owl-carousel owl-theme resources-carousel">
                     <li>
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/diaries-one.png" alt="" title="">
-                            </figure>
-                            <figcaption>
-                                <h2>Awake Agriculture and Rural Development Society (AARDS)</h2>
-                            </figcaption>
-                        </div>
+                        <a href="#">
+                            <div class="card">
+                                <figure>
+                                    <img src="/resources/images/diaries-one.png" alt="" title="">
+                                </figure>
+                                <figcaption>
+                                    <h2>Awake Agriculture and Rural Development Society (AARDS)</h2>
+                                </figcaption>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/diaries-two.png" alt="video" title="video">                           
-                            </figure>
-                            <figcaption>
-                                <h2>Bethamacharla FPC</h2>
-                            </figcaption>
-                        </div>
+                        <a href="#">
+                            <div class="card">
+                                <figure>
+                                    <img src="/resources/images/diaries-two.png" alt="video" title="video">                           
+                                </figure>
+                                <figcaption>
+                                    <h2>Bethamacharla FPC</h2>
+                                </figcaption>
+                            </div>
+                        </a>
                     </li>
                     
                     <li>
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/diaries-three.png" alt="" title="">
-                            </figure>
-                            <figcaption>
-                                <h2>BWDA - Panruti Branch</h2>
-                            </figcaption>
-                        </div>
+                        <a href="#">
+                            <div class="card">
+                                <figure>
+                                    <img src="/resources/images/diaries-three.png" alt="" title="">
+                                </figure>
+                                <figcaption>
+                                    <h2>BWDA - Panruti Branch</h2>
+                                </figcaption>
+                            </div>
+                        </a>
                     </li>
                     <li>
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/diaries-four.png" alt="" title="">                             
-                            </figure>
-                            <figcaption>
-                                <h2>BWDA - Villupuram Branch</h2>
-                            </figcaption>
-                        </div>
+                        <a href="#">
+                            <div class="card">
+                                <figure>
+                                    <img src="/resources/images/diaries-four.png" alt="" title="">                             
+                                </figure>
+                                <figcaption>
+                                    <h2>BWDA - Villupuram Branch</h2>
+                                </figcaption>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>

@@ -100,4 +100,7 @@ function toggleTheme() {
   }
 })();
 
- 
+$('.zoom-image').magnificPopup({
+  type: 'image'
+  // other options
+});

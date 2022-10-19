@@ -184,7 +184,7 @@
                 </div>
                
                 <div class="text-center mt-2">
-                    <a href="#" class="btn-primary">Explore All Resources</a>
+                    <a href="list-resources.shtml" class="btn-primary">Explore All Resources</a>
                 </div>
             </div>
         </section>

@@ -884,6 +884,8 @@ footer {
                             margin-bottom: 14px;
                             font-size: 1rem;
                             color: var(--linkcolor);
+                            display: flex;
+                            align-items: center;
 
                             p {
                                 position: absolute;
@@ -937,7 +939,7 @@ footer {
                           content: "";
                           position: absolute;
                           left: 2px;
-                          top: 9px;
+                          top: 10px;
                           background: #FFF;
                           width: 3px;
                           height: 3px;

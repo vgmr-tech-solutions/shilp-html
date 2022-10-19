@@ -1066,6 +1066,8 @@ footer .copyright li {
   margin-bottom: 14px;
   font-size: 1rem;
   color: var(--linkcolor);
+  display: flex;
+  align-items: center;
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox .styled-checkbox + label p {
   position: absolute;
@@ -1102,7 +1104,7 @@ footer .copyright li {
   content: "";
   position: absolute;
   left: 2px;
-  top: 9px;
+  top: 10px;
   background: #FFF;
   width: 3px;
   height: 3px;

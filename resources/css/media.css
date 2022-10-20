@@ -134,16 +134,18 @@
       padding: 0;
       display: block;
       width: 20%;
-      right: 285px;
-      top: 28%;
+      right: -15%;
+      top: 31.5%;
       text-align: center;
       font-size: 2rem;
       font-weight: 700;
       padding-top: 10px;
       padding-bottom: 10px;
+      transform: translate(-50%, -50%);
     }
     header.dark .header-top .navbar .navbar-nav .nav-item .sub-menu-block{width: 100%;}
     header.dark .header-top .navbar .navbar-nav .nav-item .nav-link{color: var(--whitecolor);}
+    header.dark .header-top .navbar .searchbar input{width: 358px;}
           /* inner-page Page */
     .inner-page .wrapper {padding-top: 170px;}
     .home .wrapper {padding-top: 170px;}
@@ -297,13 +299,14 @@
       padding: 0;
       display: block;
       width: 20%;
-      right: 103px;
-      margin-top: -86px;
+      right: -11%;
+      top: 41%;
       text-align: center;
       font-size: 2rem;
       font-weight: 700;
       padding-top: 10px;
       padding-bottom: 10px;
+      transform: translate(-50%, -50%);
     }
     ul.navbar-nav>li>.sub-menu-block {
       background: rgb(226,240,255);
@@ -339,7 +342,8 @@
   header.dark .header-top .top .custom-top .resp-search{display: block;}
   header.dark .header-top .top .custom-top .resp-search a.search{position: relative;}
   header.dark .header-top .top .custom-top .resp-search a.search .input-search{position: absolute;top: 13px;right: 12px;}
-  header.dark .header-top .top .custom-top .resp-search a.search .input-search em.fa.fa-search{color: var(--secondarycolor);}
+  header.dark .header-top .top .custom-top .resp-search a.search .input-search em.fa.fa-search{color: #fff}
+  header.dark.fixed-header .header-top .top .custom-top .resp-search a.search .input-search em.fa.fa-search{color: var(--secondarycolor);}
     /* Home Page */   
     .home .wrapper{padding: 0;}
     .home .wrapper .banner .banner-info p{font-size: 1rem;}
@@ -372,7 +376,8 @@
     .inner-page .wrapper{padding: 0;}
     header::after{background-size: 83%;top: 0;right: -116px;z-index: -9;}
     header.dark{height: 135px;}
-    header.dark .header-top .navbar .searchbar a .search-icon-input{z-index: 1;}
+    header.dark .header-top .navbar .searchbar a .search-icon-input{z-index: 1;right: -92px;}
+    header.dark .header-top .navbar .searchbar input{width: 358px;}
 
     .inner-page .breadcrumb-nav .breadcrumb {padding: 0.125rem 0;}
 
@@ -395,6 +400,7 @@
     /* CBO Diaries */
     .diaries-info .filters .filters-data ul{flex-wrap: wrap;}
     .diaries-info .filters .filters-data ul li{margin-bottom: 0.5rem;}
+    .diaries-info .filters-card ul .item{width: 100%;}
     
 }
 @media screen and (max-width: 599px) {

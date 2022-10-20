@@ -838,8 +838,6 @@ footer .copyright li {
   width: 100%;
   background-size: cover;
   position: relative;
-  margin: 0;
-  background-attachment: fixed;
 }
 .home .wrapper .resource .resource-img img {
   width: 100%;

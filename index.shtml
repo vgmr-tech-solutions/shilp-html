@@ -278,5 +278,11 @@
     <!-- footer js css and script starts -->
     <!--#include virtual='/includes/footer-js-css.inc'-->
     <!-- footer js css and script ends -->
+    <script>
+
+    $('.resource-hub li').hover(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+    })
+    </script>
 </body>
 </html>

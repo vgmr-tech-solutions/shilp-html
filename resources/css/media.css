@@ -217,7 +217,20 @@
 }
 
 @media screen and (max-width: 991px) {
-
+  .home .wrapper .resource .resource-hub ul li figure figcaption {display: none;transform: translateY(100%);transition: .5s all ease-in-out;}
+  .home .wrapper .resource .resource-hub ul li figure .icon {position: relative;top:50%}
+  .home .wrapper .resource .resource-hub ul li {width: 25%;}
+  .home .wrapper .resource .resource-hub ul li.active {width: 25%;transition: .5s all ease-in-out;}
+  .home .wrapper .resource .resource-hub ul li.active figure figcaption {display: inline-block;position: absolute;left: 0;width: 100%;background-color: var(--secondarycolor);bottom: -87%;text-align: left;padding: 1rem;z-index: 9;transform: translateY(0%);} 
+  .home .wrapper .resource .resource-hub {width: 100%;bottom: -220px;position: static;}
+  .home .wrapper .resource .resource-hub ul li figure { position: static;margin:0;}
+  .home .wrapper .resource .resource-hub {height: 400px;}
+  .home .wrapper .resource .resource-hub ul {position: relative;}
+  .home .wrapper .resource .resource-hub ul li figure figcaption h4 {padding-top:0;}
+  .home .wrapper .resource .resource-hub ul li.shilp-program figure figcaption {display: inline-block;position: absolute;left: 0;width: 100%;background-color: var(--secondarycolor);bottom: -87%;text-align: left;padding: 1rem;transform: translateY(0%);}
+  .home .wrapper .resource .resource-hub ul li.cbo-diaries figure figcaption {background-color: var(--bluecolor);}
+  .home .wrapper .resource .resource-hub ul li.leadership-development figure figcaption {background-color: var(--maincolor);}
+  .home .wrapper .resource .resource-hub ul li.inst-building figure figcaption {background-color: var(--greencolor);}
 }
 
 @media (min-width: 768px) and (max-width: 990px) {
@@ -256,6 +269,7 @@
         -ms-transform: rotateX(0deg);
         transform: rotateX(0deg);
     }
+    
 
 }
 @media screen and (max-width: 767px) {  
@@ -373,7 +387,12 @@
     .desktop-purpose{display: none !important;}
     .tab-purpose{display:none !important}
     .mobile-purpose{display: block !important;}
-  
+    .home .wrapper .resource .resource-hub ul li figure .icon img {height: 50px;position: static;transform: none;}
+    .home .wrapper .resource .resource-hub ul li figure .icon {position: relative;top: 0;transform: none;left: inherit;height: 50px;}
+    .home .wrapper .resource .resource-hub ul li.shilp-program figure figcaption,
+    .home .wrapper .resource .resource-hub ul li.active figure figcaption,
+    .home .wrapper .resource .resource-hub ul li.active figure figcaption {bottom:-154%;}
+    .home .wrapper .resource .resource-hub ul li figure .icon {width: auto;}
 }
 @media screen and (max-width: 576px) {
     

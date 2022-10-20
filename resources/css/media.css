@@ -387,6 +387,7 @@
     .list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card{max-width: 100%;}
     .list-resources .wrapper .searchresult .custom-col .middle-column ul .item{width: 100%;}
     .list-resources .wrapper .searchresult .custom-col .left-column .filter-details{height: 85vh;}
+    .list-resources .wrapper .searchresult .custom-col .left-column .filter-details .close{top: 3.5%;}
 
     /* Resource details page */
     .inner-page .related-resources{padding-bottom: 0;}

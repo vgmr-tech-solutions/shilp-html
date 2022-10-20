@@ -374,7 +374,7 @@
     header.dark .header-top .navbar .searchbar input::placeholder {font-size: 1rem;}
     header.dark .header-top .navbar ul li .navbar-brand img{height: 70px;}
     .inner-page .wrapper{padding: 0;}
-    header::after{background-size: 83%;top: 0;right: -116px;z-index: -9;}
+    header::after{background-size: 100%;top: 0;right: 0;z-index: -9;height: 380px;width: 239px;}
     header.dark{height: 135px;}
     header.dark .header-top .navbar .searchbar a .search-icon-input{z-index: 1;right: -92px;}
     header.dark .header-top .navbar .searchbar input{width: 358px;}

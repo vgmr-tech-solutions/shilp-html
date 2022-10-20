@@ -365,6 +365,9 @@ header{
               }
 
             }
+            .resp-search{
+              display: none;
+            }
           }
         }
         .navbar {
@@ -857,9 +860,12 @@ footer {
             
                     .apply-filter {
                       display: flex;
-                      justify-content: space-around;
+                      justify-content: center;
                       background-color: #F6F6F6;
                       border-bottom: 1px solid #E6E6E6;
+                      .apply{
+                        .btn-apply{margin-right: 1rem;}
+                      }
                     }
                   }
                 .checkbox {

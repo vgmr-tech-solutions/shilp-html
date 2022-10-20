@@ -552,6 +552,9 @@ header.dark .header-top .top .custom-top .dropdown .slider.round {
 header.dark .header-top .top .custom-top .dropdown .slider.round:before {
   border-radius: 50%;
 }
+header.dark .header-top .top .custom-top .resp-search {
+  display: none;
+}
 header.dark .header-top .navbar {
   padding: 0;
 }
@@ -1038,9 +1041,12 @@ footer .copyright li {
 }
 .list-resources .wrapper .searchresult .custom-col .left-column.open .apply-filter {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #F6F6F6;
   border-bottom: 1px solid #E6E6E6;
+}
+.list-resources .wrapper .searchresult .custom-col .left-column.open .apply-filter .apply .btn-apply {
+  margin-right: 1rem;
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox.extra-text {
   padding-bottom: 15px;

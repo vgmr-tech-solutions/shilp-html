@@ -4,6 +4,13 @@
         <div class="top">
             <div class="container">
                 <ul class="custom-top">
+                    <li class="resp-search">
+                        <a class="search" href="#">
+                            <div class="input-search">
+                                <em class="fa fa-search"></em>
+                            </div>
+                        </a>
+                    </li>
                     <li>
                         <ul class="font-increament" id="sizecontroldiv">
                             <li class="decreaseFont"><a class="f-sm" href="#fontsize-1">A-</a></li>

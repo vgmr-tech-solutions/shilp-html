@@ -43,7 +43,7 @@
   width: 604px;
   background-size: 100%;
   top: 0;
-  right: -50px;
+  right: 0;
   z-index: -9;
 }
 
@@ -77,7 +77,7 @@
         width: 100%;
         height: 2px;
         border-radius: 99px;
-        background: #000;
+        background: var(--textcolor);
         transition: 0.3s ease;
         transform-origin: left;
       }
@@ -135,7 +135,7 @@
       display: block;
       width: 20%;
       right: 285px;
-      margin-top: -81px;
+      top: 28%;
       text-align: center;
       font-size: 2rem;
       font-weight: 700;
@@ -158,11 +158,17 @@
     .home .wrapper .about-program figure .program-video{width: 750px;}   
     .home .wrapper .about-program figcaption{padding-top: 16rem;}
 
+    header.dark .header-top .navbar .searchbar{display: none;}
+    header.dark .header-top .top .custom-top .resp-search{display: block;}
+    header.dark .header-top .top .custom-top .resp-search a.search{position: relative;}
+    header.dark .header-top .top .custom-top .resp-search a.search .input-search{position: absolute;top: 13px;right: 12px;}
+    header.dark .header-top .top .custom-top .resp-search a.search .input-search em.fa.fa-search{color: var(--secondarycolor);}
+
     footer .footer-list{margin: 0;}
     footer .copyright{margin: 0;padding: 0;}
     footer .footer-list > li:nth-child(1){width: 27%;}
 
-    header.dark .header-top .navbar .searchbar{position: absolute;top: -49px;}
+    header.dark .header-top .navbar .searchbar{position: absolute;top: -49px;right: 27%;}
     header.dark .header-top .top{height: 50px;}
     header.dark .header-top .top .custom-top li .font-increament{margin: 10px 0;}
     header.dark .header-top .top .custom-top .dropdown .switch{margin: 12px;}
@@ -191,7 +197,10 @@
     .list-resources .wrapper .searchresult .custom-col .middle-column .inner-page-list{justify-content: space-around;}
     .list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories .mycheck.open{width: 100%;}
     .list-resources .wrapper .searchresult .custom-col .left-column{height: 50px;}
-    .list-resources .wrapper .searchresult .custom-col .left-column .filter-details .close {display: block;cursor: pointer;position: absolute;top: 8%;right: 0;padding: 12px 16px;transform: translate(0%, -50%);font-size: 30px;}
+    .list-resources .wrapper .searchresult .custom-col .left-column .filter-details .close {display: block;cursor: pointer;position: absolute;top: 24px;right: 0;padding: 12px 16px;transform: translate(0%, -50%);font-size: 30px;}
+    .list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card{max-width: 100%;}
+    .list-resources .wrapper .searchresult .custom-col .middle-column ul .item{width: 50%;padding: 0 10px;}
+    .list-resources .wrapper .searchresult .custom-col .left-column .applied-filter .btn-outline{display: none;position: absolute;right: 64px;top: 8px;}
 
     /* Resources details Page */
     .inner-page .resource-program{padding: 1rem;}
@@ -211,8 +220,10 @@
     .custom-details .resource-program .mission .mission-info .help ul li{margin-top: 0.5rem}
 
     /* CBO Diaries */
-    .diaries-info .filters-card ul{justify-content: space-evenly;}
+    .diaries-info .filters-card ul{justify-content: flex-start;}
     .diaries-info .filters .filters-data ul li{padding-left: 4px;}
+    .diaries-info .filters-card ul .item{width: 50%; padding: 0 10px;margin: 0;}
+    .diaries-info .filters-card ul .item .card{max-width: 100%;}
 
 }
 
@@ -311,7 +322,11 @@
       -ms-transform: rotateX(0deg);
       transform: rotateX(0deg);
   }
-
+  header.dark .header-top .navbar .searchbar{display: none;}
+  header.dark .header-top .top .custom-top .resp-search{display: block;}
+  header.dark .header-top .top .custom-top .resp-search a.search{position: relative;}
+  header.dark .header-top .top .custom-top .resp-search a.search .input-search{position: absolute;top: 13px;right: 12px;}
+  header.dark .header-top .top .custom-top .resp-search a.search .input-search em.fa.fa-search{color: var(--secondarycolor);}
     /* Home Page */   
     .home .wrapper{padding: 0;}
     .home .wrapper .banner .banner-info p{font-size: 1rem;}
@@ -354,6 +369,7 @@
     .list-resources .wrapper .breadcrumb-nav .breadcrumb{padding: 0.125rem 0;}
     .list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card{max-width: 100%;}
     .list-resources .wrapper .searchresult .custom-col .middle-column ul .item{width: 100%;}
+    .list-resources .wrapper .searchresult .custom-col .left-column .filter-details{height: 85vh;}
 
     /* Resource details page */
     .inner-page .related-resources{padding-bottom: 0;}

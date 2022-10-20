@@ -542,15 +542,19 @@
     $(document).ready(function(){
         $('.applied-filter').click(function () {
             $(this).parents('.left-column').addClass('open');
-        });
+            $('.reset').css('display','block');
+       });
         $('.filter-details .close').click(function () {
             $(this).parents('.left-column').removeClass('open');
+            $('.reset').css('display','none');
         })
         $('.btn-apply').click(function () {
             $(this).parents('.left-column').removeClass('open');
+            $('.reset').css('display','none');
         });
         $('.btn-cancle').click(function () {
             $(this).parents('.left-column').removeClass('open');
+            $('.reset').css('display','none');
         });
 
         $(".item").slice(0, 15).show();

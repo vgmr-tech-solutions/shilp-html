@@ -17,6 +17,11 @@ $(window).scroll(function() {
     }
 });
 
+$('.fa-search').on('click', function(){
+  $('.searchbar').show();
+  $('.resp-search').hide();
+})
+
 // navbar js active js
 $(window).ready(function ($) {
   var path = window.location.href; // because the 'href' property of the DOM element is the absolute path
@@ -100,7 +105,4 @@ function toggleTheme() {
   }
 })();
 
-$('.zoom-image').magnificPopup({
-  type: 'image'
-  // other options
-});
+

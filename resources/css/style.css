@@ -773,6 +773,9 @@ footer .social-link li i.fa {
   color: #fff;
   font-size: 26px;
 }
+footer .social-link li i.fa:hover {
+  color: #000;
+}
 footer .social-link li:last-child {
   margin-right: 0;
 }

@@ -574,6 +574,7 @@ footer {
           display: inline-block;margin-right:10px;
           i.fa{
               color:#fff;font-size: 26px;
+              &:hover{color: #000;}
           }
 
           &:last-child {

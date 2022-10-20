@@ -803,34 +803,34 @@ footer .copyright li {
   font-size: 0.75rem;
 }
 
-.inner-page .wrapper {
+.home .wrapper {
   padding-top: 0;
 }
-.inner-page .wrapper .banner .banner-info {
+.home .wrapper .banner .banner-info {
   padding: 5.063rem 0rem 5.063rem 5.063rem;
   position: relative;
   display: flex;
   list-style-type: none;
 }
-.inner-page .wrapper .banner .banner-info h1 {
+.home .wrapper .banner .banner-info h1 {
   color: var(--headingcolor);
   font-weight: 800;
   padding-bottom: 1rem;
 }
-.inner-page .wrapper .banner .banner-info p {
+.home .wrapper .banner .banner-info p {
   font-size: 1.875rem;
   color: var(--linkcolor);
   font-weight: 300;
 }
-.inner-page .wrapper .banner .banner-info p b {
+.home .wrapper .banner .banner-info p b {
   color: var(--maincolor);
 }
-.inner-page .wrapper .banner .banner-info img {
+.home .wrapper .banner .banner-info img {
   position: absolute;
   bottom: -25px;
   right: 0;
 }
-.inner-page .wrapper .resource {
+.home .wrapper .resource {
   background-image: url(/resources/images/resource.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -841,55 +841,55 @@ footer .copyright li {
   margin: 0;
   background-attachment: fixed;
 }
-.inner-page .wrapper .resource .resource-img img {
+.home .wrapper .resource .resource-img img {
   width: 100%;
   max-height: 462px;
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
 }
-.inner-page .wrapper .resource .resource-hub {
+.home .wrapper .resource .resource-hub {
   position: absolute;
   bottom: -39%;
 }
-.inner-page .wrapper .resource .resource-hub ul {
+.home .wrapper .resource .resource-hub ul {
   list-style-type: none;
   padding: 0;
   display: flex;
 }
-.inner-page .wrapper .resource .resource-hub ul li {
+.home .wrapper .resource .resource-hub ul li {
   text-align: center;
   width: 330px;
   padding: 1rem;
 }
-.inner-page .wrapper .resource .resource-hub ul li.shilp-program {
+.home .wrapper .resource .resource-hub ul li.shilp-program {
   background-color: var(--secondarycolor);
 }
-.inner-page .wrapper .resource .resource-hub ul li.shilp-program figure .icon {
+.home .wrapper .resource .resource-hub ul li.shilp-program figure .icon {
   background-color: var(--secondarycolor);
 }
-.inner-page .wrapper .resource .resource-hub ul li.cbo-diaries {
+.home .wrapper .resource .resource-hub ul li.cbo-diaries {
   background-color: var(--bluecolor);
 }
-.inner-page .wrapper .resource .resource-hub ul li.cbo-diaries figure .icon {
+.home .wrapper .resource .resource-hub ul li.cbo-diaries figure .icon {
   background-color: var(--bluecolor);
 }
-.inner-page .wrapper .resource .resource-hub ul li.leadership-development {
+.home .wrapper .resource .resource-hub ul li.leadership-development {
   background-color: var(--maincolor);
 }
-.inner-page .wrapper .resource .resource-hub ul li.leadership-development figure .icon {
+.home .wrapper .resource .resource-hub ul li.leadership-development figure .icon {
   background-color: var(--maincolor);
 }
-.inner-page .wrapper .resource .resource-hub ul li.inst-building {
+.home .wrapper .resource .resource-hub ul li.inst-building {
   background-color: var(--greencolor);
 }
-.inner-page .wrapper .resource .resource-hub ul li.inst-building figure .icon {
+.home .wrapper .resource .resource-hub ul li.inst-building figure .icon {
   background-color: var(--greencolor);
 }
-.inner-page .wrapper .resource .resource-hub ul li figure {
+.home .wrapper .resource .resource-hub ul li figure {
   position: relative;
 }
-.inner-page .wrapper .resource .resource-hub ul li figure .icon {
+.home .wrapper .resource .resource-hub ul li figure .icon {
   position: absolute;
   top: -27%;
   left: 50%;
@@ -899,7 +899,7 @@ footer .copyright li {
   height: 120px;
   transform: translateX(-50%);
 }
-.inner-page .wrapper .resource .resource-hub ul li figure .icon img {
+.home .wrapper .resource .resource-hub ul li figure .icon img {
   width: auto;
   height: 80px;
   position: absolute;
@@ -907,74 +907,74 @@ footer .copyright li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.inner-page .wrapper .resource .resource-hub ul li figure figcaption h4 {
+.home .wrapper .resource .resource-hub ul li figure figcaption h4 {
   font-size: 1.625rem;
   color: #FFF;
   font-weight: bold;
   padding-top: 3.2rem;
 }
-.inner-page .wrapper .resource .resource-hub ul li figure figcaption p {
+.home .wrapper .resource .resource-hub ul li figure figcaption p {
   color: #FFF;
   padding-top: 1.25rem;
 }
-.inner-page .wrapper .resource .resource-hub ul li figure figcaption .text-center {
+.home .wrapper .resource .resource-hub ul li figure figcaption .text-center {
   padding-top: 1.875rem;
 }
-.inner-page .wrapper .resource .resource-hub ul li figure figcaption .text-center .btn-outline {
+.home .wrapper .resource .resource-hub ul li figure figcaption .text-center .btn-outline {
   padding: 0 11px;
 }
-.inner-page .wrapper .featured-resources {
+.home .wrapper .featured-resources {
   padding-top: 13rem;
 }
-.inner-page .wrapper .featured-resources .heading {
+.home .wrapper .featured-resources .heading {
   text-align: center;
   margin-bottom: 1.063rem;
 }
-.inner-page .wrapper .featured-resources .heading h2 {
+.home .wrapper .featured-resources .heading h2 {
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--maincolor);
 }
-.inner-page .wrapper .featured-resources .heading p {
+.home .wrapper .featured-resources .heading p {
   font-size: 1.5rem;
   width: 723px;
   font-weight: 400;
   margin: 0 auto;
 }
-.inner-page .wrapper .featured-resources .card figure span {
+.home .wrapper .featured-resources .card figure span {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.inner-page .wrapper .featured-resources .card figure span img {
+.home .wrapper .featured-resources .card figure span img {
   width: 35px;
   height: 35px;
 }
-.inner-page .wrapper .featured-resources .card figcaption .cards-dtls .article {
+.home .wrapper .featured-resources .card figcaption .cards-dtls .article {
   height: 1.25rem;
 }
-.inner-page .wrapper .about-program {
+.home .wrapper .about-program {
   position: relative;
   margin-top: 17rem;
 }
-.inner-page .wrapper .about-program figure {
+.home .wrapper .about-program figure {
   position: absolute;
   top: -43%;
   left: 50%;
   transform: translateX(-50%);
 }
-.inner-page .wrapper .about-program figure img {
+.home .wrapper .about-program figure img {
   box-shadow: rgba(1, 0, 0, 0.5) 0px 2px 8px 0px;
   border-radius: 10px;
 }
-.inner-page .wrapper .about-program figure span {
+.home .wrapper .about-program figure span {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.inner-page .wrapper .about-program figcaption {
+.home .wrapper .about-program figcaption {
   text-align: center;
   background-color: var(--secondarycolor);
   height: auto;
@@ -982,26 +982,14 @@ footer .copyright li {
   color: #fff;
   padding-bottom: 3.188rem;
 }
-.inner-page .wrapper .about-program figcaption h4 {
+.home .wrapper .about-program figcaption h4 {
   font-size: 2.5rem;
   font-weight: 700;
 }
-.inner-page .wrapper .about-program figcaption p {
+.home .wrapper .about-program figcaption p {
   font-size: 1.125rem;
   width: 599px;
   margin: 1.4rem auto;
-}
-.inner-page .wrapper .list .heading {
-  width: 849px;
-}
-.inner-page .wrapper .list .heading h2 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #660562;
-}
-.inner-page .wrapper .list .heading p {
-  font-size: 1.125rem;
-  font-weight: 400;
 }
 
 .list-resources .wrapper .breadcrumb-nav .breadcrumb {
@@ -1285,6 +1273,18 @@ footer .copyright li {
   pointer-events: none;
 }
 
+.inner-page .list .heading {
+  width: 849px;
+}
+.inner-page .list .heading h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #660562;
+}
+.inner-page .list .heading p {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
 .inner-page .resource-program {
   max-width: 1000px;
   margin: 0 auto;
@@ -1338,11 +1338,18 @@ footer .copyright li {
   display: flex;
   align-items: flex-start;
 }
+.inner-page .resource-program .program .share .social-link li a:hover {
+  border: 1px solid var(--whitecolor);
+  background-color: var(--maincolor);
+}
 .inner-page .resource-program .program .share .social-link li a i {
   color: var(--secondarycolor);
   font-size: 1.125rem;
   align-self: center;
   margin: 0 auto;
+}
+.inner-page .resource-program .program .share .social-link li a i:hover {
+  color: var(--whitecolor);
 }
 .inner-page .resource-program .info .cards-dtls {
   display: flex;

@@ -37,6 +37,7 @@
                 <ul class="custom-col">
                     <li class="left-column">
                         <div class="applied-filter">
+                            <i class="fa fa-filter" aria-hidden="true"></i>
                             <h4>Filter</h4>
                             <div class="text-center">
                                 <a href="#" class="reset btn-outline">Clear All</a>
@@ -138,7 +139,7 @@
                             <a class="btn btn-primary btn-apply" alt="Link to Apply" title="Link to Apply">Apply</a>
                             </div>
                             <div class="cancle">
-                            <a class="btn btn-primary btn-cancle" alt="Link to Cancle" title="Link to Cancle">Cancle</a>
+                            <a class="btn btn-outline btn-cancle" alt="Link to Cancle" title="Link to Cancle">Cancle</a>
                             </div>
                         </div>
                     </li>

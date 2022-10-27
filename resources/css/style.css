@@ -51,7 +51,7 @@ body {
 }
 
 .container, .container-lg, .container-md, .container-sm {
-  max-width: 1366px !important;
+  max-width: 1326px !important;
 }
 
 a {
@@ -238,7 +238,6 @@ a {
 }
 .btn-outline:hover {
   background: var(--whitecolor);
-  border: 1px solid var(--whitecolor);
   color: var(--maincolor);
 }
 .btn-outline:hover:before {
@@ -343,6 +342,7 @@ a {
 }
 .card figcaption p {
   font-size: 1.125rem;
+  font-weight: 400;
 }
 .card figcaption .cards-dtls {
   display: flex;
@@ -435,9 +435,6 @@ a {
   content: "\f105";
 }
 
-header {
-  transition: 0.5s all ease-in-out;
-}
 header::after {
   content: "";
   background: url(/resources/images/top-image.png) 0 0 no-repeat;
@@ -476,10 +473,14 @@ header.dark .header-top .top .custom-top li .font-increament {
 }
 header.dark .header-top .top .custom-top li .font-increament li {
   padding: 2px 13px;
-  width: 33%;
+  width: 34%;
   font-size: 1rem;
   font-weight: 700;
   height: 30px;
+  border-right: 1px solid var(--secondarycolor);
+}
+header.dark .header-top .top .custom-top li .font-increament li:last-child {
+  border-right: 0;
 }
 header.dark .header-top .top .custom-top li .font-increament li a {
   color: var(--secondarycolor);
@@ -561,6 +562,7 @@ header.dark .header-top .navbar {
 header.dark .header-top .navbar ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 header.dark .header-top .navbar ul li .navbar-brand img {
   height: 95px;
@@ -570,7 +572,7 @@ header.dark .header-top .navbar .navbar-nav .nav-item .nav-link {
   color: var(--linkcolor);
   font-size: 1.25rem;
   font-weight: bold;
-  padding: 48px 25px;
+  padding: 38px 25px;
 }
 header.dark .header-top .navbar .navbar-nav .nav-item .nav-link:hover {
   background-color: var(--secondarycolor);
@@ -634,6 +636,37 @@ header.dark .header-top .navbar .navbar-nav .nav-item .sub-menu-block li ul li.s
 header.dark .header-top .navbar .navbar-nav .navActive:hover {
   background-color: var(--secondarycolor);
 }
+header.dark .header-top .navbar .social-info {
+  display: none;
+  padding-left: 25px;
+}
+header.dark .header-top .navbar .social-info h5 {
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 0;
+}
+header.dark .header-top .navbar .social-info li {
+  display: inline-block;
+  margin-right: 10px;
+}
+header.dark .header-top .navbar .social-info li a {
+  color: #fff;
+}
+header.dark .header-top .navbar .social-info li a i {
+  font-size: 26px;
+  color: #fff;
+}
+header.dark .header-top .navbar .social-info .contact-info {
+  padding: 15px 0;
+}
+header.dark .header-top .navbar .social-info .contact-info li .fa {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 8px;
+}
+header.dark .header-top .navbar .social-info .contact-info li .fa.fa-envelope {
+  font-size: 12px;
+}
 header.dark .header-top .navbar .searchbar {
   position: relative;
 }
@@ -680,6 +713,14 @@ header.dark .header-top .navbar .searchbar a .search-icon-input:hover {
   background-color: var(--maincolor);
   color: var(--whitecolor);
 }
+header.dark .header-top .navbar .searchbar .fa {
+  display: none;
+  position: absolute;
+  top: -6px;
+  right: -100px;
+  z-index: 9;
+  color: #000;
+}
 header.dark.fixed-header {
   background: var(--whitecolor);
   position: fixed;
@@ -693,7 +734,11 @@ header.dark.fixed-header::after {
   background: none;
 }
 header.dark.fixed-header .navbar ul li .navbar-brand img {
-  height: 84px;
+  height: 80px;
+}
+
+.inner-page.custom-details header.dark.fixed-header::after {
+  background: none;
 }
 
 footer {
@@ -779,6 +824,18 @@ footer .social-link li i.fa {
 footer .social-link li i.fa:hover {
   color: #000;
 }
+footer .social-link li i.fa.fa-facebook-square:hover {
+  color: #0165E1;
+}
+footer .social-link li i.fa.fa-instagram:hover {
+  color: #e95950;
+}
+footer .social-link li i.fa.fa-linkedin-square:hover {
+  color: #0A66C2;
+}
+footer .social-link li i.fa.fa-youtube-play:hover {
+  color: #FF0000;
+}
 footer .social-link li:last-child {
   margin-right: 0;
 }
@@ -814,23 +871,25 @@ footer .copyright li {
   position: relative;
   display: flex;
   list-style-type: none;
+  margin: 0;
 }
 .home .wrapper .banner .banner-info h1 {
   color: var(--headingcolor);
-  font-weight: 800;
+  font-weight: 700;
   padding-bottom: 1rem;
 }
 .home .wrapper .banner .banner-info p {
   font-size: 1.875rem;
   color: var(--linkcolor);
   font-weight: 300;
+  width: 650px;
 }
 .home .wrapper .banner .banner-info p b {
   color: var(--maincolor);
 }
 .home .wrapper .banner .banner-info img {
   position: absolute;
-  bottom: -25px;
+  bottom: -10px;
   right: 0;
 }
 .home .wrapper .resource {
@@ -925,7 +984,7 @@ footer .copyright li {
   padding: 0 11px;
 }
 .home .wrapper .featured-resources {
-  padding-top: 2rem;
+  padding-top: 12rem;
 }
 .home .wrapper .featured-resources .heading {
   text-align: center;
@@ -1148,6 +1207,9 @@ footer .copyright li {
   border-bottom: 1px solid #E6E6E6;
   align-items: center;
 }
+.list-resources .wrapper .searchresult .custom-col .left-column .applied-filter .fa-filter {
+  display: none;
+}
 .list-resources .wrapper .searchresult .custom-col .left-column .applied-filter h4 {
   color: var(--textcolor);
   font-weight: 700;
@@ -1183,7 +1245,7 @@ footer .copyright li {
   font-weight: 700;
   color: var(--linkcolor);
   line-height: "";
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 15px;
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories:last-child {
@@ -1224,6 +1286,10 @@ footer .copyright li {
 .list-resources .wrapper .searchresult .custom-col .left-column .apply-filter {
   display: none;
 }
+.list-resources .wrapper .searchresult .custom-col .left-column .apply-filter .cancle .btn-outline {
+  border: 1px solid var(--secondarycolor);
+  color: var(--secondarycolor);
+}
 .list-resources .wrapper .searchresult .custom-col .middle-column {
   width: 100%;
   padding-left: 30px;
@@ -1242,6 +1308,9 @@ footer .copyright li {
   margin-bottom: 1.875rem;
   max-width: 310px;
   width: 100%;
+}
+.list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figure {
+  border: 1px solid var(--lightpink);
 }
 .list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figure span {
   position: absolute;
@@ -1315,6 +1384,7 @@ footer .copyright li {
   font-size: 1rem;
   font-weight: 700;
   padding-left: 0.625rem;
+  display: inline-block;
 }
 .inner-page .resource-program .program .share .social-link {
   display: flex;
@@ -1345,6 +1415,10 @@ footer .copyright li {
 .inner-page .resource-program .program .share .social-link li a:hover {
   border: 1px solid var(--whitecolor);
   background-color: var(--maincolor);
+  color: var(--whitecolor);
+}
+.inner-page .resource-program .program .share .social-link li a:hover i {
+  color: var(--whitecolor);
 }
 .inner-page .resource-program .program .share .social-link li a i {
   color: var(--secondarycolor);
@@ -1365,6 +1439,15 @@ footer .copyright li {
   list-style-type: none;
   font-size: 0.875rem;
   padding-right: 1rem;
+  font-weight: 700;
+}
+.inner-page .resource-program .info .cards-dtls li i {
+  font-size: 1.2rem;
+  display: inline-block;
+  vertical-align: middle;
+}
+.inner-page .resource-program .info .cards-dtls li span {
+  font-weight: 400;
 }
 .inner-page .resource-program .info .cards-dtls li img {
   height: 1.25rem;
@@ -1415,7 +1498,7 @@ footer .copyright li {
 .inner-page .related-resources {
   background-color: #F7F7F7;
   padding-top: 19px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 .inner-page .related-resources .heading {
   margin: 1.438rem 0;
@@ -1428,6 +1511,7 @@ footer .copyright li {
 .inner-page .related-resources ul {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 .inner-page .related-resources ul li .card {
   margin-bottom: 1.875rem;
@@ -1618,13 +1702,15 @@ footer .copyright li {
   flex-wrap: wrap;
 }
 .diaries-info .filters-card ul .item {
-  margin-right: 25px;
   display: none;
 }
 .diaries-info .filters-card ul .item .card {
   padding-bottom: 30px;
   width: 100%;
   max-width: 310px;
+}
+.diaries-info .filters-card ul .item .card figure {
+  border: 1px solid var(--lightpink);
 }
 .diaries-info .filters-card ul .item .card figcaption {
   height: 82px;

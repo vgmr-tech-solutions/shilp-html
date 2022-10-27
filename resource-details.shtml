@@ -9,7 +9,7 @@
     <!--#include virtual='/includes/header-js-css.inc'-->
     <!-- header css and script ends -->
 </head>
-<body class="inner-page">
+<body class="inner-page custom-details">
     <!-- header css and script starts -->
     <!--#include virtual='/includes/header.inc'-->
     <!-- header css and script ends -->
@@ -46,7 +46,7 @@
             <div class="info">
                 <ul class="cards-dtls">
                     <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
-                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
+                    <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 <span>mins</span></li>
                 </ul>
             </div>  
 

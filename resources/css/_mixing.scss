@@ -103,7 +103,7 @@
       }
       &:hover {
         background: var(--whitecolor);
-        border: 1px solid var(--whitecolor);
+        // border: 1px solid var(--whitecolor);
         color: var(--maincolor);
         &:before {
           -webkit-transition:0.5s all ease;

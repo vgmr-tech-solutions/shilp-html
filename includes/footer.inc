@@ -30,7 +30,7 @@
             <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
           </ul>
           <ul class="footer-link contact-info">
-            <li><i class="fa fa-mobile"></i><a href="tel:7770007841">+91 00000 00000</a></li>
+            <li><i class="fa fa-mobile"></i><a href="tel:00000 00000">+91 00000 00000</a></li>
             <li><i class="fa fa-envelope"></i><a href="mailto:info@shilp.com">info@shilp.com</a></li>
           </ul>
         </li>

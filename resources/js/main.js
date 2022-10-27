@@ -22,6 +22,10 @@ $('.fa-search').on('click', function(){
   $('.resp-search').hide();
 })
 
+$('.fa-times-circle').on('click', function(){
+  $('.searchbar').hide();
+  $('.resp-search').show();
+})
 // navbar js active js
 $(window).ready(function ($) {
   var path = window.location.href; // because the 'href' property of the DOM element is the absolute path

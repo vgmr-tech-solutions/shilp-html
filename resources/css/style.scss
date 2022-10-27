@@ -22,7 +22,7 @@ body {
     font-family: 'FontAwesome', serif;
 }
 .container, .container-lg, .container-md, .container-sm {
-    max-width: 1366px !important;
+    max-width: 1326px !important;
 }
 
 
@@ -186,7 +186,7 @@ a {
     figcaption {padding:1rem;height: 210px;
         background: var(--lightpink);color: #000;
         h2 {font-size: 1.125rem;font-weight: 700;margin-top: 1rem;}
-        p {font-size: 1.125rem;}
+        p {font-size: 1.125rem;font-weight: 400;}
         .cards-dtls {
             display: flex;flex-direction: row;justify-content: space-between;margin:0;padding:0;
             li {list-style-type: none;font-size: 0.875rem;}
@@ -241,7 +241,7 @@ a {
 
 // Header CSSS
 header{
-  transition: 0.5s all ease-in-out;
+  // transition: 0.5s all ease-in-out;
   &::after{
     content: "";
     background: url(/resources/images/top-image.png) 0 0 no-repeat;
@@ -273,13 +273,15 @@ header{
                 border-radius: 5px;
                 color: var(--secondarycolor);
                 justify-content: space-between;
-                background-color: var(--whitecolor);
+                background-color: var(--whitecolor);  
                 li{
                   padding: 2px 13px;
-                  width: 33%;
+                  width: 34%;
                   font-size: 1rem;
                   font-weight: 700;
                   height: 30px;
+                  border-right: 1px solid var(--secondarycolor);
+                  &:last-child{border-right: 0;}
                   a{
                     color: var(--secondarycolor);
                   }
@@ -375,6 +377,7 @@ header{
           ul{
             list-style: none;
             padding: 0;
+            margin: 0;
             li{
               .navbar-brand{
                 img{height: 95px;transition: 0.5s all ease-in-out;}
@@ -387,7 +390,7 @@ header{
                 color: var(--linkcolor);
                 font-size: 1.25rem;
                 font-weight: bold;
-                padding: 48px 25px;
+                padding: 38px 25px;
                 &:hover{
                   background-color: var(--secondarycolor);
                   color: var(--whitecolor);
@@ -437,7 +440,28 @@ header{
               background-color: var(--secondarycolor);
             }
           }
-        
+          .social-info{
+            display: none;
+            padding-left: 25px;
+            h5{color: #fff;font-weight: 700;padding: 15px 0;}
+            li{
+              display: inline-block;
+              margin-right: 10px;
+              a{
+                color: #fff;
+                i{font-size: 26px; color: #fff;}
+              }
+            }
+            .contact-info{
+              padding: 15px 0;
+              li{
+                .fa{
+                  color: #fff;font-size: 20px;margin-right:8px;
+                  &.fa-envelope{font-size: 12px;}
+                }
+              }
+            }
+          }
           .searchbar{
             position: relative;
             input{
@@ -477,6 +501,14 @@ header{
                 }
               }
             }
+            .fa{
+              display: none;
+              position: absolute;
+              top: -6px;
+              right: -100px;
+              z-index: 9;
+              color: #000;
+            }
           }
         }
       }
@@ -496,7 +528,7 @@ header{
             li{
               .navbar-brand {
                 img {
-                  height: 84px;
+                  height: 80px;
                 }
               }
             }
@@ -505,7 +537,19 @@ header{
       }
   }
 }
-
+.inner-page{
+  &.custom-details{
+    header{
+      &.dark{
+        &.fixed-header{
+          &::after{
+            background: none;
+          }
+        }
+      }
+    }
+  }
+}
 
 //Footer CSS
 footer {
@@ -578,7 +622,26 @@ footer {
           i.fa{
               color:#fff;font-size: 26px;
               &:hover{color: #000;}
+              &.fa-facebook-square{
+                &:hover{
+                  color: #0165E1;
+                }
+              }
+              &.fa-instagram{
+                &:hover{color: #e95950;}
+              }
+              &.fa-linkedin-square{
+                &:hover{
+                  color: #0A66C2;
+                }
+              }
+              &.fa-youtube-play{
+                &:hover{
+                  color: 	#FF0000;
+                }
+              }
           }
+         
 
           &:last-child {
               margin-right: 0;
@@ -611,22 +674,24 @@ footer {
           position: relative;
           display: flex;
           list-style-type: none;
+          margin: 0;
           h1{
             color: var(--headingcolor);
-            font-weight: 800;
+            font-weight: 700;
             padding-bottom: 1rem;
           }
           p{
             font-size: 1.875rem;
             color: var(--linkcolor);
             font-weight: 300;
+            width: 650px;
             b{
               color: var(--maincolor);
             }
           }
           img{
             position: absolute;
-            bottom: -25px;
+            bottom: -10px;
             right: 0;
           }
         }
@@ -737,7 +802,7 @@ footer {
         }
       }
       .featured-resources{
-        padding-top: 2rem;
+        padding-top: 12rem;
         .heading{
           text-align: center;
           margin-bottom: 1.063rem;
@@ -1007,7 +1072,7 @@ footer {
                     padding: 0.8rem 1rem;
                     border-bottom: 1px solid #E6E6E6;
                     align-items: center;
-
+                    .fa-filter{display: none;}
                     h4 {
                         color: var(--textcolor);
                         font-weight: 700; 
@@ -1035,7 +1100,7 @@ footer {
                     .close{display: none}
                     .fliter-text{
                         h4{
-                            @include font(1.125rem,700,var(--linkcolor));text-transform: uppercase;margin-bottom: 15px;
+                            @include font(1.125rem,700,var(--linkcolor));text-transform: capitalize;margin-bottom: 15px;
                         }
                     }
 
@@ -1070,7 +1135,15 @@ footer {
                         padding-top: 20px;
                     }
                 }
-                .apply-filter{display: none;}
+                .apply-filter{
+                  display: none;
+                  .cancle{
+                    .btn-outline{
+                      border: 1px solid var(--secondarycolor);
+                      color: var(--secondarycolor);
+                    }
+                  }
+                }
             }
 
             .middle-column {
@@ -1089,6 +1162,7 @@ footer {
                       max-width: 310px;
                       width: 100%;
                       figure{
+                        border: 1px solid var(--lightpink);
                         span{
                           position: absolute;
                           top: 27%;
@@ -1169,6 +1243,7 @@ footer {
               font-size: 1rem;
               font-weight: 700;
               padding-left: 0.625rem;
+              display: inline-block;
             }
           }
         }
@@ -1200,6 +1275,8 @@ footer {
               &:hover{
                 border: 1px solid var(--whitecolor);
                 background-color: var(--maincolor);
+                color: var(--whitecolor);
+               i{color: var(--whitecolor);}
               }
               i{
                 color: var(--secondarycolor);
@@ -1223,7 +1300,10 @@ footer {
           list-style-type: none;
           font-size: 0.875rem;
           padding-right: 1rem;
-          img{
+          font-weight: 700;
+          i{font-size: 1.2rem;display: inline-block;vertical-align: middle;}
+          span{font-weight: 400;}
+          img{            
             height: 1.25rem;
           }
         }
@@ -1278,7 +1358,7 @@ footer {
  .related-resources{
   background-color: #F7F7F7;
   padding-top: 19px;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   .heading{
     margin: 1.438rem 0;
     h2{
@@ -1290,6 +1370,7 @@ footer {
   ul{
     list-style: none;
     padding-left: 0;
+    margin: 0;
     li{
       .card{
         margin-bottom: 1.875rem;
@@ -1508,12 +1589,15 @@ footer {
       justify-content: space-between;
       flex-wrap: wrap;
       .item{
-        margin-right: 25px;
+        // margin-right: 25px;
         display: none;
         .card{
           padding-bottom: 30px;
           width: 100%;
           max-width: 310px; 
+          figure{
+            border: 1px solid var(--lightpink);
+          }
           figcaption{
             height: 82px;
             padding: 0.3rem 1rem 0.3rem 1rem;

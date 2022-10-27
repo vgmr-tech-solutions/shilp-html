@@ -69,12 +69,28 @@
                             </a> 
                         </li>
                     </ul>
+                    <ul class="social-info">
+                        <li>
+                            <h5>Follow us on</h5>
+                            <ul class="social-link">
+                              <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                              <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                              <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+                            </ul>
+                            <ul class="contact-info">
+                              <li><i class="fa fa-mobile"></i><a href="tel:00000 00000">+91 00000 00000</a></li>
+                              <li><i class="fa fa-envelope"></i><a href="mailto:info@shilp.com">info@shilp.com</a></li>
+                            </ul>
+                          </li>
+                    </ul>
                 </div>
                 <div class="searchbar">
                     <input type="text" class="form-control" placeholder="Search">
                     <a href="/list-resources.shtml">
                         <span class="fa fa-search search-icon-input"></span>
                     </a>
+                    <a href="#" class="fa fa-times-circle"></a>
                 </div>
             </div>
         </nav>

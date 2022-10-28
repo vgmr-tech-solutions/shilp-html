@@ -16,16 +16,16 @@
 }
 
 .theme-dark {
-  --bodycolor:#000;
+  --bodycolor:#919191;
   --maincolor: #970F65;
   --secondarycolor:#D41362;
   --bluecolor: #2071C4;
   --greencolor: #029E6F;
-  --lightpink:#FFF3FB;
+  --lightpink:#b5b5b5;
   --linkcolor: #fff;
   --headingcolor:#660562;
   --basefont: "Lato", sans-serif;
-  --whitecolor: #000;
+  --whitecolor: #919191;
   --basefontsize: 1rem;
   --DefaultTransition: all 0.5s ease-in-out;
   --textcolor: #fff;
@@ -397,7 +397,7 @@ a {
   font-size: 12px;
   font-weight: 600;
   padding: 0 5px;
-  color: var(--whitecolor);
+  color: #fff;
 }
 .lbl-txt.secondaryColor {
   background: var(--secondarycolor);
@@ -433,6 +433,10 @@ a {
   padding: 8px;
   color: var(--linkcolor);
   content: "\f105";
+}
+
+.theme-dark .home .wrapper .resource {
+  filter: saturate(0%) invert(10%);
 }
 
 header::after {
@@ -642,8 +646,9 @@ header.dark .header-top .navbar .social-info {
 }
 header.dark .header-top .navbar .social-info h5 {
   color: #fff;
-  font-weight: 700;
+  font-weight: 400;
   padding: 15px 0;
+  font-size: 1rem;
 }
 header.dark .header-top .navbar .social-info li {
   display: inline-block;
@@ -976,6 +981,7 @@ footer .copyright li {
 .home .wrapper .resource .resource-hub ul li figure figcaption p {
   color: #FFF;
   padding-top: 1.25rem;
+  font-weight: 400;
 }
 .home .wrapper .resource .resource-hub ul li figure figcaption .text-center {
   padding-top: 1.875rem;
@@ -984,7 +990,7 @@ footer .copyright li {
   padding: 0 11px;
 }
 .home .wrapper .featured-resources {
-  padding-top: 12rem;
+  padding-top: 13rem;
 }
 .home .wrapper .featured-resources .heading {
   text-align: center;
@@ -1385,6 +1391,9 @@ footer .copyright li {
   font-weight: 700;
   padding-left: 0.625rem;
   display: inline-block;
+  margin: 0;
+  line-height: normal;
+  vertical-align: middle;
 }
 .inner-page .resource-program .program .share .social-link {
   display: flex;
@@ -1437,7 +1446,7 @@ footer .copyright li {
 }
 .inner-page .resource-program .info .cards-dtls li {
   list-style-type: none;
-  font-size: 0.875rem;
+  font-size: 1rem;
   padding-right: 1rem;
   font-weight: 700;
 }
@@ -1445,6 +1454,7 @@ footer .copyright li {
   font-size: 1.2rem;
   display: inline-block;
   vertical-align: middle;
+  color: #000;
 }
 .inner-page .resource-program .info .cards-dtls li span {
   font-weight: 400;

@@ -375,12 +375,12 @@
       -ms-transform: rotateX(0deg);
       transform: rotateX(0deg);
   }
-  header.dark .header-top .navbar .searchbar{display: none;    background-color: #fff; right: 0;width: 100%;padding: 8px 0;margin: 5px 7px;}
+  header.dark .header-top .navbar .searchbar{display: none;    background-color: var(--maincolor); right: 0;width: 100%;padding: 8px 0;margin: 5px 7px;}
   header.dark .header-top .navbar .searchbar .search-data{width: 80%;position: relative;}
   header.dark .header-top .top .custom-top .resp-search{display: block;}
   header.dark .header-top .top .custom-top .resp-search a.search{position: relative;}
   header.dark .header-top .top .custom-top .resp-search a.search .input-search{position: absolute;top: 13px;right: 12px;}
-  header.dark .header-top .top .custom-top .resp-search a.search .input-search em.fa.fa-search{color: #fff}
+  header.dark .header-top .top .custom-top .resp-search a.search .input-search em.fa.fa-search{color: #fff; transition: all 0.5s ease-out;}
   header.dark.fixed-header .header-top .top .custom-top .resp-search a.search .input-search em.fa.fa-search{color: var(--secondarycolor);}
   header.dark .header-top .navbar .navbar-nav .nav-item .nav-link{padding: 15px 25px;color: var(--whitecolor);font-size: 1rem;font-weight: 400;}
   header.dark .header-top .navbar .searchbar .search-data input{height: 40px;margin-left: 1rem;    width: 100%;right: 0;padding: 0;}
@@ -388,14 +388,14 @@
   header.dark .header-top .top .custom-top li .font-increament{margin: 10px 0;}
   header.dark .header-top .top .custom-top li .font-increament li{padding: 2px 8px;}
   header.dark .header-top .navbar .searchbar a .search-icon-input{width: 2.5rem;height: 2.5rem;line-height: 2.5rem;font-size: 1rem;    z-index: 1;right: -54px;}
-  header.dark .header-top .navbar .searchbar input::placeholder {font-size: 1rem;}
+  header.dark .header-top .navbar .searchbar .search-data input::placeholder {font-size: 1rem;padding-left: 5px;}
   header.dark .header-top .navbar ul li .navbar-brand img{height: 70px;}
   header::after{background-size: 100%;top: 0;right: 0;z-index: -9;width: 239px;}
   header.dark{height: 135px;}
   header.dark .header-top .navbar .searchbar .search-data a .search-icon-input{z-index: 1;right: -53px;}
   header.dark .header-top .navbar .searchbar input {width: 356px;}
   .dark .header-top .navbar .searchbar{margin-top: 5px;left: -7px;}
-  header.dark .header-top .navbar .searchbar .fa{display: block;font-size: 1.2rem;top: 18px;right: 2px;}
+  header.dark .header-top .navbar .searchbar .fa{display: block;font-size: 1.4rem;top: 18px;right: 2px;transition: all 0.5s ease-out;}
   header.dark .header-top .navbar .social-info{display: block;}
   
 

@@ -747,7 +747,7 @@ header.dark .header-top .navbar .searchbar .fa {
   top: -6px;
   right: -100px;
   z-index: 9;
-  color: #000;
+  color: #fff;
 }
 header.dark.fixed-header {
   background: var(--whitecolor);

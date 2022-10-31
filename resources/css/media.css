@@ -375,7 +375,7 @@
       -ms-transform: rotateX(0deg);
       transform: rotateX(0deg);
   }
-  header.dark .header-top .navbar .searchbar{display: none;    background-color: var(--maincolor); right: 0;width: 100%;padding: 8px 0;margin: 5px 7px;}
+  header.dark .header-top .navbar .searchbar{display: none;background-color: var(--maincolor); right: 0;width: 100%;padding: 5px 0;margin: 5px 7px;}
   header.dark .header-top .navbar .searchbar .search-data{width: 80%;position: relative;}
   header.dark .header-top .top .custom-top .resp-search{display: block;}
   header.dark .header-top .top .custom-top .resp-search a.search{position: relative;}

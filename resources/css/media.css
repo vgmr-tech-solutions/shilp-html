@@ -389,7 +389,7 @@
   header.dark .header-top .navbar .searchbar a .search-icon-input{width: 2.5rem;height: 2.5rem;line-height: 2.5rem;font-size: 1rem;}
   header.dark .header-top .navbar .searchbar input::placeholder {font-size: 1rem;}
   header.dark .header-top .navbar ul li .navbar-brand img{height: 70px;}
-  header::after{background-size: 100%;top: 0;right: 0;z-index: -9;height: 380px;width: 239px;}
+  header::after{background-size: 100%;top: 0;right: 0;z-index: -9;width: 239px;}
   header.dark{height: 135px;}
   header.dark .header-top .navbar .searchbar a .search-icon-input{z-index: 1;right: -94px;}
   header.dark .header-top .navbar .searchbar input {width: 356px;}
@@ -507,4 +507,5 @@
    header.dark .header-top .navbar .searchbar input{width: 384px;}
    header.dark .header-top .navbar .searchbar a .search-icon-input{right: -101px;}
    header.dark .header-top .navbar .searchbar .fa{right: -110px;}
+   .home .wrapper .resource .resource-hub ul li figure figcaption p{-webkit-line-clamp: 2;}
 }

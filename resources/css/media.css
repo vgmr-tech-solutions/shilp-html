@@ -39,7 +39,7 @@
   header::after {
     content: "";
     background: url(/resources/images/top-image.png) 0 0 no-repeat;
-    height: 480px;
+    height: 548px;
     position: absolute;
     width: 604px;
     background-size: 100%;
@@ -130,7 +130,7 @@
     header.dark .header-top .top .custom-top li .font-increament{margin: 10px 0;}
     header.dark .header-top .top .custom-top .dropdown .switch{margin: 12px;}
     header.dark{height: 0;}
-    header::after{width: 410px;right: 0;}
+    header::after{right: 0;width: 400px;}
     header.dark .header-top .navbar .searchbar a .search-icon-input{z-index: 1;}
 
     footer .footer-list{margin: 0;}

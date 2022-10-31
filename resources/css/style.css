@@ -843,18 +843,6 @@ footer .social-link li i.fa {
 footer .social-link li i.fa:hover {
   color: #000;
 }
-footer .social-link li i.fa.fa-facebook-square:hover {
-  color: #0165E1;
-}
-footer .social-link li i.fa.fa-instagram:hover {
-  color: #e95950;
-}
-footer .social-link li i.fa.fa-linkedin-square:hover {
-  color: #0A66C2;
-}
-footer .social-link li i.fa.fa-youtube-play:hover {
-  color: #FF0000;
-}
 footer .social-link li:last-child {
   margin-right: 0;
 }

@@ -44,7 +44,7 @@
     width: 604px;
     background-size: 100%;
     top: 0;
-    right: -50px;
+    right: 0;
     z-index: -9;
 }
 /* .inner-page header::after {
@@ -139,10 +139,10 @@
 
    
     .inner-page .wrapper .list .heading{width: 100%;}
-    .inner-page header::after{width: 410px;right: 0;height: 330px;}
+    .inner-page header::after{width: 392px;right: 0;}
     .inner-page .related-resources .owl-nav .owl-prev{left: -11px;}
     .inner-page .related-resources .owl-nav .owl-next{right: -11px;}
-    .inner-page.custom-details header::after{width: 255px;height: 210px;}
+    .inner-page.custom-details header::after{width: 255px;}
 
     /* List Resource Page */
     .list-resources .wrapper .list .heading{width: 100%;}
@@ -438,7 +438,7 @@
     .home .wrapper .featured-resources .heading p{width: 100%;font-size: 1rem;}
     .home .wrapper .about-program figcaption p{width: 100%;}
     .home .card figcaption.ipad-text{height: auto;}
-    .home .wrapper .resource .resource-hub{top: 0; bottom: 0;}
+    .home .wrapper .resource .resource-hub{top: 0; bottom: 0;z-index: auto;}
     .home .card.typ2{padding-left: 0;}
     .home .card.typ2 figure{position: relative;width: 100%;}
     .home .wrapper .about-program figure .program-video{width: 350px;}

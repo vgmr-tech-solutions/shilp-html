@@ -459,8 +459,8 @@
     .inner-page .related-resources{padding-bottom: 0;}
 
     /*CBO Diaries Details Page */
-    .custom-details .resource-program .mission .mission-info .fondation-img ul li img{width: 340px;}
-    .custom-details .resource-program .mission .mission-info .help ul li img{width: 345px;}
+    .custom-details .resource-program .mission .mission-info .fondation-img ul li img{width: 100%;}
+    .custom-details .resource-program .mission .mission-info .help ul li img{width: 100%;}
     .custom-details .resource-program .mission .mission-info .help ul{justify-content: space-between;}
     .inner-page .related-resources .heading h2{font-size: 1.5rem;}
 

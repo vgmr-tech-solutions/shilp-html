@@ -19,7 +19,7 @@
                 <ul class="banner-info">
                     <li>
                         <h1>Building Resilient Organizations! </h1>
-                        <p>Empowered indigenous people realize critical <b>social, cultural</b> and <b>economic</b> needs of their choice and thrive during the <b>Covid pandemic and <b>beyond</b>.</p>  
+                        <p>Empowered indigenous people realize critical <b>social, cultural</b> and <b>economic</b> needs of their choice and thrive during the <b>Covid pandemic</b> and <b>beyond</b>.</p>  
                         <div class="mt-4">
                             <a href="#" class="btn-primary">Explore Now</a>
                         </div>
@@ -204,73 +204,7 @@
             
         </figcaption>
        </section>
-        <!-- <section>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="card">
-                            <figure>
-                                <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </figure>
-                            <figcaption>
-                                <label class="lbl-txt mainColor">Program</label>
-                                <h2>How to write an effective mission statement</h2>
-                                <ul class="cards-dtls">
-                                    <li>Article</li>
-                                    <li>15 mins</li>
-                                </ul>
-                            </figcaption>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/card-img.jpg" alt="" title="" />
-                            </figure>
-                            <figcaption>
-                                <label class="lbl-txt mainColor">Program</label>
-                                <h2>How to write an effective mission statement</h2>
-                                <ul class="cards-dtls">
-                                    <li>Article</li>
-                                    <li>15 mins</li>
-                                </ul>
-                            </figcaption>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/card-img.jpg" alt="" title="" />
-                            </figure>
-                            <figcaption>
-                                <label class="lbl-txt mainColor">Program</label>
-                                <h2>How to write an effective mission statement</h2>
-                                <ul class="cards-dtls">
-                                    <li>Article</li>
-                                    <li>15 mins</li>
-                                </ul>
-                            </figcaption>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card">
-                            <figure>
-                                <img src="/resources/images/card-img.jpg" alt="" title="" />
-                            </figure>
-                            <figcaption>
-                                <label class="lbl-txt mainColor">Program</label>
-                                <h2>How to write an effective mission statement</h2>
-                                <ul class="cards-dtls">
-                                    <li>Article</li>
-                                    <li>15 mins</li>
-                                </ul>
-                            </figcaption>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </section> -->
+
     </div>
     <!-- footer starts -->
     <!--#include virtual='/includes/footer.inc'-->

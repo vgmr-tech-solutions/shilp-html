@@ -339,10 +339,24 @@ a {
   font-size: 1.125rem;
   font-weight: 700;
   margin-top: 1rem;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .card figcaption p {
   font-size: 1.125rem;
   font-weight: 400;
+  display: -webkit-box;
+  max-width: 100%;
+  height: 46px;
+  line-height: 1.3;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .card figcaption .cards-dtls {
   display: flex;
@@ -982,6 +996,12 @@ footer .copyright li {
   color: #FFF;
   padding-top: 1.25rem;
   font-weight: 400;
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .home .wrapper .resource .resource-hub ul li figure figcaption .text-center {
   padding-top: 1.875rem;

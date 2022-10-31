@@ -202,7 +202,7 @@
   .home .wrapper .resource .resource-hub ul li.active figure figcaption {display: inline-block;position: absolute;left: 0;width: 100%;background-color: var(--secondarycolor);bottom: -87%;text-align: left;padding: 1rem;z-index: 9;transform: translateY(0%);} 
   .home .wrapper .resource .resource-hub {width: 100%;bottom: -220px;position: static;}
   .home .wrapper .resource .resource-hub ul li figure { position: static;margin:0;}
-  .home .wrapper .resource .resource-hub {height: 400px;}
+  .home .wrapper .resource .resource-hub {height: 400px;position: relative;bottom: inherit;z-index: 99;}
   .home .wrapper .resource .resource-hub ul {position: relative;}
   .home .wrapper .resource .resource-hub ul li figure figcaption h4 {padding-top:0;}
   .home .wrapper .resource .resource-hub ul li.shilp-program figure figcaption {display: inline-block;position: absolute;left: 0;width: 100%;background-color: var(--secondarycolor);bottom: -87%;text-align: left;padding: 1rem;transform: translateY(0%);}

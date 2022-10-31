@@ -86,10 +86,12 @@
                     </ul>
                 </div>
                 <div class="searchbar">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <a href="/list-resources.shtml">
-                        <span class="fa fa-search search-icon-input"></span>
-                    </a>
+                    <div class="search-data">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <a href="/list-resources.shtml">
+                            <span class="fa fa-search search-icon-input"></span>
+                        </a>
+                    </div>
                     <a href="#" class="fa fa-times-circle"></a>
                 </div>
             </div>

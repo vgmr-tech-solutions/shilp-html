@@ -172,6 +172,7 @@
     .diaries-info .filters .filters-data ul li{padding-left: 4px;}
     .diaries-info .filters-card ul .item{width: 50%; padding: 0 10px;margin: 0;}
     .diaries-info .filters-card ul .item .card{max-width: 100%;}
+    .diaries-info .filters .filters-data ul{display: inline-block;}
 
 }
 
@@ -192,7 +193,6 @@
   .home .wrapper .resource .resource-hub ul li.inst-building figure figcaption {background-color: var(--greencolor);}
 
   header.dark .header-top .navbar .searchbar{right: 27%;}
-
 }
 
 @media (min-width: 768px) and (max-width: 990px) {

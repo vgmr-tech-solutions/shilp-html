@@ -507,6 +507,9 @@ header{
                   background-color: var(--maincolor);
                   color: var(--whitecolor);
                 }
+                &::placeholder{
+                  font-size: 16px;
+                }
               }
             }
             .fa{

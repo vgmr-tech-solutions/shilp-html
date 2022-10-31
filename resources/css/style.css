@@ -732,6 +732,15 @@ header.dark .header-top .navbar .searchbar a .search-icon-input:hover {
   background-color: var(--maincolor);
   color: var(--whitecolor);
 }
+header.dark .header-top .navbar .searchbar a .search-icon-input::-moz-placeholder {
+  font-size: 16px;
+}
+header.dark .header-top .navbar .searchbar a .search-icon-input:-ms-input-placeholder {
+  font-size: 16px;
+}
+header.dark .header-top .navbar .searchbar a .search-icon-input::placeholder {
+  font-size: 16px;
+}
 header.dark .header-top .navbar .searchbar .fa {
   display: none;
   position: absolute;

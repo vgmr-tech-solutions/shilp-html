@@ -137,7 +137,7 @@
                                             <label class="lbl-txt mainColor">Leadership Development </label>
                                             <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                             <ul class="cards-dtls">
-                                                <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                                <li><img src="/resources/images/icon/video.png" alt="video" title="video" /> Video</li>
                                                 <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
                                             </ul>
                                         </figcaption>
@@ -182,7 +182,7 @@
                     </div>
                 </div>
                
-                <div class="text-center mt-2">
+                <div class="text-center">
                     <a href="list-resources.shtml" class="btn-primary">Explore All Resources</a>
                 </div>
             </div>

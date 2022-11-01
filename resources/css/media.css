@@ -397,9 +397,9 @@
   .dark .header-top .navbar .searchbar{margin-top: 5px;left: -7px;}
   header.dark .header-top .navbar .searchbar .fa{display: block;font-size: 1.4rem;top: 16px;right: 3px;transition: all 0.5s ease-out;}
   header.dark .header-top .navbar .social-info{display: block;}
+  header.dark.fixed-header::after{height: 0;}
   
 
-  
   footer{padding: 1rem 0 0.5rem;}
   footer .footer-list{border-bottom: 1px solid #fff;}
   footer .footer-list h6{padding-top: 0;}
@@ -483,8 +483,9 @@
     .home .wrapper .resource .resource-hub ul li figure .icon {position: relative;top: 0;transform: none;left: inherit;height: 50px;}
     .home .wrapper .resource .resource-hub ul li.shilp-program figure figcaption,
     .home .wrapper .resource .resource-hub ul li.active figure figcaption,
-    .home .wrapper .resource .resource-hub ul li.active figure figcaption {bottom:-154%;z-index: auto;}
+    .home .wrapper .resource .resource-hub ul li.active figure figcaption {bottom:-173%;z-index: auto;}
     .home .wrapper .resource .resource-hub ul li figure .icon {width: auto;}
+    .home .wrapper .resource .resource-hub ul li figure figcaption .text-center{padding-bottom: 1.875rem;}
 
 }
 @media screen and (max-width: 576px) {
@@ -497,6 +498,11 @@
     
 }
 @media screen and (max-width: 320px) {
+  .home .wrapper .resource .resource-hub ul li figure figcaption .text-center .btn-outline{font-size: 12px;}
+  .home .wrapper .resource .resource-hub ul li figure figcaption h4{font-size: 1.4rem;}
+  .home .wrapper .resource .resource-hub ul li.shilp-program figure figcaption, 
+  .home .wrapper .resource .resource-hub ul li.active figure figcaption, 
+  .home .wrapper .resource .resource-hub ul li.active figure figcaption{bottom: -170%;}
 }
 @media screen and (max-width: 360px) {
 
@@ -507,7 +513,7 @@
 @media screen and (min-device-width: 414px) and (max-device-width: 736px)  {
   .home .wrapper .resource .resource-hub ul li.shilp-program figure figcaption, 
   .home .wrapper .resource .resource-hub ul li.active figure figcaption,
-  .home .wrapper .resource .resource-hub ul li.active figure figcaption{bottom: -139%;}
+  .home .wrapper .resource .resource-hub ul li.active figure figcaption{bottom: -158%;}       
   header.dark .header-top .navbar .searchbar input{width: 384px;}
   header.dark .header-top .navbar .searchbar a .search-icon-input{right: -101px;}
   .home .wrapper .resource .resource-hub ul li figure figcaption p{-webkit-line-clamp: 2;}

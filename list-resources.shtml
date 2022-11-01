@@ -156,7 +156,7 @@
                                             <label class="lbl-txt mainColor">Program</label>
                                             <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                             <ul class="cards-dtls">
-                                                <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                                <li><img src="/resources/images/icon/video.png" class="icon" alt="Video" title="Video"> Video</li>
                                                 <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
                                             </ul>
                                         </figcaption>
@@ -264,7 +264,7 @@
                                             <label class="lbl-txt mainColor">Program</label>
                                             <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                             <ul class="cards-dtls">
-                                                <li><i class="fa fa-play-circle-o" aria-hidden="true"></i> Video</li>
+                                                <li><img src="/resources/images/icon/video.png" class="icon" alt="Video" title="Video"> Video</li>
                                                 <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
                                             </ul>
                                         </figcaption>

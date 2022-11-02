@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shilp : Samruddh Sanstha</title>
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header-js-css.inc'-->
+    <!-- header css and script ends -->
+</head>
+<body class="inner-page">
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header.inc'-->
+    <!-- header css and script ends -->
+    <div class="wrapper">
+
+        <section class="list about">
+            <div class="container">
+                <div class="heading">
+                    <h2>About SHILP</h2>
+                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text... lorem ipsum dummy text</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="goal">
+            <div class="container">
+                <div class="info">
+                    <h2>Goal</h2>
+                    <p>Empowered indigenous people realize critical social, cultural and economic needs of their choice and thrive during the Covid pandemic and beyond</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="purpose">
+            <div class="container">
+                <div class="info">
+                    <h2>Purpose</h2>
+                    <p>Resilient Indigenous People's Organizations continue to ascertain their rights through strengthened collective voice</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- footer starts -->
+    <!--#include virtual='/includes/footer.inc'-->
+    <!-- footer ends -->
+    <!-- footer js css and script starts -->
+    <!--#include virtual='/includes/footer-js-css.inc'-->
+    <!-- footer js css and script ends -->
+
+</body>
+</html>

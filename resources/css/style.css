@@ -843,7 +843,7 @@ footer .footer-link li.address {
 }
 footer .social-link {
   padding: 0;
-  margin-bottom: 2.563rem;
+  margin-bottom: 1.563rem;
 }
 footer .social-link li {
   display: inline-block;
@@ -1764,4 +1764,42 @@ footer .copyright li {
 }
 .diaries-info .filters-card .btn-load-more {
   text-align: center;
+}
+
+.list.about {
+  margin-top: 2.063rem;
+}
+
+.info h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #fff;
+}
+.info p {
+  font-size: 1.375rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 1.688rem;
+}
+
+.goal {
+  margin-top: 2.5rem;
+  background-image: url("/resources/images/goal-about.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.purpose {
+  background-image: url("/resources/images/purpose-about.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  margin-top: -16px;
 }/*# sourceMappingURL=style.css.map */

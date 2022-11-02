@@ -630,7 +630,7 @@ footer {
       }
   }
   .social-link{
-      padding:0;margin-bottom:2.563rem;
+      padding:0;margin-bottom:1.563rem;
       li{
           display: inline-block;margin-right:10px;
           i.fa{
@@ -640,7 +640,7 @@ footer {
          
 
           &:last-child {
-              margin-right: 0;
+              margin-right: 0;            
           }
       }
   }
@@ -1620,4 +1620,40 @@ footer {
    
     .btn-load-more{text-align: center;}
   }
+}
+
+//About
+.list{
+  &.about{
+    margin-top: 2.063rem;
+  }
+}
+.info{
+  h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  p{font-size: 1.375rem;font-weight: 700;color: #fff;margin-top: 1.688rem;}
+}
+.goal{
+  margin-top: 2.5rem;
+  background-image: url("/resources/images/goal-about.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+
+}
+.purpose{
+  background-image: url("/resources/images/purpose-about.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  margin-top: -16px;
 }

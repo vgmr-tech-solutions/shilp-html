@@ -16,7 +16,7 @@
         </li>
         <li>
           <ul class="footer-link">
-            <li><a href="#">About SHILP</a></li>
+            <li><a href="/about.shtml">About SHILP</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Terms & Conditions</a></li>
           </ul>

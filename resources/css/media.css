@@ -498,6 +498,15 @@
 
     /* Thank You */
     .thankyou .thank-you .thank-info{width: 100%;margin-top: 15px;padding: 20px;}
+
+    /* Contact Page */
+    .contact .contact-details .contact-info{flex-wrap: wrap; margin: 12px 0;}
+    .contact .contact-details .contact-info p{width: 246px;}
+    .contact .contact-details .enquiry{width: 100%;}
+    .contact .contact-details .enquiry{padding: 20px 10px 50px;}
+    .contact .contact-details .enquiry form .contact-form li .form-group .input-group .fa-mobile{left: 29%;}
+    .contact .map figure{margin-top: 0;}
+    .contact .contact-details .address{padding: 20px 28px;}
     
     
 }

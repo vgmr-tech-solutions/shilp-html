@@ -48,7 +48,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/about.shtml">About SHILP</a>
+                            <a class="nav-link" aria-current="page" href="/about-shilp.shtml">About SHILP</a>
                         </li>
                         <li class="nav-item nav-dropdown">
                             <a class="nav-link" href="/list-resources.shtml">Resource Hub</a>

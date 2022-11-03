@@ -8,7 +8,7 @@
     <!--#include virtual='/includes/header-js-css.inc'-->
     <!-- header css and script ends -->
 </head>
-<body class="inner-page">
+<body class="inner-page about-shilp">
     <!-- header css and script starts -->
     <!--#include virtual='/includes/header.inc'-->
     <!-- header css and script ends -->
@@ -25,7 +25,7 @@
 
         <section class="goal">
             <div class="container">
-                <div class="info goal-text">
+                <div class="info-text goal-text">
                     <h2>Goal</h2>
                     <p>Empowered indigenous people realize critical social, cultural and economic needs of their choice and thrive during the Covid pandemic and beyond</p>
                 </div>
@@ -34,7 +34,7 @@
         
         <section class="purpose">
             <div class="container">
-                <div class="info purpose-text">
+                <div class="info-text purpose-text">
                     <h2>Purpose</h2>
                     <p>Resilient Indigenous People's Organizations continue to ascertain their rights through strengthened collective voice</p>
                 </div>
@@ -49,46 +49,54 @@
 
                 <ul>
                     <li>
-                        <figure>
-                            <div class="circle">
-                                <img src="/resources/images/icon/leaders.png" alt="Leaders" title="Leaders">
-                            </div>
-                        </figure>
-                        <figcaption>
-                            <p>Building hope and capacities among organization leaders and help developing a  business plans to effectively manage and tide through these tough times </p>
-                        </figcaption>
+                        <div class="program">
+                            <figure>
+                                <div class="circle">
+                                    <img src="/resources/images/icon/leaders.png" alt="Leaders" title="Leaders">
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <p>Building hope and capacities among organization leaders and help developing a  business plans to effectively manage and tide through these tough times </p>
+                            </figcaption>
+                        </div>
                     </li>
                     <li>
-                        <figure>
-                            <div class="circle">
-                                <img src="/resources/images/icon/handshake.png" alt="Handshake" title="Handshake">
-                            </div>
-                        </figure>
-                        <figcaption>
-                            <p>Capacity building of organizations to identify and leverage opportunities and plan to deliver critical services to members</p>
-                        </figcaption>
+                        <div class="program">
+                            <figure>
+                                <div class="circle">
+                                    <img src="/resources/images/icon/handshake.png" alt="Handshake" title="Handshake">
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <p>Capacity building of organizations to identify and leverage opportunities and plan to deliver critical services to members</p>
+                            </figcaption>
+                        </div>
                     </li>
                 </ul>
                 <ul class="second">
                     <li>
-                        <figure>
-                            <div class="circle">
-                                <img src="/resources/images/icon/finanace.png" alt="Finance" title="Finance">
-                            </div>
-                        </figure>
-                        <figcaption>
-                            <p>Financial support for critical human resources and organizational costs to continue operations</p>
-                        </figcaption>
+                        <div class="program">
+                            <figure>
+                                <div class="circle">
+                                    <img src="/resources/images/icon/finanace.png" alt="Finance" title="Finance">
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <p>Financial support for critical human resources and organizational costs to continue operations</p>
+                            </figcaption>
+                        </div>
                     </li>
                     <li>
-                        <figure>
-                            <div class="circle">
-                                <img src="/resources/images/icon/network.png" alt="Finance" title="Finance">
-                            </div>
-                        </figure>
-                        <figcaption>
-                            <p>Peer network and resource connect for mutual and long-term support; and curated knowledge resources for self development and program implementation</p>
-                        </figcaption>
+                        <div class="program">
+                            <figure>
+                                <div class="circle">
+                                    <img src="/resources/images/icon/network.png" alt="Finance" title="Finance">
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <p>Peer network and resource connect for mutual and long-term support; and curated knowledge resources for self development and program implementation</p>
+                            </figcaption>
+                        </div>
                     </li>
                 </ul>
             </div>

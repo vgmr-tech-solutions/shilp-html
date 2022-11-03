@@ -1336,6 +1336,9 @@ footer .copyright li {
   max-width: 310px;
   width: 100%;
 }
+.list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card:hover {
+  box-shadow: 1px 1px 5px #ddd;
+}
 .list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figure {
   border: 1px solid var(--lightpink);
 }
@@ -1351,9 +1354,6 @@ footer .copyright li {
 }
 .list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figcaption {
   height: auto;
-}
-.list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figcaption .lbl-txt {
-  background-color: var(--secondarycolor);
 }
 .list-resources .wrapper .searchresult .custom-col .middle-column ul .item .card figcaption h2 {
   height: 45px;
@@ -1751,9 +1751,12 @@ footer .copyright li {
   display: none;
 }
 .diaries-info .filters-card ul .item .card {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
   width: 100%;
   max-width: 310px;
+}
+.diaries-info .filters-card ul .item .card:hover {
+  box-shadow: 1px 1px 5px #ddd;
 }
 .diaries-info .filters-card ul .item .card figure {
   border: 1px solid var(--lightpink);
@@ -1766,39 +1769,37 @@ footer .copyright li {
   text-align: center;
 }
 
-.list.about {
+.about-shilp .list.about {
   margin-top: 2.063rem;
 }
-
-.info {
+.about-shilp .info-text {
   height: 205px;
   width: 401px;
 }
-.info h2 {
+.about-shilp .info-text h2 {
   font-size: 2.5rem;
   font-weight: 700;
   color: #fff;
 }
-.info p {
+.about-shilp .info-text p {
   font-size: 1.375rem;
   font-weight: 700;
   color: #fff;
   margin-top: 1.688rem;
 }
-.info.goal-text {
+.about-shilp .info-text.goal-text {
   position: absolute;
   top: 50%;
   left: 71%;
   transform: translate(-50%, -50%);
 }
-.info.purpose-text {
+.about-shilp .info-text.purpose-text {
   position: absolute;
   top: 50%;
   left: 34%;
   transform: translate(-50%, -50%);
 }
-
-.goal {
+.about-shilp .goal {
   margin-top: 2.5rem;
   background-image: url("/resources/images/goal-about.jpg");
   background-repeat: no-repeat;
@@ -1808,8 +1809,7 @@ footer .copyright li {
   background-size: cover;
   position: relative;
 }
-
-.purpose {
+.about-shilp .purpose {
   background-image: url("/resources/images/purpose-about.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -1819,55 +1819,63 @@ footer .copyright li {
   position: relative;
   margin-top: -16px;
 }
-
-.objectives {
+.about-shilp .objectives {
   background-color: #FFF6FC;
   padding: 2.688rem 0;
 }
-.objectives .heading {
+.about-shilp .objectives .heading {
   text-align: center;
   padding-bottom: 38px;
 }
-.objectives .heading h2 {
+.about-shilp .objectives .heading h2 {
   font-size: 2.5rem;
   font-weight: 700;
   color: #660562;
 }
-.objectives ul {
+.about-shilp .objectives ul {
   margin: 0;
-  padding: 0;
+  padding: 0 45px;
   list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.objectives ul li {
+.about-shilp .objectives ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 75px;
+  padding-right: 75px;
 }
-.objectives ul li figure .circle {
+.about-shilp .objectives ul li:last-child {
+  padding-right: 0;
+}
+.about-shilp .objectives ul li .program {
+  display: flex;
+  border-bottom: 1px solid #660562;
+  padding-bottom: 1.4rem;
+  align-items: center;
+}
+.about-shilp .objectives ul li .program figure .circle {
   width: 160px;
   height: 160px;
   border-radius: 100%;
   background-color: #660562;
 }
-.objectives ul li figure .circle img {
+.about-shilp .objectives ul li .program figure .circle img {
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.objectives ul li figcaption {
+.about-shilp .objectives ul li .program figcaption {
   width: 400px;
   padding-left: 40px;
 }
-.objectives ul li figcaption p {
+.about-shilp .objectives ul li .program figcaption p {
   font-size: 1.375rem;
   font-weight: 700;
   margin: 0;
 }
-.objectives .second {
+.about-shilp .objectives .second {
   padding-top: 70px;
 }/*# sourceMappingURL=style.css.map */

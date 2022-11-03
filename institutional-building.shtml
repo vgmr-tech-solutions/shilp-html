@@ -17,7 +17,7 @@
             <div class="container">
                 <ul class="breadcrumb">
                     <li><a href="#">Resource Hub</a></li>
-                    <li>List of Resources</li>
+                    <li>Institutional Building</li>
                 </ul>
             </div>
         </section>
@@ -25,7 +25,7 @@
         <section class="list">
             <div class="container">
                 <div class="heading">
-                    <h2>List of Resources</h2>
+                    <h2>Institutional Building</h2>
                     <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text... lorem ipsum dummy text</p>
                 </div>
             </div>
@@ -55,13 +55,27 @@
                                             <input class="styled-checkbox" id="checkbox-1" type="checkbox" value="SHILP Program">
                                             <label for="checkbox-1">SHILP Program</label>
                                         </div>
+                                        <div class="mycheck submenu">
+                                            <div class="checkbox topic">
+                                                <input class="styled-checkbox" id="checkbox-13" type="checkbox" value="Program Resources">
+                                                <label for="checkbox-13"> Program Resources</label>
+                                            </div>
+                                            <div class="checkbox topic">
+                                                <input class="styled-checkbox" id="checkbox-14" type="checkbox" value="Cohort Selection">
+                                                <label for="checkbox-14">Cohort Selection</label>
+                                            </div>
+                                            <div class="checkbox topic">
+                                                <input class="styled-checkbox" id="checkbox-15" type="checkbox" value="Design Framework">
+                                                <label for="checkbox-15">Design Framework</label>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="checkbox development">
                                         <input class="styled-checkbox" id="checkbox-2" type="checkbox" value="Leadership Development">
                                         <label for="checkbox-2">Leadership Development</label>
                                     </div>
                                     <div class="checkbox building">
-                                        <input class="styled-checkbox" id="checkbox-3" type="checkbox" value="Institutional Building">
+                                        <input class="styled-checkbox" id="checkbox-3" type="checkbox" value="Institutional Building" checked>
                                         <label for="checkbox-3">Institutional Building</label>
                                     </div>
                                 </div>
@@ -131,7 +145,7 @@
                     <li class="middle-column">
                         <ul>
                             <li class="item">
-                                <a href="shilp-program.shtml">
+                                <a href="resource-details.shtml">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/feature-video.png" alt="video" title="video" />
@@ -139,7 +153,7 @@
                                             <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                                         </figure>
                                         <figcaption>
-                                            <label class="lbl-txt secondaryColor">Shilp Program</label>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                             <ul class="cards-dtls">
                                                 <li><img src="/resources/images/icon/video.png" class="icon" alt="Video" title="Video"> Video</li>
@@ -149,14 +163,14 @@
                                     </div>
                                 </a>  
                             </li>
-                            <li class="item">
-                                <a href="leadership-development.shtml">
+                            <li class="item" class="item">
+                                <a href="resource-details.shtml">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/card-img.jpg" alt="" title="" />
                                         </figure>
                                         <figcaption>
-                                            <label class="lbl-txt mainColor">Leadership Development</label>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>How to write an effective mission statement</h2>
                                             <ul class="cards-dtls">
                                                 <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
@@ -167,7 +181,7 @@
                                 </a>
                             </li>
                             <li class="item">
-                                <a href="institutional-building.shtml">
+                                <a href="resource-details.shtml">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/finance.png" alt="" title="" />
@@ -185,7 +199,7 @@
                             </li>
                         
                             <li class="item">
-                                <a href="shilp-program.shtml">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/feature-video.png" alt="video" title="video" />
@@ -193,27 +207,10 @@
                                             <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                                         </figure>
                                         <figcaption>
-                                            <label class="lbl-txt secondaryColor">Shilp Program</label>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                             <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/video.png" class="icon" alt="Video" title="Video"> Video</li>
-                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                            </ul>
-                                        </figcaption>
-                                    </div>
-                                </a>  
-                            </li>
-                            <li class="item">
-                                <a href="leadership-development.shtml">
-                                    <div class="card">
-                                        <figure>
-                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                        </figure>
-                                        <figcaption>
-                                            <label class="lbl-txt mainColor">Leadership Development</label>
-                                            <h2>How to write an effective mission statement</h2>
-                                            <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
+                                                <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
                                                 <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
                                             </ul>
                                         </figcaption>
@@ -221,7 +218,24 @@
                                 </a>
                             </li>
                             <li class="item">
-                                <a href="institutional-building.shtml">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/finance.png" alt="" title="" />
@@ -230,8 +244,8 @@
                                             <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Financial planning for organization</h2>
                                             <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
-                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                                <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
                                             </ul>
                                         </figcaption>
                                     </div>
@@ -239,7 +253,7 @@
                             </li>
                        
                             <li class="item">
-                                <a href="shilp-program.shtml">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/feature-video.png" alt="video" title="video" />
@@ -247,7 +261,7 @@
                                             <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                                         </figure>
                                         <figcaption>
-                                            <label class="lbl-txt secondaryColor">Shilp Program</label>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                             <ul class="cards-dtls">
                                                 <li><img src="/resources/images/icon/video.png" class="icon" alt="Video" title="Video"> Video</li>
@@ -255,16 +269,16 @@
                                             </ul>
                                         </figcaption>
                                     </div>
-                                </a>  
+                                </a>
                             </li>
                             <li class="item">
-                                <a href="leadership-development.shtml">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/card-img.jpg" alt="" title="" />
                                         </figure>
                                         <figcaption>
-                                            <label class="lbl-txt mainColor">Leadership Development</label>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>How to write an effective mission statement</h2>
                                             <ul class="cards-dtls">
                                                 <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
@@ -275,7 +289,7 @@
                                 </a>
                             </li>
                             <li class="item">
-                                <a href="institutional-building.shtml">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/finance.png" alt="" title="" />
@@ -291,9 +305,9 @@
                                     </div>
                                 </a>
                             </li>
-
+                        
                             <li class="item">
-                                <a href="shilp-program.shtml">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/feature-video.png" alt="video" title="video" />
@@ -301,27 +315,10 @@
                                             <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                                         </figure>
                                         <figcaption>
-                                            <label class="lbl-txt secondaryColor">Shilp Program</label>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                             <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/video.png" class="icon" alt="Video" title="Video"> Video</li>
-                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                            </ul>
-                                        </figcaption>
-                                    </div>
-                                </a>  
-                            </li>
-                            <li class="item">
-                                <a href="leadership-development.shtml">
-                                    <div class="card">
-                                        <figure>
-                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                        </figure>
-                                        <figcaption>
-                                            <label class="lbl-txt mainColor">Leadership Development</label>
-                                            <h2>How to write an effective mission statement</h2>
-                                            <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
+                                                <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
                                                 <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
                                             </ul>
                                         </figcaption>
@@ -329,7 +326,24 @@
                                 </a>
                             </li>
                             <li class="item">
-                                <a href="institutional-building.shtml">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/finance.png" alt="" title="" />
@@ -338,8 +352,8 @@
                                             <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Financial planning for organization</h2>
                                             <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
-                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                                <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
                                             </ul>
                                         </figcaption>
                                     </div>
@@ -347,7 +361,7 @@
                             </li>
                       
                             <li class="item">
-                                <a href="shilp-program.shtml">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/feature-video.png" alt="video" title="video" />
@@ -355,27 +369,10 @@
                                             <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                                         </figure>
                                         <figcaption>
-                                            <label class="lbl-txt secondaryColor">Shilp Program</label>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                             <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/video.png" class="icon" alt="Video" title="Video"> Video</li>
-                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                            </ul>
-                                        </figcaption>
-                                    </div>
-                                </a>  
-                            </li>
-                            <li class="item">
-                                <a href="leadership-development.shtml">
-                                    <div class="card">
-                                        <figure>
-                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                        </figure>
-                                        <figcaption>
-                                            <label class="lbl-txt mainColor">Leadership Development</label>
-                                            <h2>How to write an effective mission statement</h2>
-                                            <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
+                                                <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
                                                 <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
                                             </ul>
                                         </figcaption>
@@ -383,7 +380,24 @@
                                 </a>
                             </li>
                             <li class="item">
-                                <a href="institutional-building.shtml">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/finance.png" alt="" title="" />
@@ -392,8 +406,8 @@
                                             <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Financial planning for organization</h2>
                                             <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
-                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                                <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
                                             </ul>
                                         </figcaption>
                                     </div>
@@ -401,7 +415,7 @@
                             </li>
 
                             <li class="item">
-                                <a href="shilp-program.shtml">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/feature-video.png" alt="video" title="video" />
@@ -409,27 +423,10 @@
                                             <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                                         </figure>
                                         <figcaption>
-                                            <label class="lbl-txt secondaryColor">Shilp Program</label>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                             <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/video.png" class="icon" alt="Video" title="Video"> Video</li>
-                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                            </ul>
-                                        </figcaption>
-                                    </div>
-                                </a>  
-                            </li>
-                            <li class="item">
-                                <a href="leadership-development.shtml">
-                                    <div class="card">
-                                        <figure>
-                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                        </figure>
-                                        <figcaption>
-                                            <label class="lbl-txt mainColor">Leadership Development</label>
-                                            <h2>How to write an effective mission statement</h2>
-                                            <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
+                                                <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
                                                 <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
                                             </ul>
                                         </figcaption>
@@ -437,25 +434,40 @@
                                 </a>
                             </li>
                             <li class="item">
-                                <a href="institutional-building.shtml">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
-                                            <img src="/resources/images/finance.png" alt="" title="" />
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
                                         </figure>
                                         <figcaption>
                                             <label class="lbl-txt greenColor">Institutional Building</label>
-                                            <h2>Financial planning for organization</h2>
+                                            <h2>How to write an effective mission statement</h2>
                                             <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
-                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                                <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
                                             </ul>
                                         </figcaption>
                                     </div>
                                 </a>
+                            </li>
+                            <li class="item">
+                                <div class="card">
+                                    <figure>
+                                        <img src="/resources/images/finance.png" alt="" title="" />
+                                    </figure>
+                                    <figcaption>
+                                        <label class="lbl-txt greenColor">Institutional Building</label>
+                                        <h2>Financial planning for organization</h2>
+                                        <ul class="cards-dtls">
+                                            <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
                             </li>
                       
                             <li class="item">
-                                <a href="shilp-program.shtml">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/feature-video.png" alt="video" title="video" />
@@ -463,27 +475,10 @@
                                             <!-- <iframe src="https://www.youtube.com/embed/V3XTz6xg9WE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
                                         </figure>
                                         <figcaption>
-                                            <label class="lbl-txt secondaryColor">Shilp Program</label>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Shareholder vs Stakeholder: What's the difference?</h2>
                                             <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/video.png" class="icon" alt="Video" title="Video"> Video</li>
-                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
-                                            </ul>
-                                        </figcaption>
-                                    </div>
-                                </a>  
-                            </li>
-                            <li class="item">
-                                <a href="leadership-development.shtml">
-                                    <div class="card">
-                                        <figure>
-                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
-                                        </figure>
-                                        <figcaption>
-                                            <label class="lbl-txt mainColor">Leadership Development</label>
-                                            <h2>How to write an effective mission statement</h2>
-                                            <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/article.png" class="icon" alt="Article" title="Article"> Article</li>
+                                                <li><img src="/resources/images/icon/blog.png" class="icon" alt="Blog" title="Blog"> Blog</li>
                                                 <li><i class="fa fa-clock-o" aria-hidden="true"></i> 10 mins</li>
                                             </ul>
                                         </figcaption>
@@ -491,7 +486,24 @@
                                 </a>
                             </li>
                             <li class="item">
-                                <a href="institutional-building.shtml">
+                                <a href="#">
+                                    <div class="card">
+                                        <figure>
+                                            <img src="/resources/images/card-img.jpg" alt="" title="" />
+                                        </figure>
+                                        <figcaption>
+                                            <label class="lbl-txt greenColor">Institutional Building</label>
+                                            <h2>How to write an effective mission statement</h2>
+                                            <ul class="cards-dtls">
+                                                <li><img src="/resources/images/icon/toolkit.png" class="icon" alt="Toolkit" title="Toolkit"> Toolkit</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 19 mins</li>
+                                            </ul>
+                                        </figcaption>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#">
                                     <div class="card">
                                         <figure>
                                             <img src="/resources/images/finance.png" alt="" title="" />
@@ -500,8 +512,8 @@
                                             <label class="lbl-txt greenColor">Institutional Building</label>
                                             <h2>Financial planning for organization</h2>
                                             <ul class="cards-dtls">
-                                                <li><img src="/resources/images/icon/podcast.png" class="icon" alt="Podcast" title="Podcast"> Podcast</li>
-                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 12 mins</li>
+                                                <li><img src="/resources/images/icon/whitepaper.png" class="icon" alt="Whitepaper" title="Whitepaper"> Whitepaper</li>
+                                                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 13 mins</li>
                                             </ul>
                                         </figcaption>
                                     </div>

@@ -42,9 +42,9 @@
 .inner-page.custom-details header::after{
     content: "";
     background: url(/resources/images/top-image.png) 0 0 no-repeat;
-    height: 480px;
+    height: 322px;
     position: absolute;
-    width: 377px;
+    width: 341px;
     background-size: 100%;
     top: 0;
     right: 0;
@@ -174,6 +174,15 @@
     .diaries-info .filters-card ul .item{width: 50%; padding: 0 10px;margin: 0;}
     .diaries-info .filters-card ul .item .card{max-width: 100%;}
     .diaries-info .filters .filters-data ul{display: inline-block;}
+
+    /* About Shilp */
+    .about-shilp .objectives ul{flex-wrap: wrap;}
+    .about-shilp .objectives .second{padding-top: 0;}
+    .about-shilp .objectives ul li{margin-top: 15px;}
+    .about-shilp .objectives ul li .program figcaption{width: 100%;}
+    .about-shilp .objectives ul li:last-child{padding-right: 0}
+    .about-shilp .objectives ul li{padding-right: 0;}
+    .about-shilp .info-text.purpose-text{left: 28%;}
 
 }
 
@@ -473,7 +482,15 @@
     .diaries-info .filters .filters-data ul li{margin-bottom: 0.5rem;}
     .diaries-info .filters-card ul .item{width: 100%;}
 
-    
+    /* About Shilp */
+    .about-shilp .objectives ul li .program{flex-wrap: wrap;}
+    .about-shilp .objectives ul li .program figcaption{padding-left: 0;}
+    .about-shilp .objectives ul li .program figure{margin: 0 auto;}
+    .about-shilp .objectives ul{padding: 0;}
+    .about-shilp .objectives .heading{padding-bottom: 5px;}
+    .about-shilp .info-text{width: 97%;}
+    .about-shilp .info-text.goal-text{left: 50%;}
+    .about-shilp .info-text.purpose-text{left: 50%;}
     
 }
 @media screen and (max-width: 599px) {

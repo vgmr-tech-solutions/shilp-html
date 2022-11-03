@@ -1164,6 +1164,7 @@ footer {
                       margin-bottom: 1.875rem;
                       max-width: 310px;
                       width: 100%;
+                      &:hover{box-shadow: 1px 1px 5px #ddd;}
                       figure{
                         border: 1px solid var(--lightpink);
                         span{
@@ -1179,7 +1180,7 @@ footer {
                       }
                       figcaption{
                         height: auto;
-                        .lbl-txt {background-color: var(--secondarycolor);}
+                        // .lbl-txt {background-color: var(--secondarycolor);}
                         h2{height: 45px;}
                         .cards-dtls{
                           .icon{
@@ -1604,9 +1605,10 @@ footer {
         // margin-right: 25px;
         display: none;
         .card{
-          padding-bottom: 30px;
+          margin-bottom: 30px;
           width: 100%;
           max-width: 310px; 
+          &:hover{box-shadow: 1px 1px 5px #ddd;}
           figure{
             border: 1px solid var(--lightpink);
           }
@@ -1623,105 +1625,114 @@ footer {
 }
 
 //About
-.list{
-  &.about{
-    margin-top: 2.063rem;
+.about-shilp{
+  .list{
+    &.about{
+      margin-top: 2.063rem;
+    }
   }
-}
-.info{
-  height: 205px;
-  width: 401px;
-  h2{
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #fff;
-  }
-  p{font-size: 1.375rem;font-weight: 700;color: #fff;margin-top: 1.688rem;}
-  &.goal-text{
-    position: absolute;
-    top: 50%;
-    left: 71%;
-    transform: translate(-50%, -50%);
-  }
-  &.purpose-text{
-    position: absolute;
-    top: 50%;
-    left: 34%;
-    transform: translate(-50%, -50%);
-  }
-}
-.goal{
-  margin-top: 2.5rem;
-  background-image: url("/resources/images/goal-about.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 450px;
-  width: 100%;
-  background-size: cover;
-  position: relative;
-
-}
-.purpose{
-  background-image: url("/resources/images/purpose-about.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 450px;
-  width: 100%;
-  background-size: cover;
-  position: relative;
-  margin-top: -16px;
-}
-.objectives{
-  background-color: #FFF6FC;
-  padding: 2.688rem 0;
-  .heading{
-    text-align: center;
-    padding-bottom: 38px;
+  .info-text{
+    height: 205px;
+    width: 401px;
     h2{
       font-size: 2.5rem;
       font-weight: 700;
-      color: #660562;
+      color: #fff;
+    }
+    p{font-size: 1.375rem;font-weight: 700;color: #fff;margin-top: 1.688rem;}
+    &.goal-text{
+      position: absolute;
+      top: 50%;
+      left: 71%;
+      transform: translate(-50%, -50%);
+    }
+    &.purpose-text{
+      position: absolute;
+      top: 50%;
+      left: 34%;
+      transform: translate(-50%, -50%);
     }
   }
-  ul{
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    li{
-      // border-bottom: 1px solid #660562;
+  .goal{
+    margin-top: 2.5rem;
+    background-image: url("/resources/images/goal-about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+
+  }
+  .purpose{
+    background-image: url("/resources/images/purpose-about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    margin-top: -16px;
+  }
+  .objectives{
+    background-color: #FFF6FC;
+    padding: 2.688rem 0;
+    .heading{
+      text-align: center;
+      padding-bottom: 38px;
+      h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #660562;
+      }
+    }
+    ul{
+      margin: 0;
+      padding: 0 45px;
+      list-style-type: none;
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      padding: 0 75px;
-      figure{
-        .circle{
-          width: 160px;
-          height: 160px;
-          border-radius: 100%;
-          background-color: #660562;
-          img{
-            position: relative;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+      justify-content: center;
+      li{
+        // border-bottom: 1px solid #660562;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 75px;
+        &:last-child{padding-right: 0;}
+        .program{
+          display: flex;
+          border-bottom: 1px solid #660562;
+          padding-bottom: 1.4rem;
+          align-items: center;
+          figure{
+            .circle{
+              width: 160px;
+              height: 160px;
+              border-radius: 100%;
+              background-color: #660562;
+              img{
+                position: relative;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+            }
+          }
+          figcaption{
+            width: 400px;
+            padding-left: 40px;
+            p{    
+              font-size: 1.375rem;
+              font-weight: 700;
+              margin: 0;
+            }
           }
         }
       }
-      figcaption{
-        width: 400px;
-        padding-left: 40px;
-        p{    
-          font-size: 1.375rem;
-          font-weight: 700;
-          margin: 0;
-        }
-      }
     }
-  }
-  .second{
-    padding-top: 70px;
+    .second{
+      padding-top: 70px;
+    }
   }
 }

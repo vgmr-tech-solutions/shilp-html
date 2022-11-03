@@ -106,12 +106,12 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-md-12 col-sm-12">
+                        <a href="resource-details.shtml">
                         <div class="card">
-                            <a href="resource-details.shtml">
-                                <figure class="bigImg">
-                                    <img src="/resources/images/card-img.jpg" alt="Program" title="Program"/>
-                                </figure>
-                            </a>
+                            <figure class="bigImg">
+                                <img src="/resources/images/card-img.jpg" alt="Program" title="Program"/>
+                            </figure>
+                            
                             <figcaption class="ipad-text">
                                 <label class="lbl-txt secondaryColor">Program</label>
                                 <h2>How to write an effective mission statement</h2>
@@ -121,7 +121,8 @@
                                     <li><i class="fa fa-clock-o" aria-hidden="true"></i> 15 mins</li>
                                 </ul>
                             </figcaption>
-                        </div>                       
+                        </div> 
+                        </a>                      
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="row">

@@ -8,10 +8,10 @@
         </li>
         <li>
           <ul class="footer-link">
-            <li><a href="#">SHILP Program</a></li>
+            <li><a href="/shilp-program.shtml">SHILP Program</a></li>
             <li><a href="/cbo-diaries.shtml">CBO Diaries</a></li>
-            <li><a href="#">Leadership Development</a></li>
-            <li><a href="#">Institutional Building</a></li>
+            <li><a href="/leadership-development.shtml">Leadership Development</a></li>
+            <li><a href="/institutional-building.shtml">Institutional Building</a></li>
           </ul>
         </li>
         <li>

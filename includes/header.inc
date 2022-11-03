@@ -64,7 +64,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="/contact.shtml">
                                 Contact
                             </a> 
                         </li>

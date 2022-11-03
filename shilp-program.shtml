@@ -70,11 +70,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="checkbox development">
+                                    <div class="checkbox topic">
                                         <input class="styled-checkbox" id="checkbox-2" type="checkbox" value="Leadership Development">
                                         <label for="checkbox-2">Leadership Development</label>
                                     </div>
-                                    <div class="checkbox building">
+                                    <div class="checkbox topic">
                                         <input class="styled-checkbox" id="checkbox-3" type="checkbox" value="Institutional Building">
                                         <label for="checkbox-3">Institutional Building</label>
                                     </div>

@@ -30,7 +30,7 @@
   header::after {
     content: "";
     background: url(/resources/images/top-image.png) 0 0 no-repeat;
-    height: 355px;
+    height: 515px;
     position: absolute;
     width: 604px;
     background-size: 100%;
@@ -491,6 +491,14 @@
     .about-shilp .info-text{width: 97%;}
     .about-shilp .info-text.goal-text{left: 50%;}
     .about-shilp .info-text.purpose-text{left: 50%;}
+
+    /* Terms & Conditions */
+    .inner-page .list .heading h2{margin-top: 20px;font-size: 2rem;}
+    .termscondition .termswconditions .data-text{padding: 15px;margin-top: 20px;}
+
+    /* Thank You */
+    .thankyou .thank-you .thank-info{width: 100%;margin-top: 15px;padding: 20px;}
+    
     
 }
 @media screen and (max-width: 599px) {

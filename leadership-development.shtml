@@ -55,26 +55,22 @@
                                             <input class="styled-checkbox" id="checkbox-1" type="checkbox" value="SHILP Program">
                                             <label for="checkbox-1">SHILP Program</label>
                                         </div>
+                                    </div>
+                                    <div class="checkbox topic">
+                                        <input class="styled-checkbox" id="checkbox-2" type="checkbox" value="Leadership Development" checked>
+                                        <label for="checkbox-2">Leadership Development</label>
                                         <div class="mycheck submenu">
                                             <div class="checkbox topic">
-                                                <input class="styled-checkbox" id="checkbox-13" type="checkbox" value="Program Resources">
-                                                <label for="checkbox-13"> Program Resources</label>
+                                                <input class="styled-checkbox" id="checkbox-13" type="checkbox" value="Leader Self Assessment" checked>
+                                                <label for="checkbox-13"> Leader Self Assessment</label>
                                             </div>
                                             <div class="checkbox topic">
-                                                <input class="styled-checkbox" id="checkbox-14" type="checkbox" value="Cohort Selection">
-                                                <label for="checkbox-14">Cohort Selection</label>
-                                            </div>
-                                            <div class="checkbox topic">
-                                                <input class="styled-checkbox" id="checkbox-15" type="checkbox" value="Design Framework">
-                                                <label for="checkbox-15">Design Framework</label>
+                                                <input class="styled-checkbox" id="checkbox-14" type="checkbox" value="Leader Capacity Building" checked>
+                                                <label for="checkbox-14">Leader Capacity Building </label>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="checkbox development">
-                                        <input class="styled-checkbox" id="checkbox-2" type="checkbox" value="Leadership Development" checked>
-                                        <label for="checkbox-2">Leadership Development</label>
-                                    </div>
-                                    <div class="checkbox building">
+                                    <div class="checkbox topic">
                                         <input class="styled-checkbox" id="checkbox-3" type="checkbox" value="Institutional Building">
                                         <label for="checkbox-3">Institutional Building</label>
                                     </div>

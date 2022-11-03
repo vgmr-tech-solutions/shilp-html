@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shilp : Samruddh Sanstha</title>
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header-js-css.inc'-->
+    <!-- header css and script ends -->
+</head>
+<body class="inner-page contact">
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header.inc'-->
+    <!-- header css and script ends -->
+    <div class="wrapper">
+
+        <section class="list">
+            <div class="container">
+                <div class="heading">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-details">
+            <div class="container">
+                <div class="contact-info">
+                   <div class="address">
+                        <div class="address-info">
+                            <a href="#" class="cust">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </a>
+                            <div class="details">
+                                <h4>SHILP</h4>
+                                <p>Address lorem ipsum dummy text lorem ipsum dummy text lorem Lorem.</p>
+                            </div>
+                        </div>
+                        <div class="whatapp">
+                            <a href="#" class="cust">
+                                <img src="/resources/images/icon/whatsapp.png" alt="whatsapp" title="whatsapp">
+                            </a>
+                            <div class="details">
+                                <p>+91 00000 00000</p>
+                            </div>
+                        </div>
+                        <div class="phone">
+                            <a href="#" class="cust">
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                            </a>
+                            <div class="details">
+                                <p>+91 00000 00000</p>
+                            </div>
+                        </div>
+
+                        <div class="mail">
+                            <a href="#" class="cust">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                            <div class="details">
+                                <p>info@shilp.org</p>
+                            </div>
+                        </div>
+
+                        <div class="social-link">
+                            <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" class="insta"> <img src="/resources/images/icon/instagram.png" alt="instagram" title="instagram"> </a>
+                        </div>
+                   </div>
+                    <div class="enquiry">
+                        <h2>Enquiry</h2>
+                        <p>Please fill the below details.</p>
+                        <small>* Mandatory Fields</small>
+                        <form action="#">
+                            <ul class="contact-form">
+                                <li>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your First and Last Name *" class="form-control">
+                                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                                    </div>
+                                </li>   
+                                <li>
+                                    <div class="form-group">
+                                        <div class="input-group">
+                                            <div class="input-group-text">
+                                                <select required="" class="form-select">
+                                                    <option value="" selected="selected">+91</option>
+                                                    <option value="1">+91</option>
+                                                    <option value="2">+91</option>
+                                                </select>
+                                            </div>
+                                            <input type="text" placeholder="Your Mobile *" class="form-control">
+                                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </li> 
+                                <li>
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Email ID *" class="form-control">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    </div>
+                                </li> 
+                                <li>
+                                    <div class="form-group">
+                                    <textarea rows="3" class="form-control" placeholder="Any comments type here...*" ></textarea>
+                                </div>
+                                </li> 
+                            </ul>
+                            <div class="text">
+                                <small>1000 Remaining Characters</small>  
+                                <div class="submit">
+                                    <a href="#" class="btn-primary">Submit</a> 
+                                </div>    
+                            </div>                     
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="map">
+                <figure>
+                    <img src="/resources/images/map.png" alt="map" title="map">
+                </figure>
+            </div>
+        </section>
+        
+
+    </div>
+
+    <!-- footer starts -->
+    <!--#include virtual='/includes/footer.inc'-->
+    <!-- footer ends -->
+    <!-- footer js css and script starts -->
+    <!--#include virtual='/includes/footer-js-css.inc'-->
+    <!-- footer js css and script ends -->
+
+</body>
+</html>

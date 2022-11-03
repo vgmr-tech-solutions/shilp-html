@@ -1200,20 +1200,6 @@ footer .copyright li {
   background: var(--secondarycolor);
   border: 1px solid var(--secondarycolor);
 }
-.list-resources .wrapper .searchresult .custom-col .left-column .checkbox.development .styled-checkbox + label {
-  font-weight: 700;
-}
-.list-resources .wrapper .searchresult .custom-col .left-column .checkbox.development .styled-checkbox:checked + label:before {
-  background: var(--maincolor);
-  border: 1px solid var(--maincolor);
-}
-.list-resources .wrapper .searchresult .custom-col .left-column .checkbox.building .styled-checkbox + label {
-  font-weight: 700;
-}
-.list-resources .wrapper .searchresult .custom-col .left-column .checkbox.building .styled-checkbox:checked + label:before {
-  background: var(--greencolor);
-  border: 1px solid var(--greencolor);
-}
 .list-resources .wrapper .searchresult .custom-col .left-column .load-more {
   color: #970F65;
   font-size: 14px;
@@ -1878,4 +1864,279 @@ footer .copyright li {
 }
 .about-shilp .objectives .second {
   padding-top: 70px;
+}
+
+.termscondition .list .heading {
+  margin-top: 2.063rem;
+}
+.termscondition .termswconditions .data-text {
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 5px #ddd;
+  padding: 40px;
+  margin-top: 45px;
+}
+.termscondition .termswconditions .data-text h4 {
+  font-size: 1.375rem;
+  font-weight: 700;
+  margin-top: 1.125rem;
+}
+.termscondition .termswconditions .data-text h4:first-child {
+  margin-top: 0;
+}
+.termscondition .termswconditions .data-text p {
+  font-size: 1.125rem;
+}
+
+.thankyou .thank-you .thank-info {
+  width: 555px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFFFFF;
+  box-shadow: 1px 1px 5px #ddd;
+  margin-top: 75px;
+  padding: 40px;
+}
+.thankyou .thank-you .thank-info .circle {
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
+  background-color: #660562;
+  border-radius: 50%;
+  position: relative;
+}
+.thankyou .thank-you .thank-info .circle i {
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.thankyou .thank-you .thank-info h2 {
+  font-size: 40px;
+  color: #660562;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+.thankyou .thank-you .thank-info p {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.thankyou .thank-you .thank-info .back {
+  margin-top: 37px;
+  width: 200px;
+}
+.thankyou .thank-you .thank-info .social-link {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.thankyou .thank-you .thank-info .social-link .facebook {
+  background-color: #3B5998;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 7px;
+}
+.thankyou .thank-you .thank-info .social-link .facebook i {
+  font-size: 1.125rem;
+  align-self: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.contact .list .heading {
+  margin-top: 2.063rem;
+}
+.contact .contact-details .contact-info {
+  margin: 55px 130px;
+  background-color: #FFF6FC;
+  display: flex;
+}
+.contact .contact-details .contact-info .cust {
+  background-color: #fff;
+  border: 1px solid #660562;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+.contact .contact-details .contact-info .cust i {
+  font-size: 1.563rem;
+  align-self: center;
+  margin: 0 auto;
+  color: #660562;
+}
+.contact .contact-details .contact-info h4 {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+.contact .contact-details .contact-info p {
+  font-size: 1.125rem;
+  width: 281px;
+}
+.contact .contact-details .social-link {
+  margin-top: 21px;
+  display: flex;
+}
+.contact .contact-details .social-link .facebook {
+  background-color: #3B5998;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 7px;
+}
+.contact .contact-details .social-link .facebook i {
+  font-size: 1.125rem;
+  align-self: center;
+  margin: 0 auto;
+  color: #fff;
+}
+.contact .contact-details .address {
+  padding: 42px 70px;
+}
+.contact .contact-details .address .address-info {
+  display: flex;
+  margin-bottom: 22px;
+}
+.contact .contact-details .address .whatapp {
+  display: flex;
+  margin-bottom: 22px;
+}
+.contact .contact-details .address .whatapp .cust {
+  border: 0;
+  background-color: unset;
+}
+.contact .contact-details .address .whatapp .cust img {
+  margin: 0 auto;
+}
+.contact .contact-details .address .phone {
+  display: flex;
+  margin-bottom: 22px;
+}
+.contact .contact-details .address .mail {
+  display: flex;
+  margin-bottom: 22px;
+}
+.contact .contact-details .enquiry {
+  background: #FFFFFF;
+  width: 565px;
+  box-shadow: 1px 1px 5px #ddd;
+  padding: 20px 44px 50px;
+  z-index: 9;
+}
+.contact .contact-details .enquiry h2 {
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+.contact .contact-details .enquiry p {
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+.contact .contact-details .enquiry small {
+  font-size: 0.75rem;
+  float: right;
+  margin-bottom: 10px;
+}
+.contact .contact-details .enquiry form .contact-form {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.contact .contact-details .enquiry form .contact-form li .form-group {
+  position: relative;
+}
+.contact .contact-details .enquiry form .contact-form li .form-group input {
+  height: 50px;
+  border: 1px solid #E6E6E6;
+  margin-bottom: 20px;
+  outline: none;
+  padding-left: 35px;
+  text-indent: 25px;
+}
+.contact .contact-details .enquiry form .contact-form li .form-group input:focus {
+  box-shadow: none;
+}
+.contact .contact-details .enquiry form .contact-form li .form-group textarea {
+  resize: none;
+  border: 1px solid #E6E6E6;
+}
+.contact .contact-details .enquiry form .contact-form li .form-group textarea:focus {
+  box-shadow: none;
+}
+.contact .contact-details .enquiry form .contact-form li .form-group i {
+  position: absolute;
+  top: 50%;
+  left: 4%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+}
+.contact .contact-details .enquiry form .contact-form li .form-group i.fa-user-o {
+  position: absolute;
+  top: 69%;
+  left: 4%;
+  transform: translate(-50%, -50%);
+}
+.contact .contact-details .enquiry form .contact-form li .form-group .input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.contact .contact-details .enquiry form .contact-form li .form-group .input-group .input-group-text {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  align-items: baseline;
+}
+.contact .contact-details .enquiry form .contact-form li .form-group .input-group .input-group-text .form-select {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 80px;
+  height: 50px;
+}
+.contact .contact-details .enquiry form .contact-form li .form-group .input-group .fa-mobile {
+  position: absolute;
+  top: 38%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  z-index: 9;
+}
+.contact .contact-details .enquiry form .text {
+  display: grid;
+}
+.contact .contact-details .enquiry form .text small {
+  text-align: right;
+  font-size: 0.75rem;
+  margin-top: 5px;
+}
+.contact .contact-details .enquiry form .text .submit {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 27px;
+}
+.contact .contact-details .enquiry form .text .submit .btn-primary {
+  width: 300px;
+  text-align: center;
+}
+.contact .map {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.contact .map figure {
+  margin-top: -141px;
 }/*# sourceMappingURL=style.css.map */

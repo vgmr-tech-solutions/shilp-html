@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shilp : Samruddh Sanstha</title>
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header-js-css.inc'-->
+    <!-- header css and script ends -->
+</head>
+<body class="inner-page termscondition">
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header.inc'-->
+    <!-- header css and script ends -->
+    <div class="wrapper">
+
+        <section class="list">
+            <div class="container">
+                <div class="heading">
+                    <h2>Terms & Conditions</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="termswconditions">
+            <div class="container">
+                <div class="data-text">
+                    <h4>Lorem ipsu</h4>
+                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
+                    
+                    <h4>Lorem ipsu</h4>
+                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
+
+                    <h4>Lorem ipsu</h4>
+                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
+
+                    <h4>Lorem ipsu</h4>
+                    <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- footer starts -->
+    <!--#include virtual='/includes/footer.inc'-->
+    <!-- footer ends -->
+    <!-- footer js css and script starts -->
+    <!--#include virtual='/includes/footer-js-css.inc'-->
+    <!-- footer js css and script ends -->
+
+</body>
+</html>

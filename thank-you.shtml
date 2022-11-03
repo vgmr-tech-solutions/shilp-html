@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shilp : Samruddh Sanstha</title>
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header-js-css.inc'-->
+    <!-- header css and script ends -->
+</head>
+<body class="inner-page thankyou">
+    <!-- header css and script starts -->
+    <!--#include virtual='/includes/header.inc'-->
+    <!-- header css and script ends -->
+    <div class="wrapper">
+
+        <section class="thank-you">
+            <div class="container">
+               <div class="thank-info">
+                    <div class="circle">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                    </div>
+                    <h2>Thank You!</h2>
+                    <p>We appreciate you showing interest with us.</p>
+                    <p>Our SHILP advisor will reach out to you shortly.</p>
+                    <a href="index.shtml" class="btn-primary back">back to home</a>
+
+                    <div class="social-link">
+                        <a href="#" class="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" class="insta"> <img src="/resources/images/icon/instagram.png" alt="instagram" title="instagram"> </a>
+                    </div>
+               </div>
+            </div>
+        </section>
+
+    </div>
+    <script>
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 10) {
+                $('header').addClass('fixed-header');
+            } else {
+                $('header').removeClass('fixed-header');
+            }
+        });
+    </script>
+    <!-- footer starts -->
+    <!--#include virtual='/includes/footer.inc'-->
+    <!-- footer ends -->
+    <!-- footer js css and script starts -->
+    <!--#include virtual='/includes/footer-js-css.inc'-->
+    <!-- footer js css and script ends -->
+
+</body>
+</html>

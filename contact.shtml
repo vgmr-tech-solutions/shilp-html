@@ -40,7 +40,7 @@
                                 <img src="/resources/images/icon/whatsapp.png" alt="whatsapp" title="whatsapp">
                             </a>
                             <div class="details">
-                                <p>+91 00000 00000</p>
+                                <a href="tel:00000 00000">+91 00000 00000</a>
                             </div>
                         </div>
                         <div class="phone">
@@ -48,7 +48,7 @@
                                 <i class="fa fa-mobile" aria-hidden="true"></i>
                             </a>
                             <div class="details">
-                                <p>+91 00000 00000</p>
+                                <a href="tel:00000 00000">+91 00000 00000</a>                     
                             </div>
                         </div>
 
@@ -57,7 +57,7 @@
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
                             </a>
                             <div class="details">
-                                <p>info@shilp.org</p>
+                                <a href="mailto:info@shilp.com">info@shilp.com</a>
                             </div>
                         </div>
 
@@ -101,14 +101,14 @@
                                 </li> 
                                 <li>
                                     <div class="form-group">
-                                    <textarea rows="3" class="form-control" placeholder="Any comments type here...*" ></textarea>
+                                    <textarea rows="3" class="form-control" placeholder="Any comments type here..." ></textarea>
                                 </div>
                                 </li> 
                             </ul>
                             <div class="text">
                                 <small>1000 Remaining Characters</small>  
                                 <div class="submit">
-                                    <a href="#" class="btn-primary">Submit</a> 
+                                    <a href="/thank-you.shtml" class="btn-primary">Submit</a> 
                                 </div>    
                             </div>                     
                         </form>

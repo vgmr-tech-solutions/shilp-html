@@ -1981,6 +1981,7 @@ footer .copyright li {
 .contact .contact-details .contact-info p {
   font-size: 1.125rem;
   width: 281px;
+  margin: 0;
 }
 .contact .contact-details .social-link {
   margin-top: 21px;
@@ -2004,6 +2005,10 @@ footer .copyright li {
 }
 .contact .contact-details .address {
   padding: 42px 70px;
+}
+.contact .contact-details .address a {
+  font-size: 1.125rem;
+  color: #000000;
 }
 .contact .contact-details .address .address-info {
   display: flex;
@@ -2033,7 +2038,7 @@ footer .copyright li {
   width: 565px;
   box-shadow: 1px 1px 5px #ddd;
   padding: 20px 44px 50px;
-  z-index: 9;
+  z-index: 1;
 }
 .contact .contact-details .enquiry h2 {
   font-size: 1.375rem;
@@ -2061,7 +2066,6 @@ footer .copyright li {
   border: 1px solid #E6E6E6;
   margin-bottom: 20px;
   outline: none;
-  padding-left: 35px;
   text-indent: 25px;
 }
 .contact .contact-details .enquiry form .contact-form li .form-group input:focus {
@@ -2139,4 +2143,7 @@ footer .copyright li {
 }
 .contact .map figure {
   margin-top: -141px;
+}
+.contact .map figure img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

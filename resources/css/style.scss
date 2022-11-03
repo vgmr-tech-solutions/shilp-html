@@ -1833,7 +1833,7 @@ footer {
         }
       }
       h4{font-size: 1.125rem;font-weight: 700;}
-      p{font-size: 1.125rem;width: 281px;}
+      p{font-size: 1.125rem;width: 281px;margin: 0;}
     }
     .social-link{
       margin-top: 21px;
@@ -1857,6 +1857,7 @@ footer {
     }
     .address{
       padding: 42px 70px;
+      a{font-size: 1.125rem;color: #000000;}
       .address-info{display: flex;margin-bottom: 22px;}
       .whatapp{
         display: flex;
@@ -1875,7 +1876,7 @@ footer {
       width: 565px;
       box-shadow: 1px 1px 5px #ddd;
       padding: 20px 44px 50px;
-      z-index: 9;
+      z-index: 1;
       h2{
         font-size: 1.375rem;
         font-weight: 700;
@@ -1892,7 +1893,7 @@ footer {
             .form-group{
               position: relative;
               input{
-                height: 50px;border: 1px solid #E6E6E6;margin-bottom: 20px;outline: none;padding-left: 35px;text-indent: 25px;
+                height: 50px;border: 1px solid #E6E6E6;margin-bottom: 20px;outline: none;text-indent: 25px;
                 &:focus{box-shadow: none;}
               }
               textarea{
@@ -1964,6 +1965,7 @@ footer {
     text-align: center;
     figure{
       margin-top: -141px;
+      img{width: 100%;}
     }
   }
 }

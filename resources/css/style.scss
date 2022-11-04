@@ -1996,3 +1996,19 @@ footer {
     }
   }
 }
+
+.inner-page.custom-details header::after{
+  content: "";
+      
+  background: url(/resources/images/shape.png) 0 0 no-repeat;
+  height: 410px;
+  position: absolute;
+  width: 660px;
+  background-size: 100%;
+  top: 0;
+  right: 0;
+  z-index: -9;
+}
+.goal{height: 520px;}
+.purpose{height: 520px;}
+

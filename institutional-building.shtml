@@ -62,7 +62,7 @@
                                         </li>
 
                                         <li class="checkbox topic">
-                                            <input class="styled-checkbox" id="checkbox-3" type="checkbox" value="Institutional Building">
+                                            <input class="styled-checkbox" id="checkbox-3" type="checkbox" value="Institutional Building" checked>
                                             <label for="checkbox-3">Institutional Building</label>
                                             <ul class="mycheck submenu">
                                                 <li class="checkbox topic">

@@ -1,5 +1,5 @@
 @media screen and (max-width: 1920px) {
-  .inner-page.custom-details header::after {
+  header::after {
     content: "";
     background: url(/resources/images/shape.png) 0 0 no-repeat;
     height: 100%;
@@ -11,6 +11,24 @@
     z-index: -9;
 }
 
+.inner-page.custom-details header::after{
+  content: "";
+  background: url(/resources/images/shape.png) 0 0 no-repeat;
+  height: 410px;
+  position: absolute;
+  width: 660px;
+  background-size: 100%;
+  top: 0;
+  right: -200px;
+  z-index: -9;
+}
+.goal{height: 520px;}
+.purpose{height: 520px;}
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+  .inner-page.custom-details header::after{right: -200px;}
+}
 
 @media screen and (max-width: 1366px) {
   header::after {
@@ -33,7 +51,7 @@
     width: 341px;
     background-size: 100%;
     top: 0;
-    right: 0;
+    right: 0px;
     z-index: -9;
 }
 .purpose{margin-top: 0;}

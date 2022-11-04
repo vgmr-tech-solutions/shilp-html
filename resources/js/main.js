@@ -142,3 +142,55 @@ $(document).ready(function () {
   $(".form-control").keyup(countCharacters);
 });
 // Comment Character Count Script Ends   
+
+
+// Responsive List Resource Filters
+$( window ).resize( function() {
+  
+  if ( window.matchMedia( '(max-width:767px)' ).matches ) {
+    
+    $('.applied-filter').click(function () {
+      $(this).parents('.left-column').addClass('open');
+      $('.reset').css('display','block');
+    });
+      $('.filter-details .close').click(function () {
+          $(this).parents('.left-column').removeClass('open');
+          $('.reset').css('display','none');
+      })
+      $('.btn-apply').click(function () {
+          $(this).parents('.left-column').removeClass('open');
+          $('.reset').css('display','none');
+      });
+      $('.btn-cancle').click(function () {
+          $(this).parents('.left-column').removeClass('open');
+          $('.reset').css('display','none');
+      });
+
+    
+  } else if ( window.matchMedia( '(max-width:991px)').matches ) {
+    
+    $('.applied-filter').click(function () {
+      $(this).parents('.left-column').addClass('open');
+      $('.reset').css('display','block');
+    });
+      $('.filter-details .close').click(function () {
+          $(this).parents('.left-column').removeClass('open');
+          $('.reset').css('display','none');
+      })
+      $('.btn-apply').click(function () {
+          $(this).parents('.left-column').removeClass('open');
+          $('.reset').css('display','none');
+      });
+      $('.btn-cancle').click(function () {
+          $(this).parents('.left-column').removeClass('open');
+          $('.reset').css('display','none');
+      });
+
+  } else {
+    
+    // console.log ('desktop' );
+    
+  }
+
+} );
+$( window ).resize();

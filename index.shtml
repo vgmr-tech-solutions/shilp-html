@@ -43,7 +43,7 @@
                                     <h4>SHILP Program</h4>
                                     <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn-outline">Explore SHILP Program</a>
+                                        <a href="shilp-program.shtml" class="btn-outline">Explore SHILP Program</a>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -73,7 +73,7 @@
                                     <h4>Leadership Development</h4>
                                     <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn-outline">Explore Leadership Development </a>
+                                        <a href="leadership-development.shtml" class="btn-outline">Explore Leadership Development </a>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -88,7 +88,7 @@
                                     <h4>Institutional Building</h4>
                                     <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn-outline">Explore Institutional Building</a>
+                                        <a href="institutional-building.shtml" class="btn-outline">Explore Institutional Building</a>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -127,7 +127,7 @@
                     <div class="col-lg-6 col-md-12 col-sm-12">
                         <div class="row">
                             <div class="col-md-12">
-                                <a href="#">
+                                <a href="leadership-development.shtml">
                                     <div class="card typ2">
                                         <figure>
                                             <img src="/resources/images/feature-video.png" alt="video" title="video" />
@@ -163,7 +163,7 @@
                                 </a>
                             </div>
                             <div class="col-md-12">
-                                <a href="#">
+                                <a href="institutional-building.shtml">
                                     <div class="card typ2">
                                         <figure>
                                             <img src="/resources/images/feature-two.png" alt="Institutional Building" title="Institutional Building" />
@@ -199,7 +199,7 @@
                 <h4>Program SHILP</h4>
                 <p>Lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text lorem ipsum dummy text</p>
                 <div class="text-center">
-                    <a href="#" class="btn-outline">Know More About SHILP PRogram</a>
+                    <a href="shilp-program.shtml" class="btn-outline">Know More About SHILP PRogram</a>
                 </div>
             
         </figcaption>

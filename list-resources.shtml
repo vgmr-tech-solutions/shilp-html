@@ -54,16 +54,76 @@
                                         <li class="checkbox topic">
                                             <input class="styled-checkbox" id="checkbox-1" type="checkbox" value="SHILP Program">
                                             <label for="checkbox-1">SHILP Program</label>
+                                            <ul class="mycheck submenu program">
+                                                <li class="checkbox topic">
+                                                    <input class="styled-checkbox" id="checkbox-13" type="checkbox" value="Program Resources">
+                                                    <label for="checkbox-13"> Program Resources</label>
+                                                </li>
+                                                <li class="checkbox topic">
+                                                    <input class="styled-checkbox" id="checkbox-14" type="checkbox" value="Cohort Selection">
+                                                    <label for="checkbox-14">Cohort Selection</label>
+                                                </li>
+                                                <li class="checkbox topic">
+                                                    <input class="styled-checkbox" id="checkbox-15" type="checkbox" value="Design Framework">
+                                                    <label for="checkbox-15">Design Framework</label>
+                                                </li>
+                                            </ul>
                                         </li>
 
                                         <li class="checkbox topic">
                                             <input class="styled-checkbox" id="checkbox-2" type="checkbox" value="Leadership Development">
                                             <label for="checkbox-2">Leadership Development</label>
+                                            <ul class="mycheck submenu development">
+                                                <li class="checkbox topic">
+                                                    <input class="styled-checkbox" id="checkbox-13" type="checkbox" value="Leader Self Assessment">
+                                                    <label for="checkbox-13"> Leader Self Assessment</label>
+                                                </li>
+                                                <li class="checkbox topic">
+                                                    <input class="styled-checkbox" id="checkbox-14" type="checkbox" value="Leader Capacity Building">
+                                                    <label for="checkbox-14">Leader Capacity Building </label>
+                                                </li>
+                                            </ul>
                                         </li>
 
                                         <li class="checkbox topic">
                                             <input class="styled-checkbox" id="checkbox-3" type="checkbox" value="Institutional Building">
                                             <label for="checkbox-3">Institutional Building</label>
+                                            <ul class="mycheck submenu building">
+                                                <li class="checkbox topic">
+                                                    <input class="styled-checkbox" id="checkbox-13" type="checkbox" value="Building Systems and Processes">
+                                                    <label for="checkbox-13"> Building Systems and Processes</label>
+                                                    <ul class="mycheck submenu">
+                                                        <li class="checkbox topic">
+                                                            <input class="styled-checkbox" id="checkbox-16" type="checkbox" value="Membership">
+                                                            <label for="checkbox-16"> Membership</label>
+                                                        </li>
+                                                        <li class="checkbox topic">
+                                                            <input class="styled-checkbox" id="checkbox-17" type="checkbox" value="Programmes">
+                                                            <label for="checkbox-17">Programmes</label>
+                                                        </li>
+                                                        <li class="checkbox topic">
+                                                            <input class="styled-checkbox" id="checkbox-18" type="checkbox" value="Strategy and Governance">
+                                                            <label for="checkbox-18"> Strategy and Governance</label>
+                                                        </li>
+                                                        <li class="checkbox topic">
+                                                            <input class="styled-checkbox" id="checkbox-19" type="checkbox" value="Financial Health">
+                                                            <label for="checkbox-19"> Financial Health</label>
+                                                        </li>
+                                                        <li class="checkbox topic">
+                                                            <input class="styled-checkbox" id="checkbox-20" type="checkbox" value="Leadership and Organisation Building">
+                                                            <label for="checkbox-20"> Leadership and Organisation Building</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="checkbox topic">
+                                                    <input class="styled-checkbox" id="checkbox-14" type="checkbox" value="Baselining for Growth">
+                                                    <label for="checkbox-14">Baselining for Growth</label>
+                                                </li>
+                                                <li class="checkbox topic">
+                                                    <input class="styled-checkbox" id="checkbox-15" type="checkbox" value=" Crafting a Business Plan">
+                                                    <label for="checkbox-15"> Crafting a Business Plan</label>
+                                                </li>
+                                            </ul>
                                         </li>
                                     </ul>                               
                                 </li>
@@ -530,22 +590,30 @@
 
     <script>
     $(document).ready(function(){
-        $('.applied-filter').click(function () {
-            $(this).parents('.left-column').addClass('open');
-            $('.reset').css('display','block');
-       });
-        $('.filter-details .close').click(function () {
-            $(this).parents('.left-column').removeClass('open');
-            $('.reset').css('display','none');
+
+        $("#checkbox-1").click(function () {
+            if ($(this).is(":checked")) {
+                $(".program").show();
+            } else {
+                $(".program").hide();
+            }
+        });
+
+        $("#checkbox-2").click(function(){
+            if($(this).is(":checked")){
+                $(".development").show();
+            }else{
+                $(".development").hide();
+            }
         })
-        $('.btn-apply').click(function () {
-            $(this).parents('.left-column').removeClass('open');
-            $('.reset').css('display','none');
-        });
-        $('.btn-cancle').click(function () {
-            $(this).parents('.left-column').removeClass('open');
-            $('.reset').css('display','none');
-        });
+
+        $("#checkbox-3").click(function(){
+            if($(this).is(":checked")){
+                $(".building").show();
+            }else{
+                $(".building").hide();
+            }
+        })
 
         $(".item").slice(0, 15).show();
         $("#loadMore").on("click", function(e){

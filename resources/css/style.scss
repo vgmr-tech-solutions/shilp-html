@@ -989,8 +989,8 @@ footer {
 
                         // Box checked
                         &:checked+label:before {
-                            background:#0066ff;
-                            border: 1px solid #0066ff;
+                            background: var(--secondarycolor);
+                            border: 1px solid var(--secondarycolor);
                         }
 
                         // Disabled state label.
@@ -1117,6 +1117,9 @@ footer {
                                   padding-left: 24px;
                                 }
                               }
+                              &.program{display: none;}
+                              &.development{display: none;}
+                              &.building{display: none;}
                             }
                             &.for-height {
                                 height: auto !important;

@@ -1174,8 +1174,8 @@ footer .copyright li {
   top: 3px;
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox .styled-checkbox:checked + label:before {
-  background: #0066ff;
-  border: 1px solid #0066ff;
+  background: var(--secondarycolor);
+  border: 1px solid var(--secondarycolor);
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .checkbox .styled-checkbox:disabled + label {
   color: #666666;
@@ -1294,6 +1294,15 @@ footer .copyright li {
 .list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories .mycheck.submenu .styled-checkbox + label {
   font-weight: 400;
   padding-left: 24px;
+}
+.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories .mycheck.submenu.program {
+  display: none;
+}
+.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories .mycheck.submenu.development {
+  display: none;
+}
+.list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories .mycheck.submenu.building {
+  display: none;
 }
 .list-resources .wrapper .searchresult .custom-col .left-column .filter-details .catergories .mycheck.for-height {
   height: auto !important;

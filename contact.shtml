@@ -100,13 +100,13 @@
                                     </div>
                                 </li> 
                                 <li>
-                                    <div class="form-group">
-                                    <textarea rows="3" class="form-control" placeholder="Any comments type here..." ></textarea>
-                                </div>
+                                    <div class="from-group">
+                                        <textarea rows="3" name="comments" maxlength="1000" class="form-control" placeholder="Any comments type here..." ></textarea>
+                                        <p class="form-text text-muted chars">1000 Remaining Characters </p>
+                                    </div>
                                 </li> 
                             </ul>
                             <div class="text">
-                                <small>1000 Remaining Characters</small>  
                                 <div class="submit">
                                     <a href="/thank-you.shtml" class="btn-primary">Submit</a> 
                                 </div>    

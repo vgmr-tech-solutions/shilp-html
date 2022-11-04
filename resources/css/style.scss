@@ -953,6 +953,7 @@ footer {
                             color: var(--linkcolor);
                             display: flex;
                             align-items: center;
+                            padding-left: 24px;
 
                             p {
                                 position: absolute;
@@ -976,6 +977,9 @@ footer {
                             background: white;
                             border: 1px solid #707070;
                             border-radius: 4px;
+                            position: absolute;
+                            left: 0;
+                            top: 3px;
                         }
 
                         // Box hover
@@ -1020,11 +1024,15 @@ footer {
                       .styled-checkbox{
                         &+label{
                           font-weight: 700;
+                          padding-left: 24px;
                         }
                         // Box checked
                         &:checked+label:before {
                           background: var(--secondarycolor);
                           border: 1px solid var(--secondarycolor);
+                          position: absolute;
+                          left: 0;
+                          top: 3px;
                         }
                       }
                     }
@@ -1084,17 +1092,29 @@ footer {
                     }
 
                     .catergories {
+                      list-style-type: none;
+                      margin: 0;
+                      padding: 0;
                         &:last-child {
                             border-bottom: 0;
                         }
 
                         .mycheck {
                             overflow: hidden;
+                            list-style-type: none;
+                            margin: 0;
+                            padding: 0;
+                            ul{
+                              list-style: none;
+                              margin: 0;
+                              padding: 0;
+                            }
                             &.submenu{
-                              padding-left: 2rem;
+                              padding-left: 1.6rem;
                               .styled-checkbox{
                                 &+label{
                                   font-weight: 400;
+                                  padding-left: 24px;
                                 }
                               }
                             }
@@ -1886,6 +1906,13 @@ footer {
         font-size: 1rem;
       }
       small{font-size: 0.75rem;float: right;margin-bottom: 10px;}
+      textarea{
+        resize: none;border: 1px solid #E6E6E6;
+        &:focus{box-shadow: none;}
+      }
+      p{
+        &.form-text{text-align: right;font-size: 0.75rem;margin-top: 5px;width: 100%;}
+      }
       form{
         .contact-form{
           list-style-type: none; margin: 0;padding: 0;
@@ -1896,10 +1923,7 @@ footer {
                 height: 50px;border: 1px solid #E6E6E6;margin-bottom: 20px;outline: none;text-indent: 25px;
                 &:focus{box-shadow: none;}
               }
-              textarea{
-                resize: none;border: 1px solid #E6E6E6;
-                &:focus{box-shadow: none;}
-              }
+            
               i{
                 position: absolute;
                 top: 50%;
@@ -1913,7 +1937,8 @@ footer {
                   transform: translate(-50%, -50%);
                 }
 
-              }
+              }           
+            
               .input-group{
                 position: relative;
                 display: flex;
@@ -1948,7 +1973,6 @@ footer {
         }
         .text{
           display: grid;
-          small{text-align: right;font-size: 0.75rem;margin-top: 5px;}
           .submit{
             margin: 0 auto;
             text-align: center;

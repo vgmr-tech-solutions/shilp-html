@@ -184,6 +184,11 @@
     .about-shilp .objectives ul li{padding-right: 0;}
     .about-shilp .info-text.purpose-text{left: 28%;}
 
+    /* Conatct Page */
+    .contact .contact-details .contact-info{margin: 25px 0px;}
+    .contact .contact-details .address{padding: 42px 12px;}
+    .contact .contact-details .enquiry{padding: 20px 20px 50px;}
+
 }
 
 @media screen and (max-width: 991px) {

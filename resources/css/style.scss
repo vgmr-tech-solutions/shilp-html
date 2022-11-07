@@ -1853,6 +1853,7 @@ footer {
           align-self: center;
           margin: 0 auto;
           color: #660562;
+          &.fa-envelope-o{font-size: 1.3rem;}
         }
       }
       h4{font-size: 1.125rem;font-weight: 700;}
@@ -1891,6 +1892,7 @@ footer {
           img{margin: 0 auto;}
         }
       }
+      .details{display: flex;align-items: center;}
       .phone{display: flex;margin-bottom: 22px;}
       .mail{display: flex;margin-bottom: 22px;}
     }

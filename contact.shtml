@@ -31,8 +31,10 @@
                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
                             </a>
                             <div class="details">
-                                <h4>SHILP</h4>
-                                <p>Address lorem ipsum dummy text lorem ipsum dummy text lorem Lorem.</p>
+                                <div class="cust-address">
+                                    <h4>SHILP</h4>
+                                    <p>Address lorem ipsum dummy text lorem ipsum dummy text lorem Lorem.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="whatapp">

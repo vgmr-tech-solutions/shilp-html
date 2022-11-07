@@ -2005,6 +2005,9 @@ footer .copyright li {
   margin: 0 auto;
   color: #660562;
 }
+.contact .contact-details .contact-info .cust i.fa-envelope-o {
+  font-size: 1.3rem;
+}
 .contact .contact-details .contact-info h4 {
   font-size: 1.125rem;
   font-weight: 700;
@@ -2055,6 +2058,10 @@ footer .copyright li {
 }
 .contact .contact-details .address .whatapp .cust img {
   margin: 0 auto;
+}
+.contact .contact-details .address .details {
+  display: flex;
+  align-items: center;
 }
 .contact .contact-details .address .phone {
   display: flex;

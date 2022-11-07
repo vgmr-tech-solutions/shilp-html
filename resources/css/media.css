@@ -521,9 +521,10 @@
     .about-shilp .info-text{width: 97%;}
     .about-shilp .info-text.goal-text{left: 50%;padding: 0 12px;}
     .about-shilp .info-text.purpose-text{left: 50%;padding: 0 12px;}
-    .about-shilp .goal{background-image: linear-gradient(to top, #030303ba, #8e8e8ecc), url(/resources/images/goal-about.jpg); height: 300px;}
-    .about-shilp .purpose{background-image: linear-gradient(to top, #030303ba, #8e8e8ecc), url(/resources/images/purpose-about.jpg); height: 300px;}
+    .about-shilp .goal{ height: 300px;}
+    .about-shilp .purpose{height: 300px;}
     .about-shilp .info-text.goal-text{top: 41%;}
+    .about-shilp .info-text p{text-shadow: 2px 2px 1px #686868;}
 
     /* Terms & Conditions */
     .inner-page .list .heading h2{margin-top: 20px;font-size: 2rem;}

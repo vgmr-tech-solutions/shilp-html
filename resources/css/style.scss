@@ -2008,3 +2008,13 @@ footer {
   position: absolute;
   z-index: -1;
 }
+
+.about-shilp .goal {
+  //content: attr(data-bg-url);
+  background-image: attr(data-bg-url url);
+  width: 100%;
+  background: #ddd;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}

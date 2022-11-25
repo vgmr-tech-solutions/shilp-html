@@ -23,8 +23,9 @@
             </div>
         </section>
 
-        <section class="goal"  data-bg-url="resources/images/goal-about.jpg">
+        <section class="goal">
             <div class="container">
+                <figure><img src="resources/images/goal-about.jpg"></figure>
                 <div class="info-text goal-text">
                     <h2>Goal</h2>
                     <p>Empowered indigenous people realize critical social, cultural and economic needs of their choice and thrive during the Covid pandemic and beyond</p>

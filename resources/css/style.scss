@@ -1654,6 +1654,7 @@ footer {
   }
   .goal{
     margin-top: 2.5rem;
+    // background-image:  var(--background);
     // background-image: url("/resources/images/goal-about.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -1664,7 +1665,7 @@ footer {
 
   }
   .purpose{
-    background-image: url("/resources/images/purpose-about.jpg");
+    // background-image: url("/resources/images/purpose-about.jpg");
     background-repeat: no-repeat;
     background-position: center;
     height: 450px;
@@ -1997,24 +1998,4 @@ footer {
       img{width: 100%;}
     }
   }
-}
-
-.about-shilp .goal::after {
-  content: attr(data-bg-url);
-  //background-image: attr(data-bg-url url);
-  width: 100%;
-  background: #ddd;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
-.about-shilp .goal {
-  //content: attr(data-bg-url);
-  background-image: attr(data-bg-url url);
-  width: 100%;
-  background: #ddd;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
 }

@@ -23,7 +23,7 @@
             </div>
         </section>
 
-        <section class="goal">
+        <section class="goal" data-background="/resources/images/goal-about.jpg">
             <div class="container">
                 <figure><img src="resources/images/goal-about.jpg"></figure>
                 <div class="info-text goal-text">
@@ -33,7 +33,7 @@
             </div>
         </section>
         
-        <section class="purpose">
+        <section class="purpose" data-background="/resources/images/purpose-about.jpg">
             <div class="container">
                 <div class="info-text purpose-text">
                     <h2>Purpose</h2>
@@ -104,6 +104,7 @@
         </section>
 
     </div>
+    </script>
 
     <!-- footer starts -->
     <!--#include virtual='/includes/footer.inc'-->

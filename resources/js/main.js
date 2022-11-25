@@ -194,3 +194,24 @@ $( window ).resize( function() {
 
 } );
 $( window ).resize();
+
+$(document).ready(function(e) {
+  backgroundGoal();
+  backgroundPurpose();
+});
+function backgroundGoal()
+{
+  var img=$('.goal');
+  img.css('background-image', function () {
+  var bg = ('url(' + $(this).data('background') + ')');
+  return bg;
+  });
+}
+function backgroundPurpose()
+{
+  var img=$('.purpose');
+  img.css('background-image', function () {
+  var bg = ('url(' + $(this).data('background') + ')');
+  return bg;
+  });
+}

@@ -1826,7 +1826,6 @@ footer .copyright li {
   position: relative;
 }
 .about-shilp .purpose {
-  background-image: url("/resources/images/purpose-about.jpg");
   background-repeat: no-repeat;
   background-position: center;
   height: 450px;
@@ -2184,22 +2183,4 @@ footer .copyright li {
 }
 .contact .map figure img {
   width: 100%;
-}
-
-.about-shilp .goal::after {
-  content: attr(data-bg-url);
-  width: 100%;
-  background: #ddd;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
-.about-shilp .goal {
-  background-image: attr(data-bg-url url);
-  width: 100%;
-  background: #ddd;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
 }/*# sourceMappingURL=style.css.map */

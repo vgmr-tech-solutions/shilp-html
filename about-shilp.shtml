@@ -23,7 +23,7 @@
             </div>
         </section>
 
-        <section class="goal">
+        <section class="goal"  data-bg-url="resources/images/goal-about.jpg">
             <div class="container">
                 <div class="info-text goal-text">
                     <h2>Goal</h2>

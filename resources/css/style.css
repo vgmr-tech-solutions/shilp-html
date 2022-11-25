@@ -2183,13 +2183,4 @@ footer .copyright li {
 }
 .contact .map figure img {
   width: 100%;
-}
-
-.about-shilp .goal::after {
-  content: attr(data-bg-url);
-  width: 100%;
-  background: #ddd;
-  height: 100%;
-  position: absolute;
-  z-index: -1;
 }/*# sourceMappingURL=style.css.map */

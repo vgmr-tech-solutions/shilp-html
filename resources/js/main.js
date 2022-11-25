@@ -201,17 +201,17 @@ $(document).ready(function(e) {
 });
 function backgroundGoal()
 {
-  var img=$('.goal');
+  var img=$('.bgImage');
   img.css('background-image', function () {
-  var bg = ('url(' + $(this).data('background') + ')');
+  var bg = ('url(' + $(this).data('bg-url') + ')');
   return bg;
   });
 }
-function backgroundPurpose()
-{
-  var img=$('.purpose');
-  img.css('background-image', function () {
-  var bg = ('url(' + $(this).data('background') + ')');
-  return bg;
-  });
-}
+// function backgroundPurpose()
+// {
+//   var img=$('.purpose');
+//   img.css('background-image', function () {
+//   var bg = ('url(' + $(this).data('bg-url') + ')');
+//   return bg;
+//   });
+// }
